@@ -1,0 +1,15 @@
+\BOOKMARK [1][-]{section.1}{Read in the data}{}% 1
+\BOOKMARK [1][-]{section.2}{Construct nodes from the entities in the short text}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Define a Lexicon Tagger class}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Extract entities from each work order}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Normalise the entities}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Extract relations between the entities}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Create the graph}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Create nodes for the work orders}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{3.2 Link the entities to their corresponding work order nodes}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{4. Extending the graph to incorporate Downtime events}{}% 10
+\BOOKMARK [1][-]{section.5}{5. Querying the graph}{}% 11
+\BOOKMARK [1][-]{section.6}{6. Future improvements}{}% 12
+\BOOKMARK [2][-]{subsection.6.1}{Incorporating FLOCs}{section.6}% 13
+\BOOKMARK [2][-]{subsection.6.2}{Frequencies on edge properties}{section.6}% 14
+\BOOKMARK [2][-]{subsection.6.3}{Constructing a graph from your own work order data}{section.6}% 15
