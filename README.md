@@ -8,7 +8,6 @@ To run this code you will need Python 3 and Jupyter notebook installed, as well 
 
 The notebook is located here: [Knowledge Graphs Demystified.ipynb](<https://github.com/Michael-Stewart-Webdev/knowledge-graphs-demystified/blob/main/Knowledge Graphs Demystified.ipynb>).
 
-
 ## Schedule
 
 | Time | Section | Description |
@@ -28,3 +27,14 @@ The notebook is located here: [Knowledge Graphs Demystified.ipynb](<https://gith
 |  | **Hands-on Knowledge Graph Construction** | |
 | 11:00-11:45 | Interactive knowledge graph construction | |
 | 11:45-12:00 | Questions | |
+
+
+## Setup
+- Details about setting up python environment e.g. `python -m venv venv`, `venv/Scripts/activate`,`pip install -r requirements.txt`
+- Details about setting up Neo4J graphdb
+
+## Resources
+- Details about resources, demonstrations, software presented in the tutorial including related scholarly works.
+
+
+## Contact
