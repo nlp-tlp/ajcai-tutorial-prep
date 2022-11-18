@@ -1,7 +1,6 @@
 # [A Practical Guide to Knowledge Graph Construction from Technical Short Text](https://nlp-tlp.github.io/ajcai-tutorial/)
 
-## Knowledge Graphs Demystified Part 2: Practical Session
-
+## Overview
 This is the repository for the practical session of the "Knowledge Graphs Demystified" master class by Dr Michael Stewart from the Centre for Transforming Maintenance through Data Science (CTMTDS).
 
 In this session I will be demonstrating a jupyter notebook containing code for creating a knowledge graph from a set of sample work orders.
