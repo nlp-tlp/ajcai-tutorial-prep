@@ -1318,14 +1318,6 @@ function,breakout,Item,Item,breakout function,2,3,O
 breakout,function,Item,Item,breakout function,3,2,APPEARS_WITH
 drill,inspection,Item,Activity,inspection of drill,0,1,HAS_ACTIVITY
 inspection,drill,Activity,Item,inspection of drill,1,0,O
-drill,monitoring,Item,Activity,monitoring , inspection of drill,0,2,HAS_ACTIVITY
-monitoring,drill,Activity,Item,monitoring , inspection of drill,2,0,O
-drill,hastings,Item,Agent,hastings monitoring , inspection of drill,0,3,HAS_AGENT
-hastings,drill,Agent,Item,hastings monitoring , inspection of drill,3,0,O
-inspection,monitoring,Activity,Activity,monitoring , inspection,1,2,O
-monitoring,inspection,Activity,Activity,monitoring , inspection,2,1,O
-inspection,hastings,Activity,Agent,hastings monitoring , inspection,1,3,O
-hastings,inspection,Agent,Activity,hastings monitoring , inspection,3,1,O
 monitoring,hastings,Activity,Agent,hastings monitoring,2,3,O
 hastings,monitoring,Agent,Activity,hastings monitoring,3,2,O
 leaks,pipework,Observation,Item,pipework for leaks,0,1,O

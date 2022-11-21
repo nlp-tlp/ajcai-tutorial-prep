@@ -1,0 +1,103 @@
+2022-11-21 17:57:48,288 ----------------------------------------------------------------------------------------------------
+2022-11-21 17:57:48,289 Model: "TextClassifier(
+  (decoder): Linear(in_features=256, out_features=13, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+  (locked_dropout): LockedDropout(p=0.0)
+  (word_dropout): WordDropout(p=0.0)
+  (loss_function): CrossEntropyLoss()
+  (document_embeddings): DocumentRNNEmbeddings(
+    (embeddings): StackedEmbeddings(
+      (list_embedding_0): PooledFlairEmbeddings(
+        (context_embeddings): FlairEmbeddings(
+          (lm): LanguageModel(
+            (drop): Dropout(p=0.25, inplace=False)
+            (encoder): Embedding(275, 100)
+            (rnn): LSTM(100, 2048)
+            (decoder): Linear(in_features=2048, out_features=275, bias=True)
+          )
+        )
+      )
+      (list_embedding_1): PooledFlairEmbeddings(
+        (context_embeddings): FlairEmbeddings(
+          (lm): LanguageModel(
+            (drop): Dropout(p=0.25, inplace=False)
+            (encoder): Embedding(275, 100)
+            (rnn): LSTM(100, 2048)
+            (decoder): Linear(in_features=2048, out_features=275, bias=True)
+          )
+        )
+      )
+    )
+    (word_reprojection_map): Linear(in_features=8192, out_features=8192, bias=True)
+    (rnn): GRU(8192, 256, batch_first=True)
+    (dropout): Dropout(p=0.5, inplace=False)
+  )
+  (weights): None
+  (weight_tensor) None
+)"
+2022-11-21 17:57:48,290 ----------------------------------------------------------------------------------------------------
+2022-11-21 17:57:48,291 Corpus: "Corpus: 24804 train + 3310 dev + 3234 test sentences"
+2022-11-21 17:57:48,292 ----------------------------------------------------------------------------------------------------
+2022-11-21 17:57:48,293 Parameters:
+2022-11-21 17:57:48,294  - learning_rate: "0.100000"
+2022-11-21 17:57:48,295  - mini_batch_size: "32"
+2022-11-21 17:57:48,296  - patience: "3"
+2022-11-21 17:57:48,296  - anneal_factor: "0.5"
+2022-11-21 17:57:48,296  - max_epochs: "1"
+2022-11-21 17:57:48,297  - shuffle: "True"
+2022-11-21 17:57:48,298  - train_with_dev: "False"
+2022-11-21 17:57:48,298  - batch_growth_annealing: "False"
+2022-11-21 17:57:48,299 ----------------------------------------------------------------------------------------------------
+2022-11-21 17:57:48,300 Model training base path: "models\re_models\flair"
+2022-11-21 17:57:48,300 ----------------------------------------------------------------------------------------------------
+2022-11-21 17:57:48,301 Device: cuda:0
+2022-11-21 17:57:48,302 ----------------------------------------------------------------------------------------------------
+2022-11-21 17:57:48,303 Embeddings storage mode: gpu
+2022-11-21 17:57:48,304 ----------------------------------------------------------------------------------------------------
+2022-11-21 17:57:48,305 train mode resetting embeddings
+2022-11-21 17:57:48,305 train mode resetting embeddings
+2022-11-21 17:58:02,347 epoch 1 - iter 77/776 - loss 0.06221158 - samples/sec: 181.40 - lr: 0.100000
+2022-11-21 17:58:16,314 epoch 1 - iter 154/776 - loss 0.05055709 - samples/sec: 180.90 - lr: 0.100000
+2022-11-21 17:58:30,459 epoch 1 - iter 231/776 - loss 0.04163219 - samples/sec: 180.36 - lr: 0.100000
+2022-11-21 17:58:44,693 epoch 1 - iter 308/776 - loss 0.03404520 - samples/sec: 179.42 - lr: 0.100000
+2022-11-21 17:58:59,076 epoch 1 - iter 385/776 - loss 0.02874313 - samples/sec: 175.64 - lr: 0.100000
+2022-11-21 17:59:14,848 epoch 1 - iter 462/776 - loss 0.02508387 - samples/sec: 159.84 - lr: 0.100000
+2022-11-21 17:59:31,146 epoch 1 - iter 539/776 - loss 0.02239453 - samples/sec: 155.98 - lr: 0.100000
+2022-11-21 17:59:46,638 epoch 1 - iter 616/776 - loss 0.02032002 - samples/sec: 164.21 - lr: 0.100000
+2022-11-21 18:00:02,310 epoch 1 - iter 693/776 - loss 0.01858829 - samples/sec: 160.74 - lr: 0.100000
+2022-11-21 18:00:17,485 epoch 1 - iter 770/776 - loss 0.01715838 - samples/sec: 166.15 - lr: 0.100000
+2022-11-21 18:00:18,402 ----------------------------------------------------------------------------------------------------
+2022-11-21 18:00:18,403 EPOCH 1 done: loss 0.0171 - lr 0.100000
+2022-11-21 18:00:33,964 Evaluating as a multi-label problem: False
+2022-11-21 18:00:33,984 DEV : loss 0.0031779177952557802 - f1-score (micro avg)  0.9136
+2022-11-21 18:00:34,629 BAD EPOCHS (no improvement): 0
+2022-11-21 18:00:34,630 saving best model
+2022-11-21 18:00:37,656 ----------------------------------------------------------------------------------------------------
+2022-11-21 18:00:37,657 loading file models\re_models\flair\best-model.pt
+2022-11-21 18:00:54,825 Evaluating as a multi-label problem: False
+2022-11-21 18:00:54,843 0.9222	0.8915	0.9066	0.9335
+2022-11-21 18:00:54,845 
+Results:
+- F-score (micro) 0.9066
+- F-score (macro) 0.8807
+- Accuracy 0.9335
+
+By class:
+                 precision    recall  f1-score   support
+
+HAS_OBSERVATION     1.0000    1.0000    1.0000       313
+   HAS_ACTIVITY     1.0000    1.0000    1.0000       279
+   HAS_LOCATION     1.0000    1.0000    1.0000       238
+   APPEARS_WITH     0.5191    0.4358    0.4738       218
+ HAS_CONSUMABLE     1.0000    1.0000    1.0000        59
+      HAS_AGENT     1.0000    1.0000    1.0000        21
+  HAS_SPECIFIER     1.0000    1.0000    1.0000        15
+  HAS_ATTRIBUTE     1.0000    1.0000    1.0000        12
+HAS_CARDINALITY     1.0000    1.0000    1.0000        10
+       HAS_TIME     1.0000    0.2000    0.3333         5
+
+      micro avg     0.9222    0.8915    0.9066      1170
+      macro avg     0.9519    0.8636    0.8807      1170
+   weighted avg     0.9104    0.8915    0.8991      1170
+
+2022-11-21 18:00:54,845 ----------------------------------------------------------------------------------------------------

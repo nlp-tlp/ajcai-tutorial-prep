@@ -26,10 +26,6 @@ class NERModel(ABC):
     def load(self, model_path):
         pass
 
-    @abstractmethod
-    def save(self, model_path):
-        pass
-
 
 class DictionaryNERModel(NERModel):
 
@@ -68,7 +64,7 @@ class DictionaryNERModel(NERModel):
             frequency_dict
         )
 
-        self.save(trained_model_path)
+        self._save(trained_model_path)
 
     def load(self, model_path):
         """Load the chunked frequency dict from the given folder.
@@ -93,7 +89,7 @@ class DictionaryNERModel(NERModel):
         with open(trained_model_path, "rb") as f:
             self._chunked_frequency_dict = pkl.load(f)
 
-    def save(self, model_path: os.path):
+    def _save(self, model_path: os.path):
         """Save the chunked frequency dict inside the given folder.
 
         Args:

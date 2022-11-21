@@ -1264,20 +1264,8 @@ bottom,top,Location,Location,top & bottom,0,1,O
 top,bottom,Location,Location,top & bottom,1,0,O
 bottom,come out,Location,Observation,come out top & bottom,0,2,O
 come out,bottom,Observation,Location,come out top & bottom,2,0,O
-bottom,drill steel,Location,Item,drill steel , come out top & bottom,0,3,O
-drill steel,bottom,Item,Location,drill steel , come out top & bottom,3,0,HAS_LOCATION
-bottom,refit,Location,Activity,refit drill steel , come out top & bottom,0,4,O
-refit,bottom,Activity,Location,refit drill steel , come out top & bottom,4,0,O
 top,come out,Location,Observation,come out top,1,2,O
 come out,top,Observation,Location,come out top,2,1,O
-top,drill steel,Location,Item,drill steel , come out top,1,3,O
-drill steel,top,Item,Location,drill steel , come out top,3,1,HAS_LOCATION
-top,refit,Location,Activity,refit drill steel , come out top,1,4,O
-refit,top,Activity,Location,refit drill steel , come out top,4,1,O
-come out,drill steel,Observation,Item,drill steel , come out,2,3,O
-drill steel,come out,Item,Observation,drill steel , come out,3,2,HAS_OBSERVATION
-come out,refit,Observation,Activity,refit drill steel , come out,2,4,O
-refit,come out,Activity,Observation,refit drill steel , come out,4,2,O
 drill steel,refit,Item,Activity,refit drill steel,3,4,HAS_ACTIVITY
 refit,drill steel,Activity,Item,refit drill steel,4,3,O
 not working,tacho,Observation,Item,tacho not working,0,1,O
@@ -5770,10 +5758,6 @@ terminal,replace,Item,Activity,replace batteries and terminal,0,2,HAS_ACTIVITY
 replace,terminal,Activity,Item,replace batteries and terminal,2,0,O
 batteries,replace,Item,Activity,replace batteries,1,2,HAS_ACTIVITY
 replace,batteries,Activity,Item,replace batteries,2,1,O
-rh side,load rollers,Location,Item,load rollers , rh side,0,1,O
-load rollers,rh side,Item,Location,load rollers , rh side,1,0,HAS_LOCATION
-rh side,replace,Location,Activity,replace load rollers , rh side,0,2,O
-replace,rh side,Activity,Location,replace load rollers , rh side,2,0,O
 load rollers,replace,Item,Activity,replace load rollers,1,2,HAS_ACTIVITY
 replace,load rollers,Activity,Item,replace load rollers,2,1,O
 sub,top,Item,Location,top sub,0,1,HAS_LOCATION
@@ -8116,10 +8100,6 @@ monitor,replace,Item,Activity,replace camera monitor,1,3,HAS_ACTIVITY
 replace,monitor,Activity,Item,replace camera monitor,3,1,O
 camera,replace,Item,Activity,replace camera,2,3,HAS_ACTIVITY
 replace,camera,Activity,Item,replace camera,3,2,O
-rh side,load rollers,Location,Item,load rollers , rh side,0,1,O
-load rollers,rh side,Item,Location,load rollers , rh side,1,0,HAS_LOCATION
-rh side,replace,Location,Activity,replace load rollers , rh side,0,2,O
-replace,rh side,Activity,Location,replace load rollers , rh side,2,0,O
 load rollers,replace,Item,Activity,replace load rollers,1,2,HAS_ACTIVITY
 replace,load rollers,Activity,Item,replace load rollers,2,1,O
 low,cylinders,Observation,Item,cylinders low,0,1,O
@@ -10386,10 +10366,6 @@ sprocket,replace,Item,Activity,replace carrier sprocket,1,3,HAS_ACTIVITY
 replace,sprocket,Activity,Item,replace carrier sprocket,3,1,O
 carrier,replace,Item,Activity,replace carrier,2,3,HAS_ACTIVITY
 replace,carrier,Activity,Item,replace carrier,3,2,O
-cracked,glass,Observation,Item,glass , cracked,0,1,O
-glass,cracked,Item,Observation,glass , cracked,1,0,HAS_OBSERVATION
-cracked,replace,Observation,Activity,replace # 5 glass , cracked,0,2,O
-replace,cracked,Activity,Observation,replace # 5 glass , cracked,2,0,O
 glass,replace,Item,Activity,replace # 5 glass,1,2,HAS_ACTIVITY
 replace,glass,Activity,Item,replace # 5 glass,2,1,O
 drill rods,all,Item,Cardinality,all drill rods,0,1,HAS_CARDINALITY
@@ -11932,14 +11908,6 @@ alternator belt.,change,Item,Activity,change alternator belt.,0,1,HAS_ACTIVITY
 change,alternator belt.,Activity,Item,change alternator belt.,1,0,O
 overheating,engine,Observation,Item,engine overheating,0,1,O
 engine,overheating,Item,Observation,engine overheating,1,0,HAS_OBSERVATION
-overheating,not working,Observation,Observation,not working , engine overheating,0,2,O
-not working,overheating,Observation,Observation,not working , engine overheating,2,0,O
-overheating,fan,Observation,Item,fan not working , engine overheating,0,3,O
-fan,overheating,Item,Observation,fan not working , engine overheating,3,0,HAS_OBSERVATION
-engine,not working,Item,Observation,not working , engine,1,2,HAS_OBSERVATION
-not working,engine,Observation,Item,not working , engine,2,1,O
-engine,fan,Item,Item,fan not working , engine,1,3,APPEARS_WITH
-fan,engine,Item,Item,fan not working , engine,3,1,O
 not working,fan,Observation,Item,fan not working,2,3,O
 fan,not working,Item,Observation,fan not working,3,2,HAS_OBSERVATION
 u/s,alternator,Observation,Item,alternator u/s,0,1,O
@@ -13738,10 +13706,6 @@ oil,inspect,Consumable,Activity,inspect & repair oil,2,4,O
 inspect,oil,Activity,Consumable,inspect & repair oil,4,2,O
 repair,inspect,Activity,Activity,inspect & repair,3,4,O
 inspect,repair,Activity,Activity,inspect & repair,4,3,O
-tight,track,Observation,Item,track adjustement , tight,0,1,O
-track,tight,Item,Observation,track adjustement , tight,1,0,HAS_OBSERVATION
-tight,check,Observation,Activity,check track adjustement , tight,0,2,O
-check,tight,Activity,Observation,check track adjustement , tight,2,0,O
 track,check,Item,Activity,check track,1,2,HAS_ACTIVITY
 check,track,Activity,Item,check track,2,1,O
 compressor.,air conditioner,Item,Item,air conditioner compressor.,0,1,O
@@ -14770,14 +14734,8 @@ power trip,two-way,Observation,Item,two-way power trip,0,1,O
 two-way,power trip,Item,Observation,two-way power trip,1,0,HAS_OBSERVATION
 power trip,lights,Observation,Item,lights & two-way power trip,0,2,O
 lights,power trip,Item,Observation,lights & two-way power trip,2,0,HAS_OBSERVATION
-power trip,cab,Observation,Item,cab , lights & two-way power trip,0,3,O
-cab,power trip,Item,Observation,cab , lights & two-way power trip,3,0,HAS_OBSERVATION
 two-way,lights,Item,Item,lights & two-way,1,2,O
 lights,two-way,Item,Item,lights & two-way,2,1,APPEARS_WITH
-two-way,cab,Item,Item,cab , lights & two-way,1,3,O
-cab,two-way,Item,Item,cab , lights & two-way,3,1,APPEARS_WITH
-lights,cab,Item,Item,cab , lights,2,3,O
-cab,lights,Item,Item,cab , lights,3,2,APPEARS_WITH
 belts,&alternator,Item,Item,&alternator belts,0,1,O
 &alternator,belts,Item,Item,&alternator belts,1,0,APPEARS_WITH
 belts,a/c,Item,Item,a/c &alternator belts,0,2,O
@@ -18006,10 +17964,6 @@ cups,pipe support,Item,Item,pipe support cups,1,2,APPEARS_WITH
 pipe support,cups,Item,Item,pipe support cups,2,1,O
 no power,urn,Observation,Item,urn no power,0,1,O
 urn,no power,Item,Observation,urn no power,1,0,HAS_OBSERVATION
-no power,fridge,Observation,Item,fridge , urn no power,0,2,O
-fridge,no power,Item,Observation,fridge , urn no power,2,0,HAS_OBSERVATION
-urn,fridge,Item,Item,fridge , urn,1,2,O
-fridge,urn,Item,Item,fridge , urn,2,1,APPEARS_WITH
 safety circuits,mast,Item,Item,mast safety circuits,0,1,O
 mast,safety circuits,Item,Item,mast safety circuits,1,0,APPEARS_WITH
 safety circuits,check,Item,Activity,check mast safety circuits,0,2,HAS_ACTIVITY
@@ -21800,12 +21754,6 @@ cracked,l/h lower,Observation,Location,l/h lower propel pipe cracked,0,2,O
 l/h lower,cracked,Location,Observation,l/h lower propel pipe cracked,2,0,O
 propel pipe,l/h lower,Item,Location,l/h lower propel pipe,1,2,HAS_LOCATION
 l/h lower,propel pipe,Location,Item,l/h lower propel pipe,2,1,O
-bush,seal,Item,Item,seal , deck bush,0,1,APPEARS_WITH
-seal,bush,Item,Item,seal , deck bush,1,0,O
-bush,deck,Item,Item,deck seal , deck bush,0,2,APPEARS_WITH
-deck,bush,Item,Item,deck seal , deck bush,2,0,O
-bush,replace,Item,Activity,replace deck seal , deck bush,0,3,HAS_ACTIVITY
-replace,bush,Activity,Item,replace deck seal , deck bush,3,0,O
 seal,deck,Item,Item,deck seal,1,2,O
 deck,seal,Item,Item,deck seal,2,1,APPEARS_WITH
 seal,replace,Item,Activity,replace deck seal,1,3,HAS_ACTIVITY
@@ -23304,20 +23252,8 @@ failure,head,Observation,Item,head failure,0,1,O
 head,failure,Item,Observation,head failure,1,0,HAS_OBSERVATION
 failure,cylinder,Observation,Item,cylinder head failure,0,2,O
 cylinder,failure,Item,Observation,cylinder head failure,2,0,HAS_OBSERVATION
-failure,shutdown,Observation,Observation,shutdown , cylinder head failure,0,3,O
-shutdown,failure,Observation,Observation,shutdown , cylinder head failure,3,0,O
-failure,engine,Observation,Item,engine shutdown , cylinder head failure,0,4,O
-engine,failure,Item,Observation,engine shutdown , cylinder head failure,4,0,HAS_OBSERVATION
 head,cylinder,Item,Item,cylinder head,1,2,O
 cylinder,head,Item,Item,cylinder head,2,1,APPEARS_WITH
-head,shutdown,Item,Observation,shutdown , cylinder head,1,3,HAS_OBSERVATION
-shutdown,head,Observation,Item,shutdown , cylinder head,3,1,O
-head,engine,Item,Item,engine shutdown , cylinder head,1,4,O
-engine,head,Item,Item,engine shutdown , cylinder head,4,1,APPEARS_WITH
-cylinder,shutdown,Item,Observation,shutdown , cylinder,2,3,HAS_OBSERVATION
-shutdown,cylinder,Observation,Item,shutdown , cylinder,3,2,O
-cylinder,engine,Item,Item,engine shutdown , cylinder,2,4,APPEARS_WITH
-engine,cylinder,Item,Item,engine shutdown , cylinder,4,2,O
 shutdown,engine,Observation,Item,engine shutdown,3,4,O
 engine,shutdown,Item,Observation,engine shutdown,4,3,HAS_OBSERVATION
 proxy switch,lock,Item,Item,lock proxy switch,0,1,O
@@ -23668,14 +23604,8 @@ glass,cab,Item,Item,cab glass,0,1,O
 cab,glass,Item,Item,cab glass,1,0,APPEARS_WITH
 glass,4.11.13,Item,Specifier,4.11.13 cab glass,0,2,HAS_SPECIFIER
 4.11.13,glass,Specifier,Item,4.11.13 cab glass,2,0,O
-glass,change,Item,Activity,change no , 4.11.13 cab glass,0,3,HAS_ACTIVITY
-change,glass,Activity,Item,change no , 4.11.13 cab glass,3,0,O
 cab,4.11.13,Item,Specifier,4.11.13 cab,1,2,HAS_SPECIFIER
 4.11.13,cab,Specifier,Item,4.11.13 cab,2,1,O
-cab,change,Item,Activity,change no , 4.11.13 cab,1,3,HAS_ACTIVITY
-change,cab,Activity,Item,change no , 4.11.13 cab,3,1,O
-4.11.13,change,Specifier,Activity,change no , 4.11.13,2,3,O
-change,4.11.13,Activity,Specifier,change no , 4.11.13,3,2,O
 shutting down,engine,Observation,Item,engine shutting down,0,1,O
 engine,shutting down,Item,Observation,engine shutting down,1,0,HAS_OBSERVATION
 light,1,Item,Cardinality,1 light,0,1,HAS_CARDINALITY

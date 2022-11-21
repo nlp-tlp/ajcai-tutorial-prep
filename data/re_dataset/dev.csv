@@ -1840,14 +1840,6 @@ mast,repaired,Item,Activity,repaired the mast,2,3,HAS_ACTIVITY
 repaired,mast,Activity,Item,repaired the mast,3,2,O
 internal inspection, oil,Activity,Consumable,,oil and internal inspection,0,1,O
  oil,internal inspection,Consumable,Activity,,oil and internal inspection,1,0,O
-internal inspection,filter,Activity,Item,filter ,oil and internal inspection,0,2,O
-filter,internal inspection,Item,Activity,filter ,oil and internal inspection,2,0,HAS_ACTIVITY
-internal inspection,repl,Activity,Activity,repl filter ,oil and internal inspection,0,3,O
-repl,internal inspection,Activity,Activity,repl filter ,oil and internal inspection,3,0,O
- oil,filter,Consumable,Item,filter ,oil,1,2,O
-filter, oil,Item,Consumable,filter ,oil,2,1,HAS_CONSUMABLE
- oil,repl,Consumable,Activity,repl filter ,oil,1,3,O
-repl, oil,Activity,Consumable,repl filter ,oil,3,1,O
 filter,repl,Item,Activity,repl filter,2,3,HAS_ACTIVITY
 repl,filter,Activity,Item,repl filter,3,2,O
 block,valve,Item,Item,valve block,0,1,APPEARS_WITH
