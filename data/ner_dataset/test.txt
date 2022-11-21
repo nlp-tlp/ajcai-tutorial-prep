@@ -40,7 +40,7 @@ window I-Item
 air B-Attribute
 pressure I-Attribute
 
-misssing B-Observation
+misssing O
 2 O
 " O
 cam B-Item
@@ -78,7 +78,7 @@ sys B-Item
 going B-Observation
 out I-Observation
 on I-Observation
-falt B-Observation
+falt O
 
 mindrill B-Agent
 changeout B-Activity
@@ -307,7 +307,7 @@ wiper B-Item
 seal B-Item
 
 blowen B-Observation
-tourbcharger B-Item
+tourbcharger O
 
 wnty O
 left B-Location
@@ -533,7 +533,7 @@ strainer B-Item
 rear B-Location
 drive B-Item
 shaft I-Item
-rear B-Location
+rear O
 spider B-Item
 movement B-Observation
 
@@ -785,7 +785,7 @@ service B-Activity
 fire B-Item
 suppression I-Item
 
-overhaull B-Activity
+overhaull O
 shock B-Item
 sub I-Item
 
@@ -1135,7 +1135,7 @@ bitt B-Item
 
 replace B-Activity
 radiator B-Item
-ovflow B-Item
+ovflow O
 hose O
 
 repair B-Activity
@@ -1190,7 +1190,7 @@ monitor B-Activity
 rear B-Location
 tri B-Item
 box I-Item
-imput B-Item
+imput O
 shaft O
 
 warranty O
@@ -1274,7 +1274,7 @@ light B-Item
 staying B-Observation
 on I-Observation
 
-removedwater B-Activity
+removedwater O
 flow B-Item
 meter I-Item
 
@@ -1636,8 +1636,8 @@ working. I-Observation
 rear B-Location
 air B-Item
 blower I-Item
-to B-Observation
-short I-Observation
+to O
+short O
 
 hyd B-Item
 tank I-Item
@@ -1872,8 +1872,8 @@ intermittent B-Observation
 
 repairs B-Activity
 to I-Activity
-posationer B-Item
-arm I-Item
+posationer O
+arm O
 
 chip B-Item
 deflector I-Item
@@ -1921,7 +1921,7 @@ gard I-Item
 fell B-Observation
 out I-Observation
 
-claem B-Activity
+claem O
 and O
 sanitised B-Activity
 a/c B-Item
@@ -2165,7 +2165,7 @@ rotation B-Item
 pipe I-Item
 
 oil B-Consumable
-laek B-Observation
+laek O
 on B-Location
 compressor B-Item
 
@@ -2323,8 +2323,8 @@ no I-Attribute
 off B-Location
 pumps B-Item
 
-replaec B-Activity
-hosev B-Item
+replaec O
+hosev O
 from B-Location
 metering B-Item
 pump I-Item

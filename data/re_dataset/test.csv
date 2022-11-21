@@ -1,0 +1,3242 @@
+not sounding,positioner arm,Observation,Item,positioner arm not sounding,0,1,O
+positioner arm,not sounding,Item,Observation,positioner arm not sounding,1,0,HAS_OBSERVATION
+not sounding,on,Observation,Location,on positioner arm not sounding,0,2,O
+on,not sounding,Location,Observation,on positioner arm not sounding,2,0,O
+not sounding,alarm,Observation,Item,alarm on positioner arm not sounding,0,3,O
+alarm,not sounding,Item,Observation,alarm on positioner arm not sounding,3,0,HAS_OBSERVATION
+positioner arm,on,Item,Location,on positioner arm,1,2,HAS_LOCATION
+on,positioner arm,Location,Item,on positioner arm,2,1,O
+positioner arm,alarm,Item,Item,alarm on positioner arm,1,3,O
+alarm,positioner arm,Item,Item,alarm on positioner arm,3,1,APPEARS_WITH
+on,alarm,Location,Item,alarm on,2,3,O
+alarm,on,Item,Location,alarm on,3,2,HAS_LOCATION
+feed controller,fault,Item,Observation,fault with feed controller,0,1,HAS_OBSERVATION
+fault,feed controller,Observation,Item,fault with feed controller,1,0,O
+tramming to one side,machine,Observation,Item,machine tramming to one side,0,1,O
+machine,tramming to one side,Item,Observation,machine tramming to one side,1,0,HAS_OBSERVATION
+wrench,deck,Item,Item,deck wrench,0,1,O
+deck,wrench,Item,Item,deck wrench,1,0,APPEARS_WITH
+wrench,worn,Item,Observation,worn deck wrench,0,2,HAS_OBSERVATION
+worn,wrench,Observation,Item,worn deck wrench,2,0,O
+wrench,replace,Item,Activity,replace worn deck wrench,0,3,HAS_ACTIVITY
+replace,wrench,Activity,Item,replace worn deck wrench,3,0,O
+deck,worn,Item,Observation,worn deck,1,2,HAS_OBSERVATION
+worn,deck,Observation,Item,worn deck,2,1,O
+deck,replace,Item,Activity,replace worn deck,1,3,HAS_ACTIVITY
+replace,deck,Activity,Item,replace worn deck,3,1,O
+worn,replace,Observation,Activity,replace worn,2,3,O
+replace,worn,Activity,Observation,replace worn,3,2,O
+ram,pipe support,Item,Item,pipe support and ram,0,1,O
+pipe support,ram,Item,Item,pipe support and ram,1,0,APPEARS_WITH
+ram,replace,Item,Activity,replace pipe support and ram,0,2,HAS_ACTIVITY
+replace,ram,Activity,Item,replace pipe support and ram,2,0,O
+pipe support,replace,Item,Activity,replace pipe support,1,2,HAS_ACTIVITY
+replace,pipe support,Activity,Item,replace pipe support,2,1,O
+u/s,pressure switch,Observation,Item,pressure switch u/s,0,1,O
+pressure switch,u/s,Item,Observation,pressure switch u/s,1,0,HAS_OBSERVATION
+u/s,oil,Observation,Consumable,oil pressure switch u/s,0,2,O
+oil,u/s,Consumable,Observation,oil pressure switch u/s,2,0,O
+u/s,compressor,Observation,Item,compressor oil pressure switch u/s,0,3,O
+compressor,u/s,Item,Observation,compressor oil pressure switch u/s,3,0,HAS_OBSERVATION
+pressure switch,oil,Item,Consumable,oil pressure switch,1,2,HAS_CONSUMABLE
+oil,pressure switch,Consumable,Item,oil pressure switch,2,1,O
+pressure switch,compressor,Item,Item,compressor oil pressure switch,1,3,O
+compressor,pressure switch,Item,Item,compressor oil pressure switch,3,1,APPEARS_WITH
+oil,compressor,Consumable,Item,compressor oil,2,3,O
+compressor,oil,Item,Consumable,compressor oil,3,2,HAS_CONSUMABLE
+air pressure,view window,Attribute,Item,view window air pressure,0,1,O
+view window,air pressure,Item,Attribute,view window air pressure,1,0,HAS_ATTRIBUTE
+air pressure,increase,Attribute,Activity,increase view window air pressure,0,2,O
+increase,air pressure,Activity,Attribute,increase view window air pressure,2,0,O
+view window,increase,Item,Activity,increase view window,1,2,HAS_ACTIVITY
+increase,view window,Activity,Item,increase view window,2,1,O
+fill point,lh,Location,Location,lh fill point,0,1,O
+lh,fill point,Location,Location,lh fill point,1,0,O
+fill point,cam lock,Location,Item,cam lock lh fill point,0,2,O
+cam lock,fill point,Item,Location,cam lock lh fill point,2,0,HAS_LOCATION
+lh,cam lock,Location,Item,cam lock lh,1,2,O
+cam lock,lh,Item,Location,cam lock lh,2,1,HAS_LOCATION
+deck,engine,Item,Item,engine deck,0,1,APPEARS_WITH
+engine,deck,Item,Item,engine deck,1,0,O
+deck,on,Item,Location,on engine deck,0,2,HAS_LOCATION
+on,deck,Location,Item,on engine deck,2,0,O
+deck,leak,Item,Observation,leak on engine deck,0,3,HAS_OBSERVATION
+leak,deck,Observation,Item,leak on engine deck,3,0,O
+deck,oil,Item,Consumable,oil leak on engine deck,0,4,HAS_CONSUMABLE
+oil,deck,Consumable,Item,oil leak on engine deck,4,0,O
+engine,on,Item,Location,on engine,1,2,HAS_LOCATION
+on,engine,Location,Item,on engine,2,1,O
+engine,leak,Item,Observation,leak on engine,1,3,HAS_OBSERVATION
+leak,engine,Observation,Item,leak on engine,3,1,O
+engine,oil,Item,Consumable,oil leak on engine,1,4,HAS_CONSUMABLE
+oil,engine,Consumable,Item,oil leak on engine,4,1,O
+on,leak,Location,Observation,leak on,2,3,O
+leak,on,Observation,Location,leak on,3,2,O
+on,oil,Location,Consumable,oil leak on,2,4,O
+oil,on,Consumable,Location,oil leak on,4,2,O
+leak,oil,Observation,Consumable,oil leak,3,4,O
+oil,leak,Consumable,Observation,oil leak,4,3,O
+discharge hose,replace,Item,Activity,replace discharge hose,0,1,HAS_ACTIVITY
+replace,discharge hose,Activity,Item,replace discharge hose,1,0,O
+light,deck,Item,Item,deck light,0,1,O
+deck,light,Item,Item,deck light,1,0,APPEARS_WITH
+light,reposition,Item,Activity,reposition deck light,0,2,HAS_ACTIVITY
+reposition,light,Activity,Item,reposition deck light,2,0,O
+deck,reposition,Item,Activity,reposition deck,1,2,HAS_ACTIVITY
+reposition,deck,Activity,Item,reposition deck,2,1,O
+hose,blown,Item,Observation,blown hose,0,1,HAS_OBSERVATION
+blown,hose,Observation,Item,blown hose,1,0,O
+breather,gearbox,Item,Item,gearbox breather,0,1,APPEARS_WITH
+gearbox,breather,Item,Item,gearbox breather,1,0,O
+breather,replace,Item,Activity,replace gearbox breather,0,2,HAS_ACTIVITY
+replace,breather,Activity,Item,replace gearbox breather,2,0,O
+gearbox,replace,Item,Activity,replace gearbox,1,2,HAS_ACTIVITY
+replace,gearbox,Activity,Item,replace gearbox,2,1,O
+going out on,sys,Observation,Item,sys going out on,0,1,O
+sys,going out on,Item,Observation,sys going out on,1,0,HAS_OBSERVATION
+going out on,lube,Observation,Consumable,lube sys going out on,0,2,O
+lube,going out on,Consumable,Observation,lube sys going out on,2,0,O
+sys,lube,Item,Consumable,lube sys,1,2,HAS_CONSUMABLE
+lube,sys,Consumable,Item,lube sys,2,1,O
+site,changeout,Location,Activity,changeout on site,0,1,O
+changeout,site,Activity,Location,changeout on site,1,0,O
+site,mindrill,Location,Agent,mindrill changeout on site,0,2,O
+mindrill,site,Agent,Location,mindrill changeout on site,2,0,O
+changeout,mindrill,Activity,Agent,mindrill changeout,1,2,O
+mindrill,changeout,Agent,Activity,mindrill changeout,2,1,O
+grease injectors,broken,Item,Observation,broken grease injectors,0,1,HAS_OBSERVATION
+broken,grease injectors,Observation,Item,broken grease injectors,1,0,O
+oil,making,Consumable,Observation,making oil,0,1,O
+making,oil,Observation,Consumable,making oil,1,0,O
+oil,rotary head,Consumable,Item,rotary head making oil,0,2,O
+rotary head,oil,Item,Consumable,rotary head making oil,2,0,HAS_CONSUMABLE
+making,rotary head,Observation,Item,rotary head making,1,2,O
+rotary head,making,Item,Observation,rotary head making,2,1,HAS_OBSERVATION
+4/08,x1,Time,Cardinality,x1 NA 4/08,0,1,O
+x1,4/08,Cardinality,Time,x1 NA 4/08,1,0,O
+4/08,labour,Time,Activity,labour x1 NA 4/08,0,2,O
+labour,4/08,Activity,Time,labour x1 NA 4/08,2,0,O
+4/08,krown,Time,Agent,krown labour x1 NA 4/08,0,3,O
+krown,4/08,Agent,Time,krown labour x1 NA 4/08,3,0,O
+x1,labour,Cardinality,Activity,labour x1,1,2,O
+labour,x1,Activity,Cardinality,labour x1,2,1,O
+x1,krown,Cardinality,Agent,krown labour x1,1,3,O
+krown,x1,Agent,Cardinality,krown labour x1,3,1,O
+labour,krown,Activity,Agent,krown labour,2,3,O
+krown,labour,Agent,Activity,krown labour,3,2,O
+wo n't change from drilling to tram,drill,Observation,Item,drill wo n't change from drilling to tram,0,1,O
+drill,wo n't change from drilling to tram,Item,Observation,drill wo n't change from drilling to tram,1,0,HAS_OBSERVATION
+22/07/09,x2,Time,Cardinality,x2 NA 22/07/09,0,1,O
+x2,22/07/09,Cardinality,Time,x2 NA 22/07/09,1,0,O
+22/07/09,labour,Time,Activity,labour x2 NA 22/07/09,0,2,O
+labour,22/07/09,Activity,Time,labour x2 NA 22/07/09,2,0,O
+22/07/09,scv,Time,Agent,scv labour x2 NA 22/07/09,0,3,O
+scv,22/07/09,Agent,Time,scv labour x2 NA 22/07/09,3,0,O
+x2,labour,Cardinality,Activity,labour x2,1,2,O
+labour,x2,Activity,Cardinality,labour x2,2,1,O
+x2,scv,Cardinality,Agent,scv labour x2,1,3,O
+scv,x2,Agent,Cardinality,scv labour x2,3,1,O
+labour,scv,Activity,Agent,scv labour,2,3,O
+scv,labour,Agent,Activity,scv labour,3,2,O
+jack cyl,rear,Item,Location,rear d90 jack cyl,0,1,HAS_LOCATION
+rear,jack cyl,Location,Item,rear d90 jack cyl,1,0,O
+jack cyl,rebuild,Item,Activity,rebuild rear d90 jack cyl,0,2,HAS_ACTIVITY
+rebuild,jack cyl,Activity,Item,rebuild rear d90 jack cyl,2,0,O
+rear,rebuild,Location,Activity,rebuild rear,1,2,O
+rebuild,rear,Activity,Location,rebuild rear,2,1,O
+sticking,pedal,Observation,Item,pedal sticking,0,1,O
+pedal,sticking,Item,Observation,pedal sticking,1,0,HAS_OBSERVATION
+sticking,thread grease,Observation,Item,thread grease pedal sticking,0,2,O
+thread grease,sticking,Item,Observation,thread grease pedal sticking,2,0,HAS_OBSERVATION
+pedal,thread grease,Item,Item,thread grease pedal,1,2,APPEARS_WITH
+thread grease,pedal,Item,Item,thread grease pedal,2,1,O
+time,on,Observation,Observation,on all time,0,1,O
+on,time,Observation,Observation,on all time,1,0,O
+time,blower,Observation,Item,blower on all time,0,2,O
+blower,time,Item,Observation,blower on all time,2,0,HAS_OBSERVATION
+time,view window,Observation,Item,view window blower on all time,0,3,O
+view window,time,Item,Observation,view window blower on all time,3,0,HAS_OBSERVATION
+time,top,Observation,Location,top view window blower on all time,0,4,O
+top,time,Location,Observation,top view window blower on all time,4,0,O
+on,blower,Observation,Item,blower on,1,2,O
+blower,on,Item,Observation,blower on,2,1,HAS_OBSERVATION
+on,view window,Observation,Item,view window blower on,1,3,O
+view window,on,Item,Observation,view window blower on,3,1,HAS_OBSERVATION
+on,top,Observation,Location,top view window blower on,1,4,O
+top,on,Location,Observation,top view window blower on,4,1,O
+blower,view window,Item,Item,view window blower,2,3,APPEARS_WITH
+view window,blower,Item,Item,view window blower,3,2,O
+blower,top,Item,Location,top view window blower,2,4,HAS_LOCATION
+top,blower,Location,Item,top view window blower,4,2,O
+view window,top,Item,Location,top view window,3,4,HAS_LOCATION
+top,view window,Location,Item,top view window,4,3,O
+needs realigning,alternator,Observation,Item,alternator needs realigning,0,1,O
+alternator,needs realigning,Item,Observation,alternator needs realigning,1,0,HAS_OBSERVATION
+leaks when closed,tap,Observation,Item,tap leaks when closed,0,1,O
+tap,leaks when closed,Item,Observation,tap leaks when closed,1,0,HAS_OBSERVATION
+leaks when closed,heater,Observation,Item,heater tap leaks when closed,0,2,O
+heater,leaks when closed,Item,Observation,heater tap leaks when closed,2,0,HAS_OBSERVATION
+leaks when closed,top,Observation,Location,top heater tap leaks when closed,0,3,O
+top,leaks when closed,Location,Observation,top heater tap leaks when closed,3,0,O
+tap,heater,Item,Item,heater tap,1,2,O
+heater,tap,Item,Item,heater tap,2,1,APPEARS_WITH
+tap,top,Item,Location,top heater tap,1,3,HAS_LOCATION
+top,tap,Location,Item,top heater tap,3,1,O
+heater,top,Item,Location,top heater,2,3,HAS_LOCATION
+top,heater,Location,Item,top heater,3,2,O
+machine,start,Item,Activity,start machine,0,1,HAS_ACTIVITY
+start,machine,Activity,Item,start machine,1,0,O
+propel hose,l/h,Item,Location,l/h propel hose,0,1,HAS_LOCATION
+l/h,propel hose,Location,Item,l/h propel hose,1,0,O
+propel hose,change out,Item,Activity,change out l/h propel hose,0,2,HAS_ACTIVITY
+change out,propel hose,Activity,Item,change out l/h propel hose,2,0,O
+l/h,change out,Location,Activity,change out l/h,1,2,O
+change out,l/h,Activity,Location,change out l/h,2,1,O
+u/s,boom,Observation,Item,boom u/s,0,1,O
+boom,u/s,Item,Observation,boom u/s,1,0,HAS_OBSERVATION
+u/s,at top of,Observation,Location,at top of boom u/s,0,2,O
+at top of,u/s,Location,Observation,at top of boom u/s,2,0,O
+u/s,light,Observation,Item,light directed at top of boom u/s,0,3,O
+light,u/s,Item,Observation,light directed at top of boom u/s,3,0,HAS_OBSERVATION
+boom,at top of,Item,Location,at top of boom,1,2,HAS_LOCATION
+at top of,boom,Location,Item,at top of boom,2,1,O
+boom,light,Item,Item,light directed at top of boom,1,3,APPEARS_WITH
+light,boom,Item,Item,light directed at top of boom,3,1,O
+at top of,light,Location,Item,light directed at top of,2,3,O
+light,at top of,Item,Location,light directed at top of,3,2,HAS_LOCATION
+creeping,holding fork cylinder,Observation,Item,holding fork cylinder creeping,0,1,O
+holding fork cylinder,creeping,Item,Observation,holding fork cylinder creeping,1,0,HAS_OBSERVATION
+feed brackets,u bolts,Item,Consumable,u bolts for feed brackets,0,1,HAS_CONSUMABLE
+u bolts,feed brackets,Consumable,Item,u bolts for feed brackets,1,0,O
+feed brackets,spare,Item,Specifier,spare u bolts for feed brackets,0,2,HAS_SPECIFIER
+spare,feed brackets,Specifier,Item,spare u bolts for feed brackets,2,0,O
+feed brackets,order,Item,Activity,order spare u bolts for feed brackets,0,3,HAS_ACTIVITY
+order,feed brackets,Activity,Item,order spare u bolts for feed brackets,3,0,O
+u bolts,spare,Consumable,Specifier,spare u bolts,1,2,O
+spare,u bolts,Specifier,Consumable,spare u bolts,2,1,O
+u bolts,order,Consumable,Activity,order spare u bolts,1,3,O
+order,u bolts,Activity,Consumable,order spare u bolts,3,1,O
+spare,order,Specifier,Activity,order spare,2,3,O
+order,spare,Activity,Specifier,order spare,3,2,O
+oil,leaking,Consumable,Observation,leaking oil,0,1,O
+leaking,oil,Observation,Consumable,leaking oil,1,0,O
+oil,holding wrench,Consumable,Item,holding wrench leaking oil,0,2,O
+holding wrench,oil,Item,Consumable,holding wrench leaking oil,2,0,HAS_CONSUMABLE
+leaking,holding wrench,Observation,Item,holding wrench leaking,1,2,O
+holding wrench,leaking,Item,Observation,holding wrench leaking,2,1,HAS_OBSERVATION
+hydraulic pressure,adjust,Attribute,Activity,adjust hydraulic pressure,0,1,O
+adjust,hydraulic pressure,Activity,Attribute,adjust hydraulic pressure,1,0,O
+leak,hydraulic oil,Observation,Consumable,hydraulic oil leak,0,1,O
+hydraulic oil,leak,Consumable,Observation,hydraulic oil leak,1,0,O
+leak,machine,Observation,Item,machine for hydraulic oil leak,0,2,O
+machine,leak,Item,Observation,machine for hydraulic oil leak,2,0,HAS_OBSERVATION
+leak,check,Observation,Activity,check machine for hydraulic oil leak,0,3,O
+check,leak,Activity,Observation,check machine for hydraulic oil leak,3,0,O
+hydraulic oil,machine,Consumable,Item,machine for hydraulic oil,1,2,O
+machine,hydraulic oil,Item,Consumable,machine for hydraulic oil,2,1,HAS_CONSUMABLE
+hydraulic oil,check,Consumable,Activity,check machine for hydraulic oil,1,3,O
+check,hydraulic oil,Activity,Consumable,check machine for hydraulic oil,3,1,O
+machine,check,Item,Activity,check machine,2,3,HAS_ACTIVITY
+check,machine,Activity,Item,check machine,3,2,O
+revs dying,engine,Observation,Item,engine revs dying,0,1,O
+engine,revs dying,Item,Observation,engine revs dying,1,0,HAS_OBSERVATION
+slow,rotation,Observation,Attribute,rotation slow,0,1,O
+rotation,slow,Attribute,Observation,rotation slow,1,0,O
+slow,head,Observation,Item,head rotation slow,0,2,O
+head,slow,Item,Observation,head rotation slow,2,0,HAS_OBSERVATION
+rotation,head,Attribute,Item,head rotation,1,2,O
+head,rotation,Item,Attribute,head rotation,2,1,HAS_ATTRIBUTE
+hand-rail,work deck,Item,Item,work deck hand-rail,0,1,APPEARS_WITH
+work deck,hand-rail,Item,Item,work deck hand-rail,1,0,O
+hand-rail,repair,Item,Activity,repair work deck hand-rail,0,2,HAS_ACTIVITY
+repair,hand-rail,Activity,Item,repair work deck hand-rail,2,0,O
+work deck,repair,Item,Activity,repair work deck,1,2,HAS_ACTIVITY
+repair,work deck,Activity,Item,repair work deck,2,1,O
+sheave carrier slides,replace,Item,Activity,replace sheave carrier slides,0,1,HAS_ACTIVITY
+replace,sheave carrier slides,Activity,Item,replace sheave carrier slides,1,0,O
+cylinder,on,Item,Location,on cylinder,0,1,HAS_LOCATION
+on,cylinder,Location,Item,on cylinder,1,0,O
+cylinder,locking pin,Item,Item,locking pin on cylinder,0,2,APPEARS_WITH
+locking pin,cylinder,Item,Item,locking pin on cylinder,2,0,O
+cylinder,hose,Item,Item,hose locking pin on cylinder,0,3,APPEARS_WITH
+hose,cylinder,Item,Item,hose locking pin on cylinder,3,0,O
+cylinder,replace,Item,Activity,replace hose locking pin on cylinder,0,4,HAS_ACTIVITY
+replace,cylinder,Activity,Item,replace hose locking pin on cylinder,4,0,O
+on,locking pin,Location,Item,locking pin on,1,2,O
+locking pin,on,Item,Location,locking pin on,2,1,HAS_LOCATION
+on,hose,Location,Item,hose locking pin on,1,3,O
+hose,on,Item,Location,hose locking pin on,3,1,HAS_LOCATION
+on,replace,Location,Activity,replace hose locking pin on,1,4,O
+replace,on,Activity,Location,replace hose locking pin on,4,1,O
+locking pin,hose,Item,Item,hose locking pin,2,3,O
+hose,locking pin,Item,Item,hose locking pin,3,2,APPEARS_WITH
+locking pin,replace,Item,Activity,replace hose locking pin,2,4,HAS_ACTIVITY
+replace,locking pin,Activity,Item,replace hose locking pin,4,2,O
+hose,replace,Item,Activity,replace hose,3,4,HAS_ACTIVITY
+replace,hose,Activity,Item,replace hose,4,3,O
+leak,oil,Observation,Consumable,oil leak,0,1,O
+oil,leak,Consumable,Observation,oil leak,1,0,O
+leak,filter,Observation,Item,filter oil leak,0,2,O
+filter,leak,Item,Observation,filter oil leak,2,0,HAS_OBSERVATION
+leak,servo,Observation,Item,servo filter oil leak,0,3,O
+servo,leak,Item,Observation,servo filter oil leak,3,0,HAS_OBSERVATION
+oil,filter,Consumable,Item,filter oil,1,2,O
+filter,oil,Item,Consumable,filter oil,2,1,HAS_CONSUMABLE
+oil,servo,Consumable,Item,servo filter oil,1,3,O
+servo,oil,Item,Consumable,servo filter oil,3,1,HAS_CONSUMABLE
+filter,servo,Item,Item,servo filter,2,3,APPEARS_WITH
+servo,filter,Item,Item,servo filter,3,2,O
+plennum chamber,bolts,Item,Consumable,bolts plennum chamber,0,1,HAS_CONSUMABLE
+bolts,plennum chamber,Consumable,Item,bolts plennum chamber,1,0,O
+plennum chamber,broken,Item,Observation,broken bolts plennum chamber,0,2,HAS_OBSERVATION
+broken,plennum chamber,Observation,Item,broken bolts plennum chamber,2,0,O
+bolts,broken,Consumable,Observation,broken bolts,1,2,O
+broken,bolts,Observation,Consumable,broken bolts,2,1,O
+sticking,switch,Observation,Item,switch sticking,0,1,O
+switch,sticking,Item,Observation,switch sticking,1,0,HAS_OBSERVATION
+sticking,pipe support,Observation,Item,pipe support switch sticking,0,2,O
+pipe support,sticking,Item,Observation,pipe support switch sticking,2,0,HAS_OBSERVATION
+switch,pipe support,Item,Item,pipe support switch,1,2,O
+pipe support,switch,Item,Item,pipe support switch,2,1,APPEARS_WITH
+drill rod,put in,Item,Activity,put in drill rod,0,1,HAS_ACTIVITY
+put in,drill rod,Activity,Item,put in drill rod,1,0,O
+bolts,pivot,Consumable,Item,pivot bolts,0,1,O
+pivot,bolts,Item,Consumable,pivot bolts,1,0,HAS_CONSUMABLE
+bolts,mast,Consumable,Item,mast pivot bolts,0,2,O
+mast,bolts,Item,Consumable,mast pivot bolts,2,0,HAS_CONSUMABLE
+bolts,repalce,Consumable,Activity,repalce mast pivot bolts,0,3,O
+repalce,bolts,Activity,Consumable,repalce mast pivot bolts,3,0,O
+pivot,mast,Item,Item,mast pivot,1,2,O
+mast,pivot,Item,Item,mast pivot,2,1,APPEARS_WITH
+pivot,repalce,Item,Activity,repalce mast pivot,1,3,HAS_ACTIVITY
+repalce,pivot,Activity,Item,repalce mast pivot,3,1,O
+mast,repalce,Item,Activity,repalce mast,2,3,HAS_ACTIVITY
+repalce,mast,Activity,Item,repalce mast,3,2,O
+not working,guage,Observation,Item,guage not working,0,1,O
+guage,not working,Item,Observation,guage not working,1,0,HAS_OBSERVATION
+not working,air filter,Observation,Item,air filter guage not working,0,2,O
+air filter,not working,Item,Observation,air filter guage not working,2,0,HAS_OBSERVATION
+not working,l/h,Observation,Location,l/h air filter guage not working,0,3,O
+l/h,not working,Location,Observation,l/h air filter guage not working,3,0,O
+guage,air filter,Item,Item,air filter guage,1,2,O
+air filter,guage,Item,Item,air filter guage,2,1,APPEARS_WITH
+guage,l/h,Item,Location,l/h air filter guage,1,3,HAS_LOCATION
+l/h,guage,Location,Item,l/h air filter guage,3,1,O
+air filter,l/h,Item,Location,l/h air filter,2,3,HAS_LOCATION
+l/h,air filter,Location,Item,l/h air filter,3,2,O
+cab,outside,Item,Location,outside cab,0,1,HAS_LOCATION
+outside,cab,Location,Item,outside cab,1,0,O
+cab,hose,Item,Item,hose outside cab,0,2,APPEARS_WITH
+hose,cab,Item,Item,hose outside cab,2,0,O
+outside,hose,Location,Item,hose outside,1,2,O
+hose,outside,Item,Location,hose outside,2,1,HAS_LOCATION
+head guide,replace,Item,Activity,replace head guide,0,1,HAS_ACTIVITY
+replace,head guide,Activity,Item,replace head guide,1,0,O
+loose.,keep,Observation,Observation,keep coming loose.,0,1,O
+keep,loose.,Observation,Observation,keep coming loose.,1,0,O
+loose.,hoses,Observation,Item,hoses keep coming loose.,0,2,O
+hoses,loose.,Item,Observation,hoses keep coming loose.,2,0,HAS_OBSERVATION
+loose.,deck spanner,Observation,Item,deck spanner hoses keep coming loose.,0,3,O
+deck spanner,loose.,Item,Observation,deck spanner hoses keep coming loose.,3,0,HAS_OBSERVATION
+keep,hoses,Observation,Item,hoses keep,1,2,O
+hoses,keep,Item,Observation,hoses keep,2,1,HAS_OBSERVATION
+keep,deck spanner,Observation,Item,deck spanner hoses keep,1,3,O
+deck spanner,keep,Item,Observation,deck spanner hoses keep,3,1,HAS_OBSERVATION
+hoses,deck spanner,Item,Item,deck spanner hoses,2,3,O
+deck spanner,hoses,Item,Item,deck spanner hoses,3,2,APPEARS_WITH
+noisy,a/c,Observation,Item,a/c 's noisy,0,1,O
+a/c,noisy,Item,Observation,a/c 's noisy,1,0,HAS_OBSERVATION
+noisy,both,Observation,Cardinality,both a/c 's noisy,0,2,O
+both,noisy,Cardinality,Observation,both a/c 's noisy,2,0,O
+a/c,both,Item,Cardinality,both a/c,1,2,HAS_CARDINALITY
+both,a/c,Cardinality,Item,both a/c,2,1,O
+camera,deck,Item,Item,deck camera,0,1,APPEARS_WITH
+deck,camera,Item,Item,deck camera,1,0,O
+camera,under,Item,Location,under deck camera,0,2,HAS_LOCATION
+under,camera,Location,Item,under deck camera,2,0,O
+camera,align,Item,Activity,align under deck camera,0,3,HAS_ACTIVITY
+align,camera,Activity,Item,align under deck camera,3,0,O
+deck,under,Item,Location,under deck,1,2,HAS_LOCATION
+under,deck,Location,Item,under deck,2,1,O
+deck,align,Item,Activity,align under deck,1,3,HAS_ACTIVITY
+align,deck,Activity,Item,align under deck,3,1,O
+under,align,Location,Activity,align under,2,3,O
+align,under,Activity,Location,align under,3,2,O
+dcp extinguishers,changeout,Item,Activity,changeout dcp extinguishers,0,1,HAS_ACTIVITY
+changeout,dcp extinguishers,Activity,Item,changeout dcp extinguishers,1,0,O
+thread,on,Item,Location,on thread,0,1,HAS_LOCATION
+on,thread,Location,Item,on thread,1,0,O
+thread,not working,Item,Observation,not working on thread,0,2,HAS_OBSERVATION
+not working,thread,Observation,Item,not working on thread,2,0,O
+thread,grease pump,Item,Item,grease pump not working on thread,0,3,O
+grease pump,thread,Item,Item,grease pump not working on thread,3,0,APPEARS_WITH
+on,not working,Location,Observation,not working on,1,2,O
+not working,on,Observation,Location,not working on,2,1,O
+on,grease pump,Location,Item,grease pump not working on,1,3,O
+grease pump,on,Item,Location,grease pump not working on,3,1,HAS_LOCATION
+not working,grease pump,Observation,Item,grease pump not working,2,3,O
+grease pump,not working,Item,Observation,grease pump not working,3,2,HAS_OBSERVATION
+broken off,stair control unit,Observation,Item,stair control unit broken off,0,1,O
+stair control unit,broken off,Item,Observation,stair control unit broken off,1,0,HAS_OBSERVATION
+seal,wiper,Item,Item,wiper seal,0,1,APPEARS_WITH
+wiper,seal,Item,Item,wiper seal,1,0,O
+seal,rod,Item,Item,rod wiper seal,0,2,O
+rod,seal,Item,Item,rod wiper seal,2,0,APPEARS_WITH
+seal,replace,Item,Activity,replace rod wiper seal,0,3,HAS_ACTIVITY
+replace,seal,Activity,Item,replace rod wiper seal,3,0,O
+wiper,rod,Item,Item,rod wiper,1,2,O
+rod,wiper,Item,Item,rod wiper,2,1,APPEARS_WITH
+wiper,replace,Item,Activity,replace rod wiper,1,3,HAS_ACTIVITY
+replace,wiper,Activity,Item,replace rod wiper,3,1,O
+rod,replace,Item,Activity,replace rod,2,3,HAS_ACTIVITY
+replace,rod,Activity,Item,replace rod,3,2,O
+wear,rod,Observation,Item,rod wear,0,1,O
+rod,wear,Item,Observation,rod wear,1,0,HAS_OBSERVATION
+wear,raise cylinder,Observation,Item,raise cylinder rod wear,0,2,O
+raise cylinder,wear,Item,Observation,raise cylinder rod wear,2,0,HAS_OBSERVATION
+wear,mast,Observation,Item,mast raise cylinder rod wear,0,3,O
+mast,wear,Item,Observation,mast raise cylinder rod wear,3,0,HAS_OBSERVATION
+wear,left,Observation,Location,left mast raise cylinder rod wear,0,4,O
+left,wear,Location,Observation,left mast raise cylinder rod wear,4,0,O
+rod,raise cylinder,Item,Item,raise cylinder rod,1,2,O
+raise cylinder,rod,Item,Item,raise cylinder rod,2,1,APPEARS_WITH
+rod,mast,Item,Item,mast raise cylinder rod,1,3,O
+mast,rod,Item,Item,mast raise cylinder rod,3,1,APPEARS_WITH
+rod,left,Item,Location,left mast raise cylinder rod,1,4,HAS_LOCATION
+left,rod,Location,Item,left mast raise cylinder rod,4,1,O
+raise cylinder,mast,Item,Item,mast raise cylinder,2,3,O
+mast,raise cylinder,Item,Item,mast raise cylinder,3,2,APPEARS_WITH
+raise cylinder,left,Item,Location,left mast raise cylinder,2,4,HAS_LOCATION
+left,raise cylinder,Location,Item,left mast raise cylinder,4,2,O
+mast,left,Item,Location,left mast,3,4,HAS_LOCATION
+left,mast,Location,Item,left mast,4,3,O
+deck,on,Item,Location,on deck,0,1,HAS_LOCATION
+on,deck,Location,Item,on deck,1,0,O
+deck,head slide,Item,Item,head slide on deck,0,2,APPEARS_WITH
+head slide,deck,Item,Item,head slide on deck,2,0,O
+on,head slide,Location,Item,head slide on,1,2,O
+head slide,on,Item,Location,head slide on,2,1,HAS_LOCATION
+alternator belt,adjust,Item,Activity,adjust alternator belt,0,1,HAS_ACTIVITY
+adjust,alternator belt,Activity,Item,adjust alternator belt,1,0,O
+leakin,gasket,Observation,Item,gasket leakin,0,1,O
+gasket,leakin,Item,Observation,gasket leakin,1,0,HAS_OBSERVATION
+leakin,manifold,Observation,Item,manifold gasket leakin,0,2,O
+manifold,leakin,Item,Observation,manifold gasket leakin,2,0,HAS_OBSERVATION
+leakin,poppet,Observation,Item,poppet manifold gasket leakin,0,3,O
+poppet,leakin,Item,Observation,poppet manifold gasket leakin,3,0,HAS_OBSERVATION
+leakin,compressor,Observation,Item,compressor poppet manifold gasket leakin,0,4,O
+compressor,leakin,Item,Observation,compressor poppet manifold gasket leakin,4,0,HAS_OBSERVATION
+gasket,manifold,Item,Item,manifold gasket,1,2,APPEARS_WITH
+manifold,gasket,Item,Item,manifold gasket,2,1,O
+gasket,poppet,Item,Item,poppet manifold gasket,1,3,APPEARS_WITH
+poppet,gasket,Item,Item,poppet manifold gasket,3,1,O
+gasket,compressor,Item,Item,compressor poppet manifold gasket,1,4,O
+compressor,gasket,Item,Item,compressor poppet manifold gasket,4,1,APPEARS_WITH
+manifold,poppet,Item,Item,poppet manifold,2,3,APPEARS_WITH
+poppet,manifold,Item,Item,poppet manifold,3,2,O
+manifold,compressor,Item,Item,compressor poppet manifold,2,4,O
+compressor,manifold,Item,Item,compressor poppet manifold,4,2,APPEARS_WITH
+poppet,compressor,Item,Item,compressor poppet,3,4,O
+compressor,poppet,Item,Item,compressor poppet,4,3,APPEARS_WITH
+propel pump,l/h,Item,Location,l/h propel pump,0,1,HAS_LOCATION
+l/h,propel pump,Location,Item,l/h propel pump,1,0,O
+propel pump,replace,Item,Activity,replace l/h propel pump,0,2,HAS_ACTIVITY
+replace,propel pump,Activity,Item,replace l/h propel pump,2,0,O
+l/h,replace,Location,Activity,replace l/h,1,2,O
+replace,l/h,Activity,Location,replace l/h,2,1,O
+lights,adjust,Item,Activity,adjust lights,0,1,HAS_ACTIVITY
+adjust,lights,Activity,Item,adjust lights,1,0,O
+not working,deck spanner,Observation,Item,deck spanner not working,0,1,O
+deck spanner,not working,Item,Observation,deck spanner not working,1,0,HAS_OBSERVATION
+carousel,hitting,Item,Observation,hitting carousel,0,1,HAS_OBSERVATION
+hitting,carousel,Observation,Item,hitting carousel,1,0,O
+carousel,head,Item,Item,head hitting carousel,0,2,APPEARS_WITH
+head,carousel,Item,Item,head hitting carousel,2,0,O
+hitting,head,Observation,Item,head hitting,1,2,O
+head,hitting,Item,Observation,head hitting,2,1,HAS_OBSERVATION
+seat,from,Item,Location,from seat,0,1,HAS_LOCATION
+from,seat,Location,Item,from seat,1,0,O
+seat,misssing,Item,Observation,misssing from seat,0,2,HAS_OBSERVATION
+misssing,seat,Observation,Item,misssing from seat,2,0,O
+seat,arm rest,Item,Item,arm rest misssing from seat,0,3,O
+arm rest,seat,Item,Item,arm rest misssing from seat,3,0,APPEARS_WITH
+from,misssing,Location,Observation,misssing from,1,2,O
+misssing,from,Observation,Location,misssing from,2,1,O
+from,arm rest,Location,Item,arm rest misssing from,1,3,O
+arm rest,from,Item,Location,arm rest misssing from,3,1,HAS_LOCATION
+misssing,arm rest,Observation,Item,arm rest misssing,2,3,O
+arm rest,misssing,Item,Observation,arm rest misssing,3,2,HAS_OBSERVATION
+wrench,on,Item,Location,on wrench,0,1,HAS_LOCATION
+on,wrench,Location,Item,on wrench,1,0,O
+wrench,leak,Item,Observation,leak on wrench,0,2,HAS_OBSERVATION
+leak,wrench,Observation,Item,leak on wrench,2,0,O
+wrench,oil,Item,Consumable,oil leak on wrench,0,3,HAS_CONSUMABLE
+oil,wrench,Consumable,Item,oil leak on wrench,3,0,O
+on,leak,Location,Observation,leak on,1,2,O
+leak,on,Observation,Location,leak on,2,1,O
+on,oil,Location,Consumable,oil leak on,1,3,O
+oil,on,Consumable,Location,oil leak on,3,1,O
+leak,oil,Observation,Consumable,oil leak,2,3,O
+oil,leak,Consumable,Observation,oil leak,3,2,O
+valve,stacker,Item,Item,stacker valve,0,1,O
+stacker,valve,Item,Item,stacker valve,1,0,APPEARS_WITH
+valve,check,Item,Activity,check stacker valve,0,2,HAS_ACTIVITY
+check,valve,Activity,Item,check stacker valve,2,0,O
+stacker,check,Item,Activity,check stacker,1,2,HAS_ACTIVITY
+check,stacker,Activity,Item,check stacker,2,1,O
+seperator,bull hose,Item,Item,bull hose seperator,0,1,O
+bull hose,seperator,Item,Item,bull hose seperator,1,0,APPEARS_WITH
+seperator,change out,Item,Activity,change out bull hose seperator,0,2,HAS_ACTIVITY
+change out,seperator,Activity,Item,change out bull hose seperator,2,0,O
+bull hose,change out,Item,Activity,change out bull hose,1,2,HAS_ACTIVITY
+change out,bull hose,Activity,Item,change out bull hose,2,1,O
+deck spanner,on,Item,Location,on deck spanner,0,1,HAS_LOCATION
+on,deck spanner,Location,Item,on deck spanner,1,0,O
+deck spanner,bolt,Item,Consumable,bolt on deck spanner,0,2,HAS_CONSUMABLE
+bolt,deck spanner,Consumable,Item,bolt on deck spanner,2,0,O
+deck spanner,loose,Item,Observation,loose bolt on deck spanner,0,3,HAS_OBSERVATION
+loose,deck spanner,Observation,Item,loose bolt on deck spanner,3,0,O
+on,bolt,Location,Consumable,bolt on,1,2,O
+bolt,on,Consumable,Location,bolt on,2,1,O
+on,loose,Location,Observation,loose bolt on,1,3,O
+loose,on,Observation,Location,loose bolt on,3,1,O
+bolt,loose,Consumable,Observation,loose bolt,2,3,O
+loose,bolt,Observation,Consumable,loose bolt,3,2,O
+not working,air cond,Observation,Item,air cond not working,0,1,O
+air cond,not working,Item,Observation,air cond not working,1,0,HAS_OBSERVATION
+using coolant,machine,Observation,Item,machine using coolant,0,1,O
+machine,using coolant,Item,Observation,machine using coolant,1,0,HAS_OBSERVATION
+jack,l.h.,Item,Location,l.h. jack,0,1,HAS_LOCATION
+l.h.,jack,Location,Item,l.h. jack,1,0,O
+jack,rear,Item,Location,rear l.h. jack,0,2,HAS_LOCATION
+rear,jack,Location,Item,rear l.h. jack,2,0,O
+jack,guide,Item,Item,guide rear l.h. jack,0,3,O
+guide,jack,Item,Item,guide rear l.h. jack,3,0,APPEARS_WITH
+jack,repair,Item,Activity,repair guide rear l.h. jack,0,4,HAS_ACTIVITY
+repair,jack,Activity,Item,repair guide rear l.h. jack,4,0,O
+l.h.,rear,Location,Location,rear l.h.,1,2,O
+rear,l.h.,Location,Location,rear l.h.,2,1,O
+l.h.,guide,Location,Item,guide rear l.h.,1,3,O
+guide,l.h.,Item,Location,guide rear l.h.,3,1,HAS_LOCATION
+l.h.,repair,Location,Activity,repair guide rear l.h.,1,4,O
+repair,l.h.,Activity,Location,repair guide rear l.h.,4,1,O
+rear,guide,Location,Item,guide rear,2,3,O
+guide,rear,Item,Location,guide rear,3,2,HAS_LOCATION
+rear,repair,Location,Activity,repair guide rear,2,4,O
+repair,rear,Activity,Location,repair guide rear,4,2,O
+guide,repair,Item,Activity,repair guide,3,4,HAS_ACTIVITY
+repair,guide,Activity,Item,repair guide,4,3,O
+camera,front,Item,Location,front camera,0,1,HAS_LOCATION
+front,camera,Location,Item,front camera,1,0,O
+camera,replace,Item,Activity,replace front camera,0,2,HAS_ACTIVITY
+replace,camera,Activity,Item,replace front camera,2,0,O
+front,replace,Location,Activity,replace front,1,2,O
+replace,front,Activity,Location,replace front,2,1,O
+c spanner,o ring,Item,Item,o ring c spanner,0,1,APPEARS_WITH
+o ring,c spanner,Item,Item,o ring c spanner,1,0,O
+c spanner,replace,Item,Activity,replace o ring c spanner,0,2,HAS_ACTIVITY
+replace,c spanner,Activity,Item,replace o ring c spanner,2,0,O
+o ring,replace,Item,Activity,replace o ring,1,2,HAS_ACTIVITY
+replace,o ring,Activity,Item,replace o ring,2,1,O
+fitted.,need,Activity,Observation,need to be fitted.,0,1,O
+need,fitted.,Observation,Activity,need to be fitted.,1,0,O
+fitted.,mirrors,Activity,Item,mirrors need to be fitted.,0,2,O
+mirrors,fitted.,Item,Activity,mirrors need to be fitted.,2,0,HAS_ACTIVITY
+fitted.,new,Activity,Specifier,new mirrors need to be fitted.,0,3,O
+new,fitted.,Specifier,Activity,new mirrors need to be fitted.,3,0,O
+need,mirrors,Observation,Item,mirrors need,1,2,O
+mirrors,need,Item,Observation,mirrors need,2,1,HAS_OBSERVATION
+need,new,Observation,Specifier,new mirrors need,1,3,O
+new,need,Specifier,Observation,new mirrors need,3,1,O
+mirrors,new,Item,Specifier,new mirrors,2,3,HAS_SPECIFIER
+new,mirrors,Specifier,Item,new mirrors,3,2,O
+bent,ram,Observation,Item,ram bent,0,1,O
+ram,bent,Item,Observation,ram bent,1,0,HAS_OBSERVATION
+release wire,brake,Item,Item,brake release wire,0,1,O
+brake,release wire,Item,Item,brake release wire,1,0,APPEARS_WITH
+release wire,broken,Item,Observation,broken brake release wire,0,2,HAS_OBSERVATION
+broken,release wire,Observation,Item,broken brake release wire,2,0,O
+release wire,repair,Item,Activity,repair broken brake release wire,0,3,HAS_ACTIVITY
+repair,release wire,Activity,Item,repair broken brake release wire,3,0,O
+brake,broken,Item,Observation,broken brake,1,2,HAS_OBSERVATION
+broken,brake,Observation,Item,broken brake,2,1,O
+brake,repair,Item,Activity,repair broken brake,1,3,HAS_ACTIVITY
+repair,brake,Activity,Item,repair broken brake,3,1,O
+broken,repair,Observation,Activity,repair broken,2,3,O
+repair,broken,Activity,Observation,repair broken,3,2,O
+8/07,x2,Time,Cardinality,x2 NA 8/07,0,1,O
+x2,8/07,Cardinality,Time,x2 NA 8/07,1,0,O
+8/07,labour,Time,Activity,labour x2 NA 8/07,0,2,O
+labour,8/07,Activity,Time,labour x2 NA 8/07,2,0,O
+8/07,scv,Time,Agent,scv labour x2 NA 8/07,0,3,O
+scv,8/07,Agent,Time,scv labour x2 NA 8/07,3,0,O
+x2,labour,Cardinality,Activity,labour x2,1,2,O
+labour,x2,Activity,Cardinality,labour x2,2,1,O
+x2,scv,Cardinality,Agent,scv labour x2,1,3,O
+scv,x2,Agent,Cardinality,scv labour x2,3,1,O
+labour,scv,Activity,Agent,scv labour,2,3,O
+scv,labour,Agent,Activity,scv labour,3,2,O
+leaking,dog box,Observation,Item,dog box leaking,0,1,O
+dog box,leaking,Item,Observation,dog box leaking,1,0,HAS_OBSERVATION
+leaking,in,Observation,Location,in dog box leaking,0,2,O
+in,leaking,Location,Observation,in dog box leaking,2,0,O
+leaking,valve,Observation,Item,valve in dog box leaking,0,3,O
+valve,leaking,Item,Observation,valve in dog box leaking,3,0,HAS_OBSERVATION
+leaking,a/c,Observation,Item,a/c valve in dog box leaking,0,4,O
+a/c,leaking,Item,Observation,a/c valve in dog box leaking,4,0,HAS_OBSERVATION
+leaking,both,Observation,Cardinality,both a/c valve in dog box leaking,0,5,O
+both,leaking,Cardinality,Observation,both a/c valve in dog box leaking,5,0,O
+dog box,in,Item,Location,in dog box,1,2,HAS_LOCATION
+in,dog box,Location,Item,in dog box,2,1,O
+dog box,valve,Item,Item,valve in dog box,1,3,APPEARS_WITH
+valve,dog box,Item,Item,valve in dog box,3,1,O
+dog box,a/c,Item,Item,a/c valve in dog box,1,4,O
+a/c,dog box,Item,Item,a/c valve in dog box,4,1,APPEARS_WITH
+dog box,both,Item,Cardinality,both a/c valve in dog box,1,5,HAS_CARDINALITY
+both,dog box,Cardinality,Item,both a/c valve in dog box,5,1,O
+in,valve,Location,Item,valve in,2,3,O
+valve,in,Item,Location,valve in,3,2,HAS_LOCATION
+in,a/c,Location,Item,a/c valve in,2,4,O
+a/c,in,Item,Location,a/c valve in,4,2,HAS_LOCATION
+in,both,Location,Cardinality,both a/c valve in,2,5,O
+both,in,Cardinality,Location,both a/c valve in,5,2,O
+valve,a/c,Item,Item,a/c valve,3,4,O
+a/c,valve,Item,Item,a/c valve,4,3,APPEARS_WITH
+valve,both,Item,Cardinality,both a/c valve,3,5,HAS_CARDINALITY
+both,valve,Cardinality,Item,both a/c valve,5,3,O
+a/c,both,Item,Cardinality,both a/c,4,5,HAS_CARDINALITY
+both,a/c,Cardinality,Item,both a/c,5,4,O
+scraping when drilling at angle,carousel,Observation,Item,carousel scraping when drilling at angle,0,1,O
+carousel,scraping when drilling at angle,Item,Observation,carousel scraping when drilling at angle,1,0,HAS_OBSERVATION
+not working,licra screen,Observation,Item,licra screen not working,0,1,O
+licra screen,not working,Item,Observation,licra screen not working,1,0,HAS_OBSERVATION
+level,oil,Attribute,Consumable,oil level,0,1,O
+oil,level,Consumable,Attribute,oil level,1,0,O
+level,engine,Attribute,Item,engine oil level,0,2,O
+engine,level,Item,Attribute,engine oil level,2,0,HAS_ATTRIBUTE
+level,monitor,Attribute,Activity,monitor engine oil level,0,3,O
+monitor,level,Activity,Attribute,monitor engine oil level,3,0,O
+oil,engine,Consumable,Item,engine oil,1,2,O
+engine,oil,Item,Consumable,engine oil,2,1,HAS_CONSUMABLE
+oil,monitor,Consumable,Activity,monitor engine oil,1,3,O
+monitor,oil,Activity,Consumable,monitor engine oil,3,1,O
+engine,monitor,Item,Activity,monitor engine,2,3,HAS_ACTIVITY
+monitor,engine,Activity,Item,monitor engine,3,2,O
+wear slides,carousel,Item,Item,carousel wear slides,0,1,O
+carousel,wear slides,Item,Item,carousel wear slides,1,0,APPEARS_WITH
+wear slides,lower,Item,Location,lower carousel wear slides,0,2,HAS_LOCATION
+lower,wear slides,Location,Item,lower carousel wear slides,2,0,O
+wear slides,replace,Item,Activity,replace lower carousel wear slides,0,3,HAS_ACTIVITY
+replace,wear slides,Activity,Item,replace lower carousel wear slides,3,0,O
+carousel,lower,Item,Location,lower carousel,1,2,HAS_LOCATION
+lower,carousel,Location,Item,lower carousel,2,1,O
+carousel,replace,Item,Activity,replace lower carousel,1,3,HAS_ACTIVITY
+replace,carousel,Activity,Item,replace lower carousel,3,1,O
+lower,replace,Location,Activity,replace lower,2,3,O
+replace,lower,Activity,Location,replace lower,3,2,O
+camera,rear,Item,Location,rear camera,0,1,HAS_LOCATION
+rear,camera,Location,Item,rear camera,1,0,O
+camera,repairs to,Item,Activity,repairs to rear camera,0,2,HAS_ACTIVITY
+repairs to,camera,Activity,Item,repairs to rear camera,2,0,O
+rear,repairs to,Location,Activity,repairs to rear,1,2,O
+repairs to,rear,Activity,Location,repairs to rear,2,1,O
+wear,rod,Observation,Item,rod wear,0,1,O
+rod,wear,Item,Observation,rod wear,1,0,HAS_OBSERVATION
+wear,raise cylinder,Observation,Item,raise cylinder rod wear,0,2,O
+raise cylinder,wear,Item,Observation,raise cylinder rod wear,2,0,HAS_OBSERVATION
+wear,mast,Observation,Item,mast raise cylinder rod wear,0,3,O
+mast,wear,Item,Observation,mast raise cylinder rod wear,3,0,HAS_OBSERVATION
+wear,right,Observation,Location,right mast raise cylinder rod wear,0,4,O
+right,wear,Location,Observation,right mast raise cylinder rod wear,4,0,O
+rod,raise cylinder,Item,Item,raise cylinder rod,1,2,O
+raise cylinder,rod,Item,Item,raise cylinder rod,2,1,APPEARS_WITH
+rod,mast,Item,Item,mast raise cylinder rod,1,3,O
+mast,rod,Item,Item,mast raise cylinder rod,3,1,APPEARS_WITH
+rod,right,Item,Location,right mast raise cylinder rod,1,4,HAS_LOCATION
+right,rod,Location,Item,right mast raise cylinder rod,4,1,O
+raise cylinder,mast,Item,Item,mast raise cylinder,2,3,O
+mast,raise cylinder,Item,Item,mast raise cylinder,3,2,APPEARS_WITH
+raise cylinder,right,Item,Location,right mast raise cylinder,2,4,HAS_LOCATION
+right,raise cylinder,Location,Item,right mast raise cylinder,4,2,O
+mast,right,Item,Location,right mast,3,4,HAS_LOCATION
+right,mast,Location,Item,right mast,4,3,O
+mast,on,Item,Location,on mast,0,1,HAS_LOCATION
+on,mast,Location,Item,on mast,1,0,O
+mast,lights,Item,Item,lights on mast,0,2,O
+lights,mast,Item,Item,lights on mast,2,0,APPEARS_WITH
+mast,checking,Item,Activity,checking lights on mast,0,3,HAS_ACTIVITY
+checking,mast,Activity,Item,checking lights on mast,3,0,O
+mast,hastings,Item,Agent,hastings checking lights on mast,0,4,HAS_AGENT
+hastings,mast,Agent,Item,hastings checking lights on mast,4,0,O
+on,lights,Location,Item,lights on,1,2,O
+lights,on,Item,Location,lights on,2,1,HAS_LOCATION
+on,checking,Location,Activity,checking lights on,1,3,O
+checking,on,Activity,Location,checking lights on,3,1,O
+on,hastings,Location,Agent,hastings checking lights on,1,4,O
+hastings,on,Agent,Location,hastings checking lights on,4,1,O
+lights,checking,Item,Activity,checking lights,2,3,HAS_ACTIVITY
+checking,lights,Activity,Item,checking lights,3,2,O
+lights,hastings,Item,Agent,hastings checking lights,2,4,HAS_AGENT
+hastings,lights,Agent,Item,hastings checking lights,4,2,O
+checking,hastings,Activity,Agent,hastings checking,3,4,O
+hastings,checking,Agent,Activity,hastings checking,4,3,O
+hose.,radiator,Item,Item,radiator hose.,0,1,APPEARS_WITH
+radiator,hose.,Item,Item,radiator hose.,1,0,O
+hose.,bottom,Item,Location,bottom radiator hose.,0,2,HAS_LOCATION
+bottom,hose.,Location,Item,bottom radiator hose.,2,0,O
+hose.,fit,Item,Activity,fit bottom radiator hose.,0,3,HAS_ACTIVITY
+fit,hose.,Activity,Item,fit bottom radiator hose.,3,0,O
+radiator,bottom,Item,Location,bottom radiator,1,2,HAS_LOCATION
+bottom,radiator,Location,Item,bottom radiator,2,1,O
+radiator,fit,Item,Activity,fit bottom radiator,1,3,HAS_ACTIVITY
+fit,radiator,Activity,Item,fit bottom radiator,3,1,O
+bottom,fit,Location,Activity,fit bottom,2,3,O
+fit,bottom,Activity,Location,fit bottom,3,2,O
+viewer window blind,top,Item,Location,top viewer window blind,0,1,HAS_LOCATION
+top,viewer window blind,Location,Item,top viewer window blind,1,0,O
+viewer window blind,order,Item,Activity,order top viewer window blind,0,2,HAS_ACTIVITY
+order,viewer window blind,Activity,Item,order top viewer window blind,2,0,O
+viewer window blind,hastings,Item,Agent,hastings order top viewer window blind,0,3,HAS_AGENT
+hastings,viewer window blind,Agent,Item,hastings order top viewer window blind,3,0,O
+top,order,Location,Activity,order top,1,2,O
+order,top,Activity,Location,order top,2,1,O
+top,hastings,Location,Agent,hastings order top,1,3,O
+hastings,top,Agent,Location,hastings order top,3,1,O
+order,hastings,Activity,Agent,hastings order,2,3,O
+hastings,order,Agent,Activity,hastings order,3,2,O
+reading low,pressure gauge,Observation,Item,pressure gauge reading low,0,1,O
+pressure gauge,reading low,Item,Observation,pressure gauge reading low,1,0,HAS_OBSERVATION
+reading low,oil,Observation,Consumable,oil pressure gauge reading low,0,2,O
+oil,reading low,Consumable,Observation,oil pressure gauge reading low,2,0,O
+pressure gauge,oil,Item,Consumable,oil pressure gauge,1,2,HAS_CONSUMABLE
+oil,pressure gauge,Consumable,Item,oil pressure gauge,2,1,O
+needs,knob,Observation,Item,knob needs,0,1,O
+knob,needs,Item,Observation,knob needs,1,0,HAS_OBSERVATION
+needs,pressure pot,Observation,Item,pressure pot knob needs,0,2,O
+pressure pot,needs,Item,Observation,pressure pot knob needs,2,0,HAS_OBSERVATION
+needs,feed,Observation,Item,feed pressure pot knob needs,0,3,O
+feed,needs,Item,Observation,feed pressure pot knob needs,3,0,HAS_OBSERVATION
+knob,pressure pot,Item,Item,pressure pot knob,1,2,APPEARS_WITH
+pressure pot,knob,Item,Item,pressure pot knob,2,1,O
+knob,feed,Item,Item,feed pressure pot knob,1,3,O
+feed,knob,Item,Item,feed pressure pot knob,3,1,APPEARS_WITH
+pressure pot,feed,Item,Item,feed pressure pot,2,3,O
+feed,pressure pot,Item,Item,feed pressure pot,3,2,APPEARS_WITH
+starter,lower,Item,Location,lower starter,0,1,HAS_LOCATION
+lower,starter,Location,Item,lower starter,1,0,O
+starter,c/o,Item,Activity,c/o lower starter,0,2,HAS_ACTIVITY
+c/o,starter,Activity,Item,c/o lower starter,2,0,O
+lower,c/o,Location,Activity,c/o lower,1,2,O
+c/o,lower,Activity,Location,c/o lower,2,1,O
+machine,under,Item,Location,under machine,0,1,HAS_LOCATION
+under,machine,Location,Item,under machine,1,0,O
+machine,leak,Item,Observation,leak under machine,0,2,HAS_OBSERVATION
+leak,machine,Observation,Item,leak under machine,2,0,O
+machine,oil,Item,Consumable,oil leak under machine,0,3,HAS_CONSUMABLE
+oil,machine,Consumable,Item,oil leak under machine,3,0,O
+under,leak,Location,Observation,leak under,1,2,O
+leak,under,Observation,Location,leak under,2,1,O
+under,oil,Location,Consumable,oil leak under,1,3,O
+oil,under,Consumable,Location,oil leak under,3,1,O
+leak,oil,Observation,Consumable,oil leak,2,3,O
+oil,leak,Consumable,Observation,oil leak,3,2,O
+strainer,water tank,Item,Item,water tank strainer,0,1,APPEARS_WITH
+water tank,strainer,Item,Item,water tank strainer,1,0,O
+strainer,drill,Item,Item,drill water tank strainer,0,2,O
+drill,strainer,Item,Item,drill water tank strainer,2,0,APPEARS_WITH
+strainer,replace,Item,Activity,replace drill water tank strainer,0,3,HAS_ACTIVITY
+replace,strainer,Activity,Item,replace drill water tank strainer,3,0,O
+water tank,drill,Item,Item,drill water tank,1,2,O
+drill,water tank,Item,Item,drill water tank,2,1,APPEARS_WITH
+water tank,replace,Item,Activity,replace drill water tank,1,3,HAS_ACTIVITY
+replace,water tank,Activity,Item,replace drill water tank,3,1,O
+drill,replace,Item,Activity,replace drill,2,3,HAS_ACTIVITY
+replace,drill,Activity,Item,replace drill,3,2,O
+movement,spider,Observation,Item,spider movement,0,1,O
+spider,movement,Item,Observation,spider movement,1,0,HAS_OBSERVATION
+movement,drive shaft,Observation,Item,drive shaft rear spider movement,0,2,O
+drive shaft,movement,Item,Observation,drive shaft rear spider movement,2,0,HAS_OBSERVATION
+movement,rear,Observation,Location,rear drive shaft rear spider movement,0,3,O
+rear,movement,Location,Observation,rear drive shaft rear spider movement,3,0,O
+spider,drive shaft,Item,Item,drive shaft rear spider,1,2,O
+drive shaft,spider,Item,Item,drive shaft rear spider,2,1,APPEARS_WITH
+spider,rear,Item,Location,rear drive shaft rear spider,1,3,HAS_LOCATION
+rear,spider,Location,Item,rear drive shaft rear spider,3,1,O
+drive shaft,rear,Item,Location,rear drive shaft,2,3,HAS_LOCATION
+rear,drive shaft,Location,Item,rear drive shaft,3,2,O
+reamer,refit,Item,Activity,refit reamer,0,1,HAS_ACTIVITY
+refit,reamer,Activity,Item,refit reamer,1,0,O
+carosell,on,Item,Location,on carosell,0,1,HAS_LOCATION
+on,carosell,Location,Item,on carosell,1,0,O
+carosell,leak,Item,Observation,leak on carosell,0,2,HAS_OBSERVATION
+leak,carosell,Observation,Item,leak on carosell,2,0,O
+carosell,oil,Item,Consumable,oil leak on carosell,0,3,HAS_CONSUMABLE
+oil,carosell,Consumable,Item,oil leak on carosell,3,0,O
+on,leak,Location,Observation,leak on,1,2,O
+leak,on,Observation,Location,leak on,2,1,O
+on,oil,Location,Consumable,oil leak on,1,3,O
+oil,on,Consumable,Location,oil leak on,3,1,O
+leak,oil,Observation,Consumable,oil leak,2,3,O
+oil,leak,Consumable,Observation,oil leak,3,2,O
+falling out,deck,Observation,Item,deck has falling out,0,1,O
+deck,falling out,Item,Observation,deck has falling out,1,0,HAS_OBSERVATION
+radiator,in,Item,Location,in radiator,0,1,HAS_LOCATION
+in,radiator,Location,Item,in radiator,1,0,O
+radiator,oil,Item,Consumable,oil in radiator,0,2,HAS_CONSUMABLE
+oil,radiator,Consumable,Item,oil in radiator,2,0,O
+in,oil,Location,Consumable,oil in,1,2,O
+oil,in,Consumable,Location,oil in,2,1,O
+leaking,feed pump,Observation,Item,feed pump leaking,0,1,O
+feed pump,leaking,Item,Observation,feed pump leaking,1,0,HAS_OBSERVATION
+leaking,on,Observation,Location,on feed pump leaking,0,2,O
+on,leaking,Location,Observation,on feed pump leaking,2,0,O
+leaking,o ring,Observation,Item,o ring on feed pump leaking,0,3,O
+o ring,leaking,Item,Observation,o ring on feed pump leaking,3,0,HAS_OBSERVATION
+leaking,port,Observation,Item,port o ring on feed pump leaking,0,4,O
+port,leaking,Item,Observation,port o ring on feed pump leaking,4,0,HAS_OBSERVATION
+feed pump,on,Item,Location,on feed pump,1,2,HAS_LOCATION
+on,feed pump,Location,Item,on feed pump,2,1,O
+feed pump,o ring,Item,Item,o ring on feed pump,1,3,APPEARS_WITH
+o ring,feed pump,Item,Item,o ring on feed pump,3,1,O
+feed pump,port,Item,Item,port o ring on feed pump,1,4,APPEARS_WITH
+port,feed pump,Item,Item,port o ring on feed pump,4,1,O
+on,o ring,Location,Item,o ring on,2,3,O
+o ring,on,Item,Location,o ring on,3,2,HAS_LOCATION
+on,port,Location,Item,port o ring on,2,4,O
+port,on,Item,Location,port o ring on,4,2,HAS_LOCATION
+o ring,port,Item,Item,port o ring,3,4,APPEARS_WITH
+port,o ring,Item,Item,port o ring,4,3,O
+will not come down,winch,Observation,Item,winch will not come down,0,1,O
+winch,will not come down,Item,Observation,winch will not come down,1,0,HAS_OBSERVATION
+pipe positioner,adj,Item,Activity,adj pipe positioner,0,1,HAS_ACTIVITY
+adj,pipe positioner,Activity,Item,adj pipe positioner,1,0,O
+work deck,at,Item,Location,at work deck,0,1,HAS_LOCATION
+at,work deck,Location,Item,at work deck,1,0,O
+work deck,cab light,Item,Item,cab light pointing at work deck,0,2,O
+cab light,work deck,Item,Item,cab light pointing at work deck,2,0,APPEARS_WITH
+work deck,relocate,Item,Activity,relocate cab light pointing at work deck,0,3,HAS_ACTIVITY
+relocate,work deck,Activity,Item,relocate cab light pointing at work deck,3,0,O
+at,cab light,Location,Item,cab light pointing at,1,2,O
+cab light,at,Item,Location,cab light pointing at,2,1,HAS_LOCATION
+at,relocate,Location,Activity,relocate cab light pointing at,1,3,O
+relocate,at,Activity,Location,relocate cab light pointing at,3,1,O
+cab light,relocate,Item,Activity,relocate cab light,2,3,HAS_ACTIVITY
+relocate,cab light,Activity,Item,relocate cab light,3,2,O
+area.,deck,Location,Item,deck area.,0,1,O
+deck,area.,Item,Location,deck area.,1,0,HAS_LOCATION
+area.,at,Location,Location,at deck area.,0,2,O
+at,area.,Location,Location,at deck area.,2,0,O
+area.,cracked,Location,Observation,cracked at deck area.,0,3,O
+cracked,area.,Observation,Location,cracked at deck area.,3,0,O
+area.,handrail,Location,Item,handrail cracked at deck area.,0,4,O
+handrail,area.,Item,Location,handrail cracked at deck area.,4,0,HAS_LOCATION
+deck,at,Item,Location,at deck,1,2,HAS_LOCATION
+at,deck,Location,Item,at deck,2,1,O
+deck,cracked,Item,Observation,cracked at deck,1,3,HAS_OBSERVATION
+cracked,deck,Observation,Item,cracked at deck,3,1,O
+deck,handrail,Item,Item,handrail cracked at deck,1,4,APPEARS_WITH
+handrail,deck,Item,Item,handrail cracked at deck,4,1,O
+at,cracked,Location,Observation,cracked at,2,3,O
+cracked,at,Observation,Location,cracked at,3,2,O
+at,handrail,Location,Item,handrail cracked at,2,4,O
+handrail,at,Item,Location,handrail cracked at,4,2,HAS_LOCATION
+cracked,handrail,Observation,Item,handrail cracked,3,4,O
+handrail,cracked,Item,Observation,handrail cracked,4,3,HAS_OBSERVATION
+carousel.,from,Item,Location,from carousel.,0,1,HAS_LOCATION
+from,carousel.,Location,Item,from carousel.,1,0,O
+carousel.,rod,Item,Item,rod from carousel.,0,2,APPEARS_WITH
+rod,carousel.,Item,Item,rod from carousel.,2,0,O
+carousel.,one,Item,Cardinality,one rod from carousel.,0,3,HAS_CARDINALITY
+one,carousel.,Cardinality,Item,one rod from carousel.,3,0,O
+carousel.,remove,Item,Activity,remove one rod from carousel.,0,4,HAS_ACTIVITY
+remove,carousel.,Activity,Item,remove one rod from carousel.,4,0,O
+from,rod,Location,Item,rod from,1,2,O
+rod,from,Item,Location,rod from,2,1,HAS_LOCATION
+from,one,Location,Cardinality,one rod from,1,3,O
+one,from,Cardinality,Location,one rod from,3,1,O
+from,remove,Location,Activity,remove one rod from,1,4,O
+remove,from,Activity,Location,remove one rod from,4,1,O
+rod,one,Item,Cardinality,one rod,2,3,HAS_CARDINALITY
+one,rod,Cardinality,Item,one rod,3,2,O
+rod,remove,Item,Activity,remove one rod,2,4,HAS_ACTIVITY
+remove,rod,Activity,Item,remove one rod,4,2,O
+one,remove,Cardinality,Activity,remove one,3,4,O
+remove,one,Activity,Cardinality,remove one,4,3,O
+seals,deck,Consumable,Item,deck seals,0,1,O
+deck,seals,Item,Consumable,deck seals,1,0,HAS_CONSUMABLE
+seals,order,Consumable,Activity,order deck seals,0,2,O
+order,seals,Activity,Consumable,order deck seals,2,0,O
+deck,order,Item,Activity,order deck,1,2,HAS_ACTIVITY
+order,deck,Activity,Item,order deck,2,1,O
+floor,under,Item,Location,under floor,0,1,HAS_LOCATION
+under,floor,Location,Item,under floor,1,0,O
+floor,retainer,Item,Item,retainer under floor,0,2,APPEARS_WITH
+retainer,floor,Item,Item,retainer under floor,2,0,O
+floor,replace,Item,Activity,replace retainer under floor,0,3,HAS_ACTIVITY
+replace,floor,Activity,Item,replace retainer under floor,3,0,O
+under,retainer,Location,Item,retainer under,1,2,O
+retainer,under,Item,Location,retainer under,2,1,HAS_LOCATION
+under,replace,Location,Activity,replace retainer under,1,3,O
+replace,under,Activity,Location,replace retainer under,3,1,O
+retainer,replace,Item,Activity,replace retainer,2,3,HAS_ACTIVITY
+replace,retainer,Activity,Item,replace retainer,3,2,O
+leaking,gland,Observation,Item,gland leaking,0,1,O
+gland,leaking,Item,Observation,gland leaking,1,0,HAS_OBSERVATION
+leaking,feed cylinder,Observation,Item,feed cylinder gland leaking,0,2,O
+feed cylinder,leaking,Item,Observation,feed cylinder gland leaking,2,0,HAS_OBSERVATION
+leaking,l/h,Observation,Location,l/h feed cylinder gland leaking,0,3,O
+l/h,leaking,Location,Observation,l/h feed cylinder gland leaking,3,0,O
+gland,feed cylinder,Item,Item,feed cylinder gland,1,2,O
+feed cylinder,gland,Item,Item,feed cylinder gland,2,1,APPEARS_WITH
+gland,l/h,Item,Location,l/h feed cylinder gland,1,3,HAS_LOCATION
+l/h,gland,Location,Item,l/h feed cylinder gland,3,1,O
+feed cylinder,l/h,Item,Location,l/h feed cylinder,2,3,HAS_LOCATION
+l/h,feed cylinder,Location,Item,l/h feed cylinder,3,2,O
+leak,oil,Observation,Consumable,oil leak,0,1,O
+oil,leak,Consumable,Observation,oil leak,1,0,O
+leak,carousel,Observation,Item,carousel oil leak,0,2,O
+carousel,leak,Item,Observation,carousel oil leak,2,0,HAS_OBSERVATION
+oil,carousel,Consumable,Item,carousel oil,1,2,O
+carousel,oil,Item,Consumable,carousel oil,2,1,HAS_CONSUMABLE
+air pressure,hole,Attribute,Item,hole air pressure,0,1,O
+hole,air pressure,Item,Attribute,hole air pressure,1,0,HAS_ATTRIBUTE
+air pressure,lost,Attribute,Observation,lost down hole air pressure,0,2,O
+lost,air pressure,Observation,Attribute,lost down hole air pressure,2,0,O
+hole,lost,Item,Observation,lost down hole,1,2,HAS_OBSERVATION
+lost,hole,Observation,Item,lost down hole,2,1,O
+not working,dash lights,Observation,Item,dash lights not working,0,1,O
+dash lights,not working,Item,Observation,dash lights not working,1,0,HAS_OBSERVATION
+not working,cycle timer,Observation,Item,cycle timer not working,0,1,O
+cycle timer,not working,Item,Observation,cycle timer not working,1,0,HAS_OBSERVATION
+not working,lube,Observation,Consumable,lube cycle timer not working,0,2,O
+lube,not working,Consumable,Observation,lube cycle timer not working,2,0,O
+cycle timer,lube,Item,Consumable,lube cycle timer,1,2,HAS_CONSUMABLE
+lube,cycle timer,Consumable,Item,lube cycle timer,2,1,O
+carsel,in to,Item,Location,in to carsel,0,1,HAS_LOCATION
+in to,carsel,Location,Item,in to carsel,1,0,O
+carsel,rod,Item,Item,rod back in to carsel,0,2,APPEARS_WITH
+rod,carsel,Item,Item,rod back in to carsel,2,0,O
+carsel,put,Item,Activity,put rod back in to carsel,0,3,HAS_ACTIVITY
+put,carsel,Activity,Item,put rod back in to carsel,3,0,O
+in to,rod,Location,Item,rod back in to,1,2,O
+rod,in to,Item,Location,rod back in to,2,1,HAS_LOCATION
+in to,put,Location,Activity,put rod back in to,1,3,O
+put,in to,Activity,Location,put rod back in to,3,1,O
+rod,put,Item,Activity,put rod,2,3,HAS_ACTIVITY
+put,rod,Activity,Item,put rod,3,2,O
+deck wrench,on,Item,Location,on deck wrench,0,1,HAS_LOCATION
+on,deck wrench,Location,Item,on deck wrench,1,0,O
+deck wrench,fitting,Item,Item,fitting on deck wrench,0,2,APPEARS_WITH
+fitting,deck wrench,Item,Item,fitting on deck wrench,2,0,O
+deck wrench,broken,Item,Observation,broken fitting on deck wrench,0,3,HAS_OBSERVATION
+broken,deck wrench,Observation,Item,broken fitting on deck wrench,3,0,O
+deck wrench,repair,Item,Activity,repair broken fitting on deck wrench,0,4,HAS_ACTIVITY
+repair,deck wrench,Activity,Item,repair broken fitting on deck wrench,4,0,O
+on,fitting,Location,Item,fitting on,1,2,O
+fitting,on,Item,Location,fitting on,2,1,HAS_LOCATION
+on,broken,Location,Observation,broken fitting on,1,3,O
+broken,on,Observation,Location,broken fitting on,3,1,O
+on,repair,Location,Activity,repair broken fitting on,1,4,O
+repair,on,Activity,Location,repair broken fitting on,4,1,O
+fitting,broken,Item,Observation,broken fitting,2,3,HAS_OBSERVATION
+broken,fitting,Observation,Item,broken fitting,3,2,O
+fitting,repair,Item,Activity,repair broken fitting,2,4,HAS_ACTIVITY
+repair,fitting,Activity,Item,repair broken fitting,4,2,O
+broken,repair,Observation,Activity,repair broken,3,4,O
+repair,broken,Activity,Observation,repair broken,4,3,O
+pipe positioner arm,broken,Item,Observation,broken pipe positioner arm,0,1,HAS_OBSERVATION
+broken,pipe positioner arm,Observation,Item,broken pipe positioner arm,1,0,O
+pipe positioner arm,clives pin,Item,Item,clives pin broken pipe positioner arm,0,2,O
+clives pin,pipe positioner arm,Item,Item,clives pin broken pipe positioner arm,2,0,APPEARS_WITH
+broken,clives pin,Observation,Item,clives pin broken,1,2,O
+clives pin,broken,Item,Observation,clives pin broken,2,1,HAS_OBSERVATION
+auxiliary box,@,Item,Location,@ auxiliary box,0,1,HAS_LOCATION
+@,auxiliary box,Location,Item,@ auxiliary box,1,0,O
+auxiliary box,vibration,Item,Observation,vibration @ auxiliary box,0,2,HAS_OBSERVATION
+vibration,auxiliary box,Observation,Item,vibration @ auxiliary box,2,0,O
+auxiliary box,leak,Item,Observation,leak and vibration @ auxiliary box,0,3,HAS_OBSERVATION
+leak,auxiliary box,Observation,Item,leak and vibration @ auxiliary box,3,0,O
+auxiliary box,oil,Item,Consumable,oil leak and vibration @ auxiliary box,0,4,HAS_CONSUMABLE
+oil,auxiliary box,Consumable,Item,oil leak and vibration @ auxiliary box,4,0,O
+@,vibration,Location,Observation,vibration @,1,2,O
+vibration,@,Observation,Location,vibration @,2,1,O
+@,leak,Location,Observation,leak and vibration @,1,3,O
+leak,@,Observation,Location,leak and vibration @,3,1,O
+@,oil,Location,Consumable,oil leak and vibration @,1,4,O
+oil,@,Consumable,Location,oil leak and vibration @,4,1,O
+vibration,leak,Observation,Observation,leak and vibration,2,3,O
+leak,vibration,Observation,Observation,leak and vibration,3,2,O
+vibration,oil,Observation,Consumable,oil leak and vibration,2,4,O
+oil,vibration,Consumable,Observation,oil leak and vibration,4,2,O
+leak,oil,Observation,Consumable,oil leak,3,4,O
+oil,leak,Consumable,Observation,oil leak,4,3,O
+hydraulic cooling fan,replace,Item,Activity,replace hydraulic cooling fan,0,1,HAS_ACTIVITY
+replace,hydraulic cooling fan,Activity,Item,replace hydraulic cooling fan,1,0,O
+30/07,x1,Time,Cardinality,x1 NA 30/07,0,1,O
+x1,30/07,Cardinality,Time,x1 NA 30/07,1,0,O
+30/07,labour,Time,Activity,labour x1 NA 30/07,0,2,O
+labour,30/07,Activity,Time,labour x1 NA 30/07,2,0,O
+30/07,krown,Time,Agent,krown labour x1 NA 30/07,0,3,O
+krown,30/07,Agent,Time,krown labour x1 NA 30/07,3,0,O
+x1,labour,Cardinality,Activity,labour x1,1,2,O
+labour,x1,Activity,Cardinality,labour x1,2,1,O
+x1,krown,Cardinality,Agent,krown labour x1,1,3,O
+krown,x1,Agent,Cardinality,krown labour x1,3,1,O
+labour,krown,Activity,Agent,krown labour,2,3,O
+krown,labour,Agent,Activity,krown labour,3,2,O
+stems,on,Item,Location,on stems,0,1,HAS_LOCATION
+on,stems,Location,Item,on stems,1,0,O
+stems,tight,Item,Observation,tight on stems,0,2,HAS_OBSERVATION
+tight,stems,Observation,Item,tight on stems,2,0,O
+stems,pipe support,Item,Item,pipe support tight on stems,0,3,O
+pipe support,stems,Item,Item,pipe support tight on stems,3,0,APPEARS_WITH
+on,tight,Location,Observation,tight on,1,2,O
+tight,on,Observation,Location,tight on,2,1,O
+on,pipe support,Location,Item,pipe support tight on,1,3,O
+pipe support,on,Item,Location,pipe support tight on,3,1,HAS_LOCATION
+tight,pipe support,Observation,Item,pipe support tight,2,3,O
+pipe support,tight,Item,Observation,pipe support tight,3,2,HAS_OBSERVATION
+walk way,on,Item,Location,on walk way,0,1,HAS_LOCATION
+on,walk way,Location,Item,on walk way,1,0,O
+walk way,light,Item,Item,light on walk way,0,2,O
+light,walk way,Item,Item,light on walk way,2,0,APPEARS_WITH
+walk way,replace,Item,Activity,replace light on walk way,0,3,HAS_ACTIVITY
+replace,walk way,Activity,Item,replace light on walk way,3,0,O
+on,light,Location,Item,light on,1,2,O
+light,on,Item,Location,light on,2,1,HAS_LOCATION
+on,replace,Location,Activity,replace light on,1,3,O
+replace,on,Activity,Location,replace light on,3,1,O
+light,replace,Item,Activity,replace light,2,3,HAS_ACTIVITY
+replace,light,Activity,Item,replace light,3,2,O
+22/07/09,x6,Time,Cardinality,x6 NA 22/07/09,0,1,O
+x6,22/07/09,Cardinality,Time,x6 NA 22/07/09,1,0,O
+22/07/09,mem,Time,Agent,mem labour x6 NA 22/07/09,0,2,O
+mem,22/07/09,Agent,Time,mem labour x6 NA 22/07/09,2,0,O
+x6,mem,Cardinality,Agent,mem labour x6,1,2,O
+mem,x6,Agent,Cardinality,mem labour x6,2,1,O
+reamer,extension,Item,Item,extension & reamer,0,1,O
+extension,reamer,Item,Item,extension & reamer,1,0,APPEARS_WITH
+reamer,new,Item,Specifier,new extension & reamer,0,2,HAS_SPECIFIER
+new,reamer,Specifier,Item,new extension & reamer,2,0,O
+reamer,fit,Item,Activity,fit new extension & reamer,0,3,HAS_ACTIVITY
+fit,reamer,Activity,Item,fit new extension & reamer,3,0,O
+extension,new,Item,Specifier,new extension,1,2,HAS_SPECIFIER
+new,extension,Specifier,Item,new extension,2,1,O
+extension,fit,Item,Activity,fit new extension,1,3,HAS_ACTIVITY
+fit,extension,Activity,Item,fit new extension,3,1,O
+new,fit,Specifier,Activity,fit new,2,3,O
+fit,new,Activity,Specifier,fit new,3,2,O
+seal,deck,Item,Item,deck seal,0,1,O
+deck,seal,Item,Item,deck seal,1,0,APPEARS_WITH
+seal,chip deflector,Item,Item,chip deflector & deck seal,0,2,O
+chip deflector,seal,Item,Item,chip deflector & deck seal,2,0,APPEARS_WITH
+seal,replace,Item,Activity,replace chip deflector & deck seal,0,3,HAS_ACTIVITY
+replace,seal,Activity,Item,replace chip deflector & deck seal,3,0,O
+deck,chip deflector,Item,Item,chip deflector & deck,1,2,O
+chip deflector,deck,Item,Item,chip deflector & deck,2,1,APPEARS_WITH
+deck,replace,Item,Activity,replace chip deflector & deck,1,3,HAS_ACTIVITY
+replace,deck,Activity,Item,replace chip deflector & deck,3,1,O
+chip deflector,replace,Item,Activity,replace chip deflector,2,3,HAS_ACTIVITY
+replace,chip deflector,Activity,Item,replace chip deflector,3,2,O
+machine,on,Item,Location,on machine,0,1,HAS_LOCATION
+on,machine,Location,Item,on machine,1,0,O
+machine,leaks,Item,Observation,leaks on machine,0,2,HAS_OBSERVATION
+leaks,machine,Observation,Item,leaks on machine,2,0,O
+machine,oil,Item,Consumable,oil leaks on machine,0,3,HAS_CONSUMABLE
+oil,machine,Consumable,Item,oil leaks on machine,3,0,O
+machine,numerous,Item,Cardinality,numerous oil leaks on machine,0,4,HAS_CARDINALITY
+numerous,machine,Cardinality,Item,numerous oil leaks on machine,4,0,O
+on,leaks,Location,Observation,leaks on,1,2,O
+leaks,on,Observation,Location,leaks on,2,1,O
+on,oil,Location,Consumable,oil leaks on,1,3,O
+oil,on,Consumable,Location,oil leaks on,3,1,O
+on,numerous,Location,Cardinality,numerous oil leaks on,1,4,O
+numerous,on,Cardinality,Location,numerous oil leaks on,4,1,O
+leaks,oil,Observation,Consumable,oil leaks,2,3,O
+oil,leaks,Consumable,Observation,oil leaks,3,2,O
+leaks,numerous,Observation,Cardinality,numerous oil leaks,2,4,O
+numerous,leaks,Cardinality,Observation,numerous oil leaks,4,2,O
+oil,numerous,Consumable,Cardinality,numerous oil,3,4,O
+numerous,oil,Cardinality,Consumable,numerous oil,4,3,O
+driveshaft,on,Item,Location,on driveshaft,0,1,HAS_LOCATION
+on,driveshaft,Location,Item,on driveshaft,1,0,O
+driveshaft,grease nipple,Item,Item,grease nipple on driveshaft,0,2,APPEARS_WITH
+grease nipple,driveshaft,Item,Item,grease nipple on driveshaft,2,0,O
+driveshaft,change,Item,Activity,change grease nipple on driveshaft,0,3,HAS_ACTIVITY
+change,driveshaft,Activity,Item,change grease nipple on driveshaft,3,0,O
+on,grease nipple,Location,Item,grease nipple on,1,2,O
+grease nipple,on,Item,Location,grease nipple on,2,1,HAS_LOCATION
+on,change,Location,Activity,change grease nipple on,1,3,O
+change,on,Activity,Location,change grease nipple on,3,1,O
+grease nipple,change,Item,Activity,change grease nipple,2,3,HAS_ACTIVITY
+change,grease nipple,Activity,Item,change grease nipple,3,2,O
+creeaping down,head,Observation,Item,head creeaping down,0,1,O
+head,creeaping down,Item,Observation,head creeaping down,1,0,HAS_OBSERVATION
+won " t work.,jacks,Observation,Item,jacks won " t work.,0,1,O
+jacks,won " t work.,Item,Observation,jacks won " t work.,1,0,HAS_OBSERVATION
+adaptor,fan,Item,Item,fan adaptor,0,1,APPEARS_WITH
+fan,adaptor,Item,Item,fan adaptor,1,0,O
+adaptor,rh,Item,Location,rh fan adaptor,0,2,HAS_LOCATION
+rh,adaptor,Location,Item,rh fan adaptor,2,0,O
+adaptor,drain bung,Item,Item,drain bung rh fan adaptor,0,3,APPEARS_WITH
+drain bung,adaptor,Item,Item,drain bung rh fan adaptor,3,0,O
+adaptor,replace,Item,Activity,replace drain bung rh fan adaptor,0,4,HAS_ACTIVITY
+replace,adaptor,Activity,Item,replace drain bung rh fan adaptor,4,0,O
+fan,rh,Item,Location,rh fan,1,2,HAS_LOCATION
+rh,fan,Location,Item,rh fan,2,1,O
+fan,drain bung,Item,Item,drain bung rh fan,1,3,O
+drain bung,fan,Item,Item,drain bung rh fan,3,1,APPEARS_WITH
+fan,replace,Item,Activity,replace drain bung rh fan,1,4,HAS_ACTIVITY
+replace,fan,Activity,Item,replace drain bung rh fan,4,1,O
+rh,drain bung,Location,Item,drain bung rh,2,3,O
+drain bung,rh,Item,Location,drain bung rh,3,2,HAS_LOCATION
+rh,replace,Location,Activity,replace drain bung rh,2,4,O
+replace,rh,Activity,Location,replace drain bung rh,4,2,O
+drain bung,replace,Item,Activity,replace drain bung,3,4,HAS_ACTIVITY
+replace,drain bung,Activity,Item,replace drain bung,4,3,O
+slow,jacks,Observation,Item,jacks slow,0,1,O
+jacks,slow,Item,Observation,jacks slow,1,0,HAS_OBSERVATION
+wo n't start,engine,Observation,Item,engine wo n't start,0,1,O
+engine,wo n't start,Item,Observation,engine wo n't start,1,0,HAS_OBSERVATION
+cracked,pipe,Observation,Item,pipe cracked,0,1,O
+pipe,cracked,Item,Observation,pipe cracked,1,0,HAS_OBSERVATION
+cracked,feed,Observation,Item,feed pipe cracked,0,2,O
+feed,cracked,Item,Observation,feed pipe cracked,2,0,HAS_OBSERVATION
+pipe,feed,Item,Item,feed pipe,1,2,O
+feed,pipe,Item,Item,feed pipe,2,1,APPEARS_WITH
+hydraulic hose,blown,Item,Observation,blown hydraulic hose,0,1,HAS_OBSERVATION
+blown,hydraulic hose,Observation,Item,blown hydraulic hose,1,0,O
+u/s,rotation motor,Observation,Item,rotation motor u/s,0,1,O
+rotation motor,u/s,Item,Observation,rotation motor u/s,1,0,HAS_OBSERVATION
+u/s,lh,Observation,Location,lh rotation motor u/s,0,2,O
+lh,u/s,Location,Observation,lh rotation motor u/s,2,0,O
+rotation motor,lh,Item,Location,lh rotation motor,1,2,HAS_LOCATION
+lh,rotation motor,Location,Item,lh rotation motor,2,1,O
+adjuster,pulldown chain,Item,Item,pulldown chain adjuster,0,1,APPEARS_WITH
+pulldown chain,adjuster,Item,Item,pulldown chain adjuster,1,0,O
+adjuster,on,Item,Location,on pulldown chain adjuster,0,2,HAS_LOCATION
+on,adjuster,Location,Item,on pulldown chain adjuster,2,0,O
+adjuster,hose,Item,Item,hose on pulldown chain adjuster,0,3,APPEARS_WITH
+hose,adjuster,Item,Item,hose on pulldown chain adjuster,3,0,O
+adjuster,replace,Item,Activity,replace hose on pulldown chain adjuster,0,4,HAS_ACTIVITY
+replace,adjuster,Activity,Item,replace hose on pulldown chain adjuster,4,0,O
+pulldown chain,on,Item,Location,on pulldown chain,1,2,HAS_LOCATION
+on,pulldown chain,Location,Item,on pulldown chain,2,1,O
+pulldown chain,hose,Item,Item,hose on pulldown chain,1,3,O
+hose,pulldown chain,Item,Item,hose on pulldown chain,3,1,APPEARS_WITH
+pulldown chain,replace,Item,Activity,replace hose on pulldown chain,1,4,HAS_ACTIVITY
+replace,pulldown chain,Activity,Item,replace hose on pulldown chain,4,1,O
+on,hose,Location,Item,hose on,2,3,O
+hose,on,Item,Location,hose on,3,2,HAS_LOCATION
+on,replace,Location,Activity,replace hose on,2,4,O
+replace,on,Activity,Location,replace hose on,4,2,O
+hose,replace,Item,Activity,replace hose,3,4,HAS_ACTIVITY
+replace,hose,Activity,Item,replace hose,4,3,O
+leaking,feed cylinder,Observation,Item,feed cylinder leaking,0,1,O
+feed cylinder,leaking,Item,Observation,feed cylinder leaking,1,0,HAS_OBSERVATION
+leaking,lh,Observation,Location,lh feed cylinder leaking,0,2,O
+lh,leaking,Location,Observation,lh feed cylinder leaking,2,0,O
+feed cylinder,lh,Item,Location,lh feed cylinder,1,2,HAS_LOCATION
+lh,feed cylinder,Location,Item,lh feed cylinder,2,1,O
+fire suppression,service,Item,Activity,service fire suppression,0,1,HAS_ACTIVITY
+service,fire suppression,Activity,Item,service fire suppression,1,0,O
+fire suppression,chubb,Item,Agent,chubb service fire suppression,0,2,HAS_AGENT
+chubb,fire suppression,Agent,Item,chubb service fire suppression,2,0,O
+service,chubb,Activity,Agent,chubb service,1,2,O
+chubb,service,Agent,Activity,chubb service,2,1,O
+view window,on top,Item,Location,on top view window,0,1,HAS_LOCATION
+on top,view window,Location,Item,on top view window,1,0,O
+view window,water trap,Item,Item,water trap needed on top view window,0,2,APPEARS_WITH
+water trap,view window,Item,Item,water trap needed on top view window,2,0,O
+on top,water trap,Location,Item,water trap needed on top,1,2,O
+water trap,on top,Item,Location,water trap needed on top,2,1,HAS_LOCATION
+pulldown chains,check,Item,Activity,check pulldown chains,0,1,HAS_ACTIVITY
+check,pulldown chains,Activity,Item,check pulldown chains,1,0,O
+11/07,repair,Time,Activity,repair NA 11/07,0,1,O
+repair,11/07,Activity,Time,repair NA 11/07,1,0,O
+11/07,hose,Time,Item,hose repair NA 11/07,0,2,O
+hose,11/07,Item,Time,hose repair NA 11/07,2,0,HAS_TIME
+11/07,manufacturer24,Time,Agent,manufacturer24 hose repair NA 11/07,0,3,O
+manufacturer24,11/07,Agent,Time,manufacturer24 hose repair NA 11/07,3,0,O
+repair,hose,Activity,Item,hose repair,1,2,O
+hose,repair,Item,Activity,hose repair,2,1,HAS_ACTIVITY
+repair,manufacturer24,Activity,Agent,manufacturer24 hose repair,1,3,O
+manufacturer24,repair,Agent,Activity,manufacturer24 hose repair,3,1,O
+hose,manufacturer24,Item,Agent,manufacturer24 hose,2,3,HAS_AGENT
+manufacturer24,hose,Agent,Item,manufacturer24 hose,3,2,O
+staying on,light,Observation,Item,light staying on,0,1,O
+light,staying on,Item,Observation,light staying on,1,0,HAS_OBSERVATION
+staying on,lock,Observation,Item,lock light staying on,0,2,O
+lock,staying on,Item,Observation,lock light staying on,2,0,HAS_OBSERVATION
+staying on,mast,Observation,Item,mast lock light staying on,0,3,O
+mast,staying on,Item,Observation,mast lock light staying on,3,0,HAS_OBSERVATION
+light,lock,Item,Item,lock light,1,2,APPEARS_WITH
+lock,light,Item,Item,lock light,2,1,O
+light,mast,Item,Item,mast lock light,1,3,APPEARS_WITH
+mast,light,Item,Item,mast lock light,3,1,O
+lock,mast,Item,Item,mast lock,2,3,APPEARS_WITH
+mast,lock,Item,Item,mast lock,3,2,O
+rod,remove,Item,Activity,remove rod,0,1,HAS_ACTIVITY
+remove,rod,Activity,Item,remove rod,1,0,O
+worn,mountings,Observation,Item,mountings worn,0,1,O
+mountings,worn,Item,Observation,mountings worn,1,0,HAS_OBSERVATION
+worn,equiliser bar,Observation,Item,equiliser bar mountings worn,0,2,O
+equiliser bar,worn,Item,Observation,equiliser bar mountings worn,2,0,HAS_OBSERVATION
+mountings,equiliser bar,Item,Item,equiliser bar mountings,1,2,O
+equiliser bar,mountings,Item,Item,equiliser bar mountings,2,1,APPEARS_WITH
+30/07,inspection,Time,Activity,inspection NA 30/07,0,1,O
+inspection,30/07,Activity,Time,inspection NA 30/07,1,0,O
+30/07,hose,Time,Item,hose inspection NA 30/07,0,2,O
+hose,30/07,Item,Time,hose inspection NA 30/07,2,0,HAS_TIME
+30/07,manufacturer24,Time,Agent,manufacturer24 hose inspection NA 30/07,0,3,O
+manufacturer24,30/07,Agent,Time,manufacturer24 hose inspection NA 30/07,3,0,O
+inspection,hose,Activity,Item,hose inspection,1,2,O
+hose,inspection,Item,Activity,hose inspection,2,1,HAS_ACTIVITY
+inspection,manufacturer24,Activity,Agent,manufacturer24 hose inspection,1,3,O
+manufacturer24,inspection,Agent,Activity,manufacturer24 hose inspection,3,1,O
+hose,manufacturer24,Item,Agent,manufacturer24 hose,2,3,HAS_AGENT
+manufacturer24,hose,Agent,Item,manufacturer24 hose,3,2,O
+rotation line,blown,Item,Observation,blown rotation line,0,1,HAS_OBSERVATION
+blown,rotation line,Observation,Item,blown rotation line,1,0,O
+jack,rear left,Item,Location,rear left jack,0,1,HAS_LOCATION
+rear left,jack,Location,Item,rear left jack,1,0,O
+jack,guide,Item,Item,guide rear left jack,0,2,O
+guide,jack,Item,Item,guide rear left jack,2,0,APPEARS_WITH
+jack,reweld,Item,Activity,reweld guide rear left jack,0,3,HAS_ACTIVITY
+reweld,jack,Activity,Item,reweld guide rear left jack,3,0,O
+rear left,guide,Location,Item,guide rear left,1,2,O
+guide,rear left,Item,Location,guide rear left,2,1,HAS_LOCATION
+rear left,reweld,Location,Activity,reweld guide rear left,1,3,O
+reweld,rear left,Activity,Location,reweld guide rear left,3,1,O
+guide,reweld,Item,Activity,reweld guide,2,3,HAS_ACTIVITY
+reweld,guide,Activity,Item,reweld guide,3,2,O
+u/s,drive shaft,Observation,Item,drive shaft u/s,0,1,O
+drive shaft,u/s,Item,Observation,drive shaft u/s,1,0,HAS_OBSERVATION
+u/s,front,Observation,Location,front drive shaft u/s,0,2,O
+front,u/s,Location,Observation,front drive shaft u/s,2,0,O
+drive shaft,front,Item,Location,front drive shaft,1,2,HAS_LOCATION
+front,drive shaft,Location,Item,front drive shaft,2,1,O
+feed chains,adj,Item,Activity,adj feed chains,0,1,HAS_ACTIVITY
+adj,feed chains,Activity,Item,adj feed chains,1,0,O
+sub,turn,Item,Activity,turn sub,0,1,HAS_ACTIVITY
+turn,sub,Activity,Item,turn sub,1,0,O
+not working,holding wrench,Observation,Item,holding wrench not working,0,1,O
+holding wrench,not working,Item,Observation,holding wrench not working,1,0,HAS_OBSERVATION
+hot,pump drive,Observation,Item,pump drive hot,0,1,O
+pump drive,hot,Item,Observation,pump drive hot,1,0,HAS_OBSERVATION
+hot,rear,Observation,Location,rear pump drive hot,0,2,O
+rear,hot,Location,Observation,rear pump drive hot,2,0,O
+pump drive,rear,Item,Location,rear pump drive,1,2,HAS_LOCATION
+rear,pump drive,Location,Item,rear pump drive,2,1,O
+electrical fault,shutting down,Observation,Activity,shutting down electrical fault,0,1,O
+shutting down,electrical fault,Activity,Observation,shutting down electrical fault,1,0,O
+electrical fault,machine,Observation,Item,machine shutting down electrical fault,0,2,O
+machine,electrical fault,Item,Observation,machine shutting down electrical fault,2,0,HAS_OBSERVATION
+shutting down,machine,Activity,Item,machine shutting down,1,2,O
+machine,shutting down,Item,Activity,machine shutting down,2,1,HAS_ACTIVITY
+ram,positioner arm,Item,Item,positioner arm ram,0,1,O
+positioner arm,ram,Item,Item,positioner arm ram,1,0,APPEARS_WITH
+ram,check,Item,Activity,check positioner arm ram,0,2,HAS_ACTIVITY
+check,ram,Activity,Item,check positioner arm ram,2,0,O
+positioner arm,check,Item,Activity,check positioner arm,1,2,HAS_ACTIVITY
+check,positioner arm,Activity,Item,check positioner arm,2,1,O
+fill point,fuel,Location,Consumable,fuel fill point,0,1,O
+fuel,fill point,Consumable,Location,fuel fill point,1,0,O
+fill point,@,Location,Location,@ fuel fill point,0,2,O
+@,fill point,Location,Location,@ fuel fill point,2,0,O
+fill point,no labeling,Location,Observation,no labeling @ fuel fill point,0,3,O
+no labeling,fill point,Observation,Location,no labeling @ fuel fill point,3,0,O
+fuel,@,Consumable,Location,@ fuel,1,2,O
+@,fuel,Location,Consumable,@ fuel,2,1,O
+fuel,no labeling,Consumable,Observation,no labeling @ fuel,1,3,O
+no labeling,fuel,Observation,Consumable,no labeling @ fuel,3,1,O
+@,no labeling,Location,Observation,no labeling @,2,3,O
+no labeling,@,Observation,Location,no labeling @,3,2,O
+tram hose,lhs,Item,Location,lhs tram hose,0,1,HAS_LOCATION
+lhs,tram hose,Location,Item,lhs tram hose,1,0,O
+tram hose,replace,Item,Activity,replace lhs tram hose,0,2,HAS_ACTIVITY
+replace,tram hose,Activity,Item,replace lhs tram hose,2,0,O
+lhs,replace,Location,Activity,replace lhs,1,2,O
+replace,lhs,Activity,Location,replace lhs,2,1,O
+getting stiff,emergency step,Observation,Item,emergency step getting stiff,0,1,O
+emergency step,getting stiff,Item,Observation,emergency step getting stiff,1,0,HAS_OBSERVATION
+getting stiff,front,Observation,Location,front emergency step getting stiff,0,2,O
+front,getting stiff,Location,Observation,front emergency step getting stiff,2,0,O
+emergency step,front,Item,Location,front emergency step,1,2,HAS_LOCATION
+front,emergency step,Location,Item,front emergency step,2,1,O
+weeping,breakout cylinder,Observation,Item,breakout cylinder weeping,0,1,O
+breakout cylinder,weeping,Item,Observation,breakout cylinder weeping,1,0,HAS_OBSERVATION
+oil,making,Consumable,Observation,making oil,0,1,O
+making,oil,Observation,Consumable,making oil,1,0,O
+oil,pump box,Consumable,Item,pump box making oil,0,2,O
+pump box,oil,Item,Consumable,pump box making oil,2,0,HAS_CONSUMABLE
+oil,main,Consumable,Specifier,main pump box making oil,0,3,O
+main,oil,Specifier,Consumable,main pump box making oil,3,0,O
+making,pump box,Observation,Item,pump box making,1,2,O
+pump box,making,Item,Observation,pump box making,2,1,HAS_OBSERVATION
+making,main,Observation,Specifier,main pump box making,1,3,O
+main,making,Specifier,Observation,main pump box making,3,1,O
+pump box,main,Item,Specifier,main pump box,2,3,HAS_SPECIFIER
+main,pump box,Specifier,Item,main pump box,3,2,O
+clamp,exhaust,Item,Item,exhaust clamp,0,1,APPEARS_WITH
+exhaust,clamp,Item,Item,exhaust clamp,1,0,O
+clamp,repair,Item,Activity,repair exhaust clamp,0,2,HAS_ACTIVITY
+repair,clamp,Activity,Item,repair exhaust clamp,2,0,O
+exhaust,repair,Item,Activity,repair exhaust,1,2,HAS_ACTIVITY
+repair,exhaust,Activity,Item,repair exhaust,2,1,O
+on,filter light,Observation,Item,filter light on,0,1,O
+filter light,on,Item,Observation,filter light on,1,0,HAS_OBSERVATION
+on,separator,Observation,Item,separator filter light on,0,2,O
+separator,on,Item,Observation,separator filter light on,2,0,HAS_OBSERVATION
+filter light,separator,Item,Item,separator filter light,1,2,APPEARS_WITH
+separator,filter light,Item,Item,separator filter light,2,1,O
+catching,head slide,Observation,Item,head slide catching,0,1,O
+head slide,catching,Item,Observation,head slide catching,1,0,HAS_OBSERVATION
+catching,on,Observation,Location,on head slide catching,0,2,O
+on,catching,Location,Observation,on head slide catching,2,0,O
+catching,loose,Observation,Observation,loose bolt on head slide catching,0,3,O
+loose,catching,Observation,Observation,loose bolt on head slide catching,3,0,O
+head slide,on,Item,Location,on head slide,1,2,HAS_LOCATION
+on,head slide,Location,Item,on head slide,2,1,O
+head slide,loose,Item,Observation,loose bolt on head slide,1,3,HAS_OBSERVATION
+loose,head slide,Observation,Item,loose bolt on head slide,3,1,O
+on,loose,Location,Observation,loose bolt on,2,3,O
+loose,on,Observation,Location,loose bolt on,3,2,O
+not making enough,compressor,Observation,Item,compressor not making enough,0,1,O
+compressor,not making enough,Item,Observation,compressor not making enough,1,0,HAS_OBSERVATION
+to front,appears,Observation,Observation,appears back to front,0,1,O
+appears,to front,Observation,Observation,appears back to front,1,0,O
+to front,function,Observation,Item,function appears back to front,0,2,O
+function,to front,Item,Observation,function appears back to front,2,0,HAS_OBSERVATION
+to front,breakout,Observation,Item,breakout function appears back to front,0,3,O
+breakout,to front,Item,Observation,breakout function appears back to front,3,0,HAS_OBSERVATION
+appears,function,Observation,Item,function appears,1,2,O
+function,appears,Item,Observation,function appears,2,1,HAS_OBSERVATION
+appears,breakout,Observation,Item,breakout function appears,1,3,O
+breakout,appears,Item,Observation,breakout function appears,3,1,HAS_OBSERVATION
+function,breakout,Item,Item,breakout function,2,3,O
+breakout,function,Item,Item,breakout function,3,2,APPEARS_WITH
+drill,inspection,Item,Activity,inspection of drill,0,1,HAS_ACTIVITY
+inspection,drill,Activity,Item,inspection of drill,1,0,O
+drill,monitoring,Item,Activity,monitoring , inspection of drill,0,2,HAS_ACTIVITY
+monitoring,drill,Activity,Item,monitoring , inspection of drill,2,0,O
+drill,hastings,Item,Agent,hastings monitoring , inspection of drill,0,3,HAS_AGENT
+hastings,drill,Agent,Item,hastings monitoring , inspection of drill,3,0,O
+inspection,monitoring,Activity,Activity,monitoring , inspection,1,2,O
+monitoring,inspection,Activity,Activity,monitoring , inspection,2,1,O
+inspection,hastings,Activity,Agent,hastings monitoring , inspection,1,3,O
+hastings,inspection,Agent,Activity,hastings monitoring , inspection,3,1,O
+monitoring,hastings,Activity,Agent,hastings monitoring,2,3,O
+hastings,monitoring,Agent,Activity,hastings monitoring,3,2,O
+leaks,pipework,Observation,Item,pipework for leaks,0,1,O
+pipework,leaks,Item,Observation,pipework for leaks,1,0,HAS_OBSERVATION
+leaks,check,Observation,Activity,check pipework for leaks,0,2,O
+check,leaks,Activity,Observation,check pipework for leaks,2,0,O
+pipework,check,Item,Activity,check pipework,1,2,HAS_ACTIVITY
+check,pipework,Activity,Item,check pipework,2,1,O
+fork hose,in,Item,Location,in fork hose,0,1,HAS_LOCATION
+in,fork hose,Location,Item,in fork hose,1,0,O
+fork hose,staple lock,Item,Item,staple lock in fork hose,0,2,APPEARS_WITH
+staple lock,fork hose,Item,Item,staple lock in fork hose,2,0,O
+fork hose,replace,Item,Activity,replace staple lock in fork hose,0,3,HAS_ACTIVITY
+replace,fork hose,Activity,Item,replace staple lock in fork hose,3,0,O
+in,staple lock,Location,Item,staple lock in,1,2,O
+staple lock,in,Item,Location,staple lock in,2,1,HAS_LOCATION
+in,replace,Location,Activity,replace staple lock in,1,3,O
+replace,in,Activity,Location,replace staple lock in,3,1,O
+staple lock,replace,Item,Activity,replace staple lock,2,3,HAS_ACTIVITY
+replace,staple lock,Activity,Item,replace staple lock,3,2,O
+size,bolt,Attribute,Item,bolt size,0,1,O
+bolt,size,Item,Attribute,bolt size,1,0,HAS_ATTRIBUTE
+size,pivot,Attribute,Item,pivot bolt size,0,2,O
+pivot,size,Item,Attribute,pivot bolt size,2,0,HAS_ATTRIBUTE
+size,mast,Attribute,Item,mast pivot bolt size,0,3,O
+mast,size,Item,Attribute,mast pivot bolt size,3,0,HAS_ATTRIBUTE
+size,measure,Attribute,Activity,measure mast pivot bolt size,0,4,O
+measure,size,Activity,Attribute,measure mast pivot bolt size,4,0,O
+bolt,pivot,Item,Item,pivot bolt,1,2,APPEARS_WITH
+pivot,bolt,Item,Item,pivot bolt,2,1,O
+bolt,mast,Item,Item,mast pivot bolt,1,3,APPEARS_WITH
+mast,bolt,Item,Item,mast pivot bolt,3,1,O
+bolt,measure,Item,Activity,measure mast pivot bolt,1,4,HAS_ACTIVITY
+measure,bolt,Activity,Item,measure mast pivot bolt,4,1,O
+pivot,mast,Item,Item,mast pivot,2,3,O
+mast,pivot,Item,Item,mast pivot,3,2,APPEARS_WITH
+pivot,measure,Item,Activity,measure mast pivot,2,4,HAS_ACTIVITY
+measure,pivot,Activity,Item,measure mast pivot,4,2,O
+mast,measure,Item,Activity,measure mast,3,4,HAS_ACTIVITY
+measure,mast,Activity,Item,measure mast,4,3,O
+mount,at,Item,Location,at mount,0,1,HAS_LOCATION
+at,mount,Location,Item,at mount,1,0,O
+mount,pump,Item,Item,pump at mount,0,2,APPEARS_WITH
+pump,mount,Item,Item,pump at mount,2,0,O
+mount,acc,Item,Item,acc pump at mount,0,3,O
+acc,mount,Item,Item,acc pump at mount,3,0,APPEARS_WITH
+mount,leak,Item,Observation,leak acc pump at mount,0,4,HAS_OBSERVATION
+leak,mount,Observation,Item,leak acc pump at mount,4,0,O
+mount,oil,Item,Consumable,oil leak acc pump at mount,0,5,HAS_CONSUMABLE
+oil,mount,Consumable,Item,oil leak acc pump at mount,5,0,O
+at,pump,Location,Item,pump at,1,2,O
+pump,at,Item,Location,pump at,2,1,HAS_LOCATION
+at,acc,Location,Item,acc pump at,1,3,O
+acc,at,Item,Location,acc pump at,3,1,HAS_LOCATION
+at,leak,Location,Observation,leak acc pump at,1,4,O
+leak,at,Observation,Location,leak acc pump at,4,1,O
+at,oil,Location,Consumable,oil leak acc pump at,1,5,O
+oil,at,Consumable,Location,oil leak acc pump at,5,1,O
+pump,acc,Item,Item,acc pump,2,3,O
+acc,pump,Item,Item,acc pump,3,2,APPEARS_WITH
+pump,leak,Item,Observation,leak acc pump,2,4,HAS_OBSERVATION
+leak,pump,Observation,Item,leak acc pump,4,2,O
+pump,oil,Item,Consumable,oil leak acc pump,2,5,HAS_CONSUMABLE
+oil,pump,Consumable,Item,oil leak acc pump,5,2,O
+acc,leak,Item,Observation,leak acc,3,4,HAS_OBSERVATION
+leak,acc,Observation,Item,leak acc,4,3,O
+acc,oil,Item,Consumable,oil leak acc,3,5,HAS_CONSUMABLE
+oil,acc,Consumable,Item,oil leak acc,5,3,O
+leak,oil,Observation,Consumable,oil leak,4,5,O
+oil,leak,Consumable,Observation,oil leak,5,4,O
+dms panel,on,Item,Location,on dms panel,0,1,HAS_LOCATION
+on,dms panel,Location,Item,on dms panel,1,0,O
+dms panel,alarm,Item,Item,alarm on dms panel,0,2,O
+alarm,dms panel,Item,Item,alarm on dms panel,2,0,APPEARS_WITH
+dms panel,oil,Item,Consumable,oil alarm on dms panel,0,3,HAS_CONSUMABLE
+oil,dms panel,Consumable,Item,oil alarm on dms panel,3,0,O
+dms panel,check,Item,Activity,check oil alarm on dms panel,0,4,HAS_ACTIVITY
+check,dms panel,Activity,Item,check oil alarm on dms panel,4,0,O
+on,alarm,Location,Item,alarm on,1,2,O
+alarm,on,Item,Location,alarm on,2,1,HAS_LOCATION
+on,oil,Location,Consumable,oil alarm on,1,3,O
+oil,on,Consumable,Location,oil alarm on,3,1,O
+on,check,Location,Activity,check oil alarm on,1,4,O
+check,on,Activity,Location,check oil alarm on,4,1,O
+alarm,oil,Item,Consumable,oil alarm,2,3,HAS_CONSUMABLE
+oil,alarm,Consumable,Item,oil alarm,3,2,O
+alarm,check,Item,Activity,check oil alarm,2,4,HAS_ACTIVITY
+check,alarm,Activity,Item,check oil alarm,4,2,O
+oil,check,Consumable,Activity,check oil,3,4,O
+check,oil,Activity,Consumable,check oil,4,3,O
+latching relays,replace,Item,Activity,replace latching relays,0,1,HAS_ACTIVITY
+replace,latching relays,Activity,Item,replace latching relays,1,0,O
+latching relays,order,Item,Activity,order / replace latching relays,0,2,HAS_ACTIVITY
+order,latching relays,Activity,Item,order / replace latching relays,2,0,O
+replace,order,Activity,Activity,order / replace,1,2,O
+order,replace,Activity,Activity,order / replace,2,1,O
+compressor oil alarm.,low,Item,Observation,low compressor oil alarm.,0,1,HAS_OBSERVATION
+low,compressor oil alarm.,Observation,Item,low compressor oil alarm.,1,0,O
+compressor oil alarm.,cutting out,Item,Observation,cutting out on low compressor oil alarm.,0,2,HAS_OBSERVATION
+cutting out,compressor oil alarm.,Observation,Item,cutting out on low compressor oil alarm.,2,0,O
+low,cutting out,Observation,Observation,cutting out on low,1,2,O
+cutting out,low,Observation,Observation,cutting out on low,2,1,O
+fire extinguisher,relocate,Item,Activity,relocate fire extinguisher,0,1,HAS_ACTIVITY
+relocate,fire extinguisher,Activity,Item,relocate fire extinguisher,1,0,O
+hoses,wrench,Item,Item,wrench hoses,0,1,APPEARS_WITH
+wrench,hoses,Item,Item,wrench hoses,1,0,O
+hoses,deck,Item,Item,deck wrench hoses,0,2,O
+deck,hoses,Item,Item,deck wrench hoses,2,0,APPEARS_WITH
+hoses,relocate,Item,Activity,relocate deck wrench hoses,0,3,HAS_ACTIVITY
+relocate,hoses,Activity,Item,relocate deck wrench hoses,3,0,O
+wrench,deck,Item,Item,deck wrench,1,2,O
+deck,wrench,Item,Item,deck wrench,2,1,APPEARS_WITH
+wrench,relocate,Item,Activity,relocate deck wrench,1,3,HAS_ACTIVITY
+relocate,wrench,Activity,Item,relocate deck wrench,3,1,O
+deck,relocate,Item,Activity,relocate deck,2,3,HAS_ACTIVITY
+relocate,deck,Activity,Item,relocate deck,3,2,O
+mast,on,Item,Location,on mast,0,1,HAS_LOCATION
+on,mast,Location,Item,on mast,1,0,O
+mast,hoses,Item,Item,hoses on mast,0,2,O
+hoses,mast,Item,Item,hoses on mast,2,0,APPEARS_WITH
+mast,check,Item,Activity,check hoses on mast,0,3,HAS_ACTIVITY
+check,mast,Activity,Item,check hoses on mast,3,0,O
+mast,hastings,Item,Agent,hastings check hoses on mast,0,4,HAS_AGENT
+hastings,mast,Agent,Item,hastings check hoses on mast,4,0,O
+on,hoses,Location,Item,hoses on,1,2,O
+hoses,on,Item,Location,hoses on,2,1,HAS_LOCATION
+on,check,Location,Activity,check hoses on,1,3,O
+check,on,Activity,Location,check hoses on,3,1,O
+on,hastings,Location,Agent,hastings check hoses on,1,4,O
+hastings,on,Agent,Location,hastings check hoses on,4,1,O
+hoses,check,Item,Activity,check hoses,2,3,HAS_ACTIVITY
+check,hoses,Activity,Item,check hoses,3,2,O
+hoses,hastings,Item,Agent,hastings check hoses,2,4,HAS_AGENT
+hastings,hoses,Agent,Item,hastings check hoses,4,2,O
+check,hastings,Activity,Agent,hastings check,3,4,O
+hastings,check,Agent,Activity,hastings check,4,3,O
+slap wrench,repair,Item,Activity,repair slap wrench,0,1,HAS_ACTIVITY
+repair,slap wrench,Activity,Item,repair slap wrench,1,0,O
+bushs,scope,Item,Activity,scope up pins and bushs,0,1,HAS_ACTIVITY
+scope,bushs,Activity,Item,scope up pins and bushs,1,0,O
+service,fire suppression,Activity,Item,fire suppression service,0,1,O
+fire suppression,service,Item,Activity,fire suppression service,1,0,HAS_ACTIVITY
+service,chubb,Activity,Agent,chubb fire suppression service,0,2,O
+chubb,service,Agent,Activity,chubb fire suppression service,2,0,O
+fire suppression,chubb,Item,Agent,chubb fire suppression,1,2,HAS_AGENT
+chubb,fire suppression,Agent,Item,chubb fire suppression,2,1,O
+track,rh,Item,Location,rh track,0,1,HAS_LOCATION
+rh,track,Location,Item,rh track,1,0,O
+track,grease hose,Item,Item,grease hose rh track,0,2,O
+grease hose,track,Item,Item,grease hose rh track,2,0,APPEARS_WITH
+track,replace,Item,Activity,replace grease hose rh track,0,3,HAS_ACTIVITY
+replace,track,Activity,Item,replace grease hose rh track,3,0,O
+rh,grease hose,Location,Item,grease hose rh,1,2,O
+grease hose,rh,Item,Location,grease hose rh,2,1,HAS_LOCATION
+rh,replace,Location,Activity,replace grease hose rh,1,3,O
+replace,rh,Activity,Location,replace grease hose rh,3,1,O
+grease hose,replace,Item,Activity,replace grease hose,2,3,HAS_ACTIVITY
+replace,grease hose,Activity,Item,replace grease hose,3,2,O
+u/s,press guage,Observation,Item,press guage u/s,0,1,O
+press guage,u/s,Item,Observation,press guage u/s,1,0,HAS_OBSERVATION
+u/s,engine oil,Observation,Item,engine oil press guage u/s,0,2,O
+engine oil,u/s,Item,Observation,engine oil press guage u/s,2,0,HAS_OBSERVATION
+press guage,engine oil,Item,Item,engine oil press guage,1,2,O
+engine oil,press guage,Item,Item,engine oil press guage,2,1,APPEARS_WITH
+sheave cover,bottom,Item,Location,bottom sheave cover,0,1,HAS_LOCATION
+bottom,sheave cover,Location,Item,bottom sheave cover,1,0,O
+sheave cover,rhs,Item,Location,rhs bottom sheave cover,0,2,HAS_LOCATION
+rhs,sheave cover,Location,Item,rhs bottom sheave cover,2,0,O
+sheave cover,reweld,Item,Activity,reweld rhs bottom sheave cover,0,3,HAS_ACTIVITY
+reweld,sheave cover,Activity,Item,reweld rhs bottom sheave cover,3,0,O
+bottom,rhs,Location,Location,rhs bottom,1,2,O
+rhs,bottom,Location,Location,rhs bottom,2,1,O
+bottom,reweld,Location,Activity,reweld rhs bottom,1,3,O
+reweld,bottom,Activity,Location,reweld rhs bottom,3,1,O
+rhs,reweld,Location,Activity,reweld rhs,2,3,O
+reweld,rhs,Activity,Location,reweld rhs,3,2,O
+piping,track adjuster,Item,Item,track adjuster piping,0,1,APPEARS_WITH
+track adjuster,piping,Item,Item,track adjuster piping,1,0,O
+piping,lh,Item,Location,lh track adjuster piping,0,2,HAS_LOCATION
+lh,piping,Location,Item,lh track adjuster piping,2,0,O
+piping,on,Item,Location,on lh track adjuster piping,0,3,HAS_LOCATION
+on,piping,Location,Item,on lh track adjuster piping,3,0,O
+piping,leak,Item,Observation,leak on lh track adjuster piping,0,4,HAS_OBSERVATION
+leak,piping,Observation,Item,leak on lh track adjuster piping,4,0,O
+piping,oil,Item,Consumable,oil leak on lh track adjuster piping,0,5,HAS_CONSUMABLE
+oil,piping,Consumable,Item,oil leak on lh track adjuster piping,5,0,O
+track adjuster,lh,Item,Location,lh track adjuster,1,2,HAS_LOCATION
+lh,track adjuster,Location,Item,lh track adjuster,2,1,O
+track adjuster,on,Item,Location,on lh track adjuster,1,3,HAS_LOCATION
+on,track adjuster,Location,Item,on lh track adjuster,3,1,O
+track adjuster,leak,Item,Observation,leak on lh track adjuster,1,4,HAS_OBSERVATION
+leak,track adjuster,Observation,Item,leak on lh track adjuster,4,1,O
+track adjuster,oil,Item,Consumable,oil leak on lh track adjuster,1,5,HAS_CONSUMABLE
+oil,track adjuster,Consumable,Item,oil leak on lh track adjuster,5,1,O
+lh,on,Location,Location,on lh,2,3,O
+on,lh,Location,Location,on lh,3,2,O
+lh,leak,Location,Observation,leak on lh,2,4,O
+leak,lh,Observation,Location,leak on lh,4,2,O
+lh,oil,Location,Consumable,oil leak on lh,2,5,O
+oil,lh,Consumable,Location,oil leak on lh,5,2,O
+on,leak,Location,Observation,leak on,3,4,O
+leak,on,Observation,Location,leak on,4,3,O
+on,oil,Location,Consumable,oil leak on,3,5,O
+oil,on,Consumable,Location,oil leak on,5,3,O
+leak,oil,Observation,Consumable,oil leak,4,5,O
+oil,leak,Consumable,Observation,oil leak,5,4,O
+machine,in,Item,Location,in machine,0,1,HAS_LOCATION
+in,machine,Location,Item,in machine,1,0,O
+machine,vibration,Item,Observation,vibration in machine,0,2,HAS_OBSERVATION
+vibration,machine,Observation,Item,vibration in machine,2,0,O
+in,vibration,Location,Observation,vibration in,1,2,O
+vibration,in,Observation,Location,vibration in,2,1,O
+having trouble starting.,engine,Observation,Item,engine is having trouble starting.,0,1,O
+engine,having trouble starting.,Item,Observation,engine is having trouble starting.,1,0,HAS_OBSERVATION
+cabin,at,Item,Location,at cabin,0,1,HAS_LOCATION
+at,cabin,Location,Item,at cabin,1,0,O
+cabin,flap,Item,Item,flap at cabin,0,2,APPEARS_WITH
+flap,cabin,Item,Item,flap at cabin,2,0,O
+cabin,rusted,Item,Observation,rusted flap at cabin,0,3,HAS_OBSERVATION
+rusted,cabin,Observation,Item,rusted flap at cabin,3,0,O
+cabin,replace,Item,Activity,replace rusted flap at cabin,0,4,HAS_ACTIVITY
+replace,cabin,Activity,Item,replace rusted flap at cabin,4,0,O
+at,flap,Location,Item,flap at,1,2,O
+flap,at,Item,Location,flap at,2,1,HAS_LOCATION
+at,rusted,Location,Observation,rusted flap at,1,3,O
+rusted,at,Observation,Location,rusted flap at,3,1,O
+at,replace,Location,Activity,replace rusted flap at,1,4,O
+replace,at,Activity,Location,replace rusted flap at,4,1,O
+flap,rusted,Item,Observation,rusted flap,2,3,HAS_OBSERVATION
+rusted,flap,Observation,Item,rusted flap,3,2,O
+flap,replace,Item,Activity,replace rusted flap,2,4,HAS_ACTIVITY
+replace,flap,Activity,Item,replace rusted flap,4,2,O
+rusted,replace,Observation,Activity,replace rusted,3,4,O
+replace,rusted,Activity,Observation,replace rusted,4,3,O
+initial service,250hr,Activity,Time,250hr initial service,0,1,O
+250hr,initial service,Time,Activity,250hr initial service,1,0,O
+initial service,hastings,Activity,Agent,hastings 250hr initial service,0,2,O
+hastings,initial service,Agent,Activity,hastings 250hr initial service,2,0,O
+250hr,hastings,Time,Agent,hastings 250hr,1,2,O
+hastings,250hr,Agent,Time,hastings 250hr,2,1,O
+not working,indication light,Observation,Item,indication light not working,0,1,O
+indication light,not working,Item,Observation,indication light not working,1,0,HAS_OBSERVATION
+not working,jack,Observation,Item,jack indication light not working,0,2,O
+jack,not working,Item,Observation,jack indication light not working,2,0,HAS_OBSERVATION
+not working,rear,Observation,Location,rear jack indication light not working,0,3,O
+rear,not working,Location,Observation,rear jack indication light not working,3,0,O
+indication light,jack,Item,Item,jack indication light,1,2,APPEARS_WITH
+jack,indication light,Item,Item,jack indication light,2,1,O
+indication light,rear,Item,Location,rear jack indication light,1,3,HAS_LOCATION
+rear,indication light,Location,Item,rear jack indication light,3,1,O
+jack,rear,Item,Location,rear jack,2,3,HAS_LOCATION
+rear,jack,Location,Item,rear jack,3,2,O
+tank,compressor,Item,Item,compressor tank,0,1,O
+compressor,tank,Item,Item,compressor tank,1,0,APPEARS_WITH
+tank,leak,Item,Observation,leak compressor tank,0,2,HAS_OBSERVATION
+leak,tank,Observation,Item,leak compressor tank,2,0,O
+tank,oil,Item,Consumable,oil leak compressor tank,0,3,HAS_CONSUMABLE
+oil,tank,Consumable,Item,oil leak compressor tank,3,0,O
+compressor,leak,Item,Observation,leak compressor,1,2,HAS_OBSERVATION
+leak,compressor,Observation,Item,leak compressor,2,1,O
+compressor,oil,Item,Consumable,oil leak compressor,1,3,HAS_CONSUMABLE
+oil,compressor,Consumable,Item,oil leak compressor,3,1,O
+leak,oil,Observation,Consumable,oil leak,2,3,O
+oil,leak,Consumable,Observation,oil leak,3,2,O
+broken off,sub saver,Observation,Item,sub saver broken off,0,1,O
+sub saver,broken off,Item,Observation,sub saver broken off,1,0,HAS_OBSERVATION
+broken off,reweld,Observation,Activity,reweld sub saver broken off,0,2,O
+reweld,broken off,Activity,Observation,reweld sub saver broken off,2,0,O
+sub saver,reweld,Item,Activity,reweld sub saver,1,2,HAS_ACTIVITY
+reweld,sub saver,Activity,Item,reweld sub saver,2,1,O
+bitt,can not remove,Item,Observation,can not remove bitt,0,1,HAS_OBSERVATION
+can not remove,bitt,Observation,Item,can not remove bitt,1,0,O
+radiator,replace,Item,Activity,replace radiator,0,1,HAS_ACTIVITY
+replace,radiator,Activity,Item,replace radiator,1,0,O
+hydraulic fitting,repair,Item,Activity,repair hydraulic fitting,0,1,HAS_ACTIVITY
+repair,hydraulic fitting,Activity,Item,repair hydraulic fitting,1,0,O
+cab,outside,Item,Location,outside of cab,0,1,HAS_LOCATION
+outside,cab,Location,Item,outside of cab,1,0,O
+cab,inside,Item,Location,inside & outside of cab,0,2,HAS_LOCATION
+inside,cab,Location,Item,inside & outside of cab,2,0,O
+cab,air hose,Item,Item,air hose inside & outside of cab,0,3,O
+air hose,cab,Item,Item,air hose inside & outside of cab,3,0,APPEARS_WITH
+cab,fit up,Item,Activity,fit up air hose inside & outside of cab,0,4,HAS_ACTIVITY
+fit up,cab,Activity,Item,fit up air hose inside & outside of cab,4,0,O
+outside,inside,Location,Location,inside & outside,1,2,O
+inside,outside,Location,Location,inside & outside,2,1,O
+outside,air hose,Location,Item,air hose inside & outside,1,3,O
+air hose,outside,Item,Location,air hose inside & outside,3,1,HAS_LOCATION
+outside,fit up,Location,Activity,fit up air hose inside & outside,1,4,O
+fit up,outside,Activity,Location,fit up air hose inside & outside,4,1,O
+inside,air hose,Location,Item,air hose inside,2,3,O
+air hose,inside,Item,Location,air hose inside,3,2,HAS_LOCATION
+inside,fit up,Location,Activity,fit up air hose inside,2,4,O
+fit up,inside,Activity,Location,fit up air hose inside,4,2,O
+air hose,fit up,Item,Activity,fit up air hose,3,4,HAS_ACTIVITY
+fit up,air hose,Activity,Item,fit up air hose,4,3,O
+rotary head,on,Item,Location,on rotary head,0,1,HAS_LOCATION
+on,rotary head,Location,Item,on rotary head,1,0,O
+rotary head,sight glass,Item,Item,sight glass on rotary head,0,2,APPEARS_WITH
+sight glass,rotary head,Item,Item,sight glass on rotary head,2,0,O
+rotary head,tighten,Item,Activity,tighten sight glass on rotary head,0,3,HAS_ACTIVITY
+tighten,rotary head,Activity,Item,tighten sight glass on rotary head,3,0,O
+on,sight glass,Location,Item,sight glass on,1,2,O
+sight glass,on,Item,Location,sight glass on,2,1,HAS_LOCATION
+on,tighten,Location,Activity,tighten sight glass on,1,3,O
+tighten,on,Activity,Location,tighten sight glass on,3,1,O
+sight glass,tighten,Item,Activity,tighten sight glass,2,3,HAS_ACTIVITY
+tighten,sight glass,Activity,Item,tighten sight glass,3,2,O
+over full,g/box,Observation,Item,g/box over full,0,1,O
+g/box,over full,Item,Observation,g/box over full,1,0,HAS_OBSERVATION
+over full,drain,Observation,Activity,drain g/box over full,0,2,O
+drain,over full,Activity,Observation,drain g/box over full,2,0,O
+g/box,drain,Item,Activity,drain g/box,1,2,HAS_ACTIVITY
+drain,g/box,Activity,Item,drain g/box,2,1,O
+seal,deck,Item,Item,deck seal,0,1,O
+deck,seal,Item,Item,deck seal,1,0,APPEARS_WITH
+seal,c/o,Item,Activity,c/o deck seal,0,2,HAS_ACTIVITY
+c/o,seal,Activity,Item,c/o deck seal,2,0,O
+deck,c/o,Item,Activity,c/o deck,1,2,HAS_ACTIVITY
+c/o,deck,Activity,Item,c/o deck,2,1,O
+weldout,stopper block,Activity,Item,stopper block weldout,0,1,O
+stopper block,weldout,Item,Activity,stopper block weldout,1,0,HAS_ACTIVITY
+weldout,slapper wrench,Activity,Item,slapper wrench stopper block weldout,0,2,O
+slapper wrench,weldout,Item,Activity,slapper wrench stopper block weldout,2,0,HAS_ACTIVITY
+stopper block,slapper wrench,Item,Item,slapper wrench stopper block,1,2,O
+slapper wrench,stopper block,Item,Item,slapper wrench stopper block,2,1,APPEARS_WITH
+cycle time,track,Attribute,Item,track cycle time,0,1,O
+track,cycle time,Item,Attribute,track cycle time,1,0,HAS_ATTRIBUTE
+cycle time,check,Attribute,Activity,check track cycle time,0,2,O
+check,cycle time,Activity,Attribute,check track cycle time,2,0,O
+track,check,Item,Activity,check track,1,2,HAS_ACTIVITY
+check,track,Activity,Item,check track,2,1,O
+not functioning,ac,Observation,Item,ac not functioning,0,1,O
+ac,not functioning,Item,Observation,ac not functioning,1,0,HAS_OBSERVATION
+not functioning,front,Observation,Location,front ac not functioning,0,2,O
+front,not functioning,Location,Observation,front ac not functioning,2,0,O
+ac,front,Item,Location,front ac,1,2,HAS_LOCATION
+front,ac,Location,Item,front ac,2,1,O
+tri box,rear,Item,Location,rear tri box,0,1,HAS_LOCATION
+rear,tri box,Location,Item,rear tri box,1,0,O
+tri box,monitor,Item,Activity,monitor rear tri box,0,2,HAS_ACTIVITY
+monitor,tri box,Activity,Item,monitor rear tri box,2,0,O
+rear,monitor,Location,Activity,monitor rear,1,2,O
+monitor,rear,Activity,Location,monitor rear,2,1,O
+u/s,dog box,Observation,Item,dog box u/s,0,1,O
+dog box,u/s,Item,Observation,dog box u/s,1,0,HAS_OBSERVATION
+u/s,on,Observation,Location,on dog box u/s,0,2,O
+on,u/s,Location,Observation,on dog box u/s,2,0,O
+u/s,door latch,Observation,Item,door latch on dog box u/s,0,3,O
+door latch,u/s,Item,Observation,door latch on dog box u/s,3,0,HAS_OBSERVATION
+dog box,on,Item,Location,on dog box,1,2,HAS_LOCATION
+on,dog box,Location,Item,on dog box,2,1,O
+dog box,door latch,Item,Item,door latch on dog box,1,3,APPEARS_WITH
+door latch,dog box,Item,Item,door latch on dog box,3,1,O
+on,door latch,Location,Item,door latch on,2,3,O
+door latch,on,Item,Location,door latch on,3,2,HAS_LOCATION
+on front,foam extingisher,Location,Item,foam extingisher on front,0,1,O
+foam extingisher,on front,Item,Location,foam extingisher on front,1,0,HAS_LOCATION
+on front,replace,Location,Activity,replace foam extingisher on front,0,2,O
+replace,on front,Activity,Location,replace foam extingisher on front,2,0,O
+on front,chubb,Location,Agent,chubb replace foam extingisher on front,0,3,O
+chubb,on front,Agent,Location,chubb replace foam extingisher on front,3,0,O
+foam extingisher,replace,Item,Activity,replace foam extingisher,1,2,HAS_ACTIVITY
+replace,foam extingisher,Activity,Item,replace foam extingisher,2,1,O
+foam extingisher,chubb,Item,Agent,chubb replace foam extingisher,1,3,HAS_AGENT
+chubb,foam extingisher,Agent,Item,chubb replace foam extingisher,3,1,O
+replace,chubb,Activity,Agent,chubb replace,2,3,O
+chubb,replace,Agent,Activity,chubb replace,3,2,O
+sub saver,weld,Item,Activity,weld sub saver,0,1,HAS_ACTIVITY
+weld,sub saver,Activity,Item,weld sub saver,1,0,O
+seal,lower,Item,Location,lower seal,0,1,HAS_LOCATION
+lower,seal,Location,Item,lower seal,1,0,O
+seal,rotary head,Item,Item,rotary head lower seal,0,2,O
+rotary head,seal,Item,Item,rotary head lower seal,2,0,APPEARS_WITH
+seal,weep,Item,Observation,weep rotary head lower seal,0,3,HAS_OBSERVATION
+weep,seal,Observation,Item,weep rotary head lower seal,3,0,O
+seal,oil,Item,Consumable,oil weep rotary head lower seal,0,4,HAS_CONSUMABLE
+oil,seal,Consumable,Item,oil weep rotary head lower seal,4,0,O
+seal,monitor,Item,Activity,monitor oil weep rotary head lower seal,0,5,HAS_ACTIVITY
+monitor,seal,Activity,Item,monitor oil weep rotary head lower seal,5,0,O
+lower,rotary head,Location,Item,rotary head lower,1,2,O
+rotary head,lower,Item,Location,rotary head lower,2,1,HAS_LOCATION
+lower,weep,Location,Observation,weep rotary head lower,1,3,O
+weep,lower,Observation,Location,weep rotary head lower,3,1,O
+lower,oil,Location,Consumable,oil weep rotary head lower,1,4,O
+oil,lower,Consumable,Location,oil weep rotary head lower,4,1,O
+lower,monitor,Location,Activity,monitor oil weep rotary head lower,1,5,O
+monitor,lower,Activity,Location,monitor oil weep rotary head lower,5,1,O
+rotary head,weep,Item,Observation,weep rotary head,2,3,HAS_OBSERVATION
+weep,rotary head,Observation,Item,weep rotary head,3,2,O
+rotary head,oil,Item,Consumable,oil weep rotary head,2,4,HAS_CONSUMABLE
+oil,rotary head,Consumable,Item,oil weep rotary head,4,2,O
+rotary head,monitor,Item,Activity,monitor oil weep rotary head,2,5,HAS_ACTIVITY
+monitor,rotary head,Activity,Item,monitor oil weep rotary head,5,2,O
+weep,oil,Observation,Consumable,oil weep,3,4,O
+oil,weep,Consumable,Observation,oil weep,4,3,O
+weep,monitor,Observation,Activity,monitor oil weep,3,5,O
+monitor,weep,Activity,Observation,monitor oil weep,5,3,O
+oil,monitor,Consumable,Activity,monitor oil,4,5,O
+monitor,oil,Activity,Consumable,monitor oil,5,4,O
+air piping,mast,Item,Item,mast air piping,0,1,APPEARS_WITH
+mast,air piping,Item,Item,mast air piping,1,0,O
+air piping,repair,Item,Activity,repair mast air piping,0,2,HAS_ACTIVITY
+repair,air piping,Activity,Item,repair mast air piping,2,0,O
+air piping,damage,Item,Observation,damage repair mast air piping,0,3,HAS_OBSERVATION
+damage,air piping,Observation,Item,damage repair mast air piping,3,0,O
+mast,repair,Item,Activity,repair mast,1,2,HAS_ACTIVITY
+repair,mast,Activity,Item,repair mast,2,1,O
+mast,damage,Item,Observation,damage repair mast,1,3,HAS_OBSERVATION
+damage,mast,Observation,Item,damage repair mast,3,1,O
+repair,damage,Activity,Observation,damage repair,2,3,O
+damage,repair,Observation,Activity,damage repair,3,2,O
+positioner arm,to,Item,Location,to positioner arm,0,1,HAS_LOCATION
+to,positioner arm,Location,Item,to positioner arm,1,0,O
+positioner arm,pivot pin,Item,Item,pivot pin to positioner arm,0,2,O
+pivot pin,positioner arm,Item,Item,pivot pin to positioner arm,2,0,APPEARS_WITH
+positioner arm,refit,Item,Activity,refit pivot pin to positioner arm,0,3,HAS_ACTIVITY
+refit,positioner arm,Activity,Item,refit pivot pin to positioner arm,3,0,O
+to,pivot pin,Location,Item,pivot pin to,1,2,O
+pivot pin,to,Item,Location,pivot pin to,2,1,HAS_LOCATION
+to,refit,Location,Activity,refit pivot pin to,1,3,O
+refit,to,Activity,Location,refit pivot pin to,3,1,O
+pivot pin,refit,Item,Activity,refit pivot pin,2,3,HAS_ACTIVITY
+refit,pivot pin,Activity,Item,refit pivot pin,3,2,O
+not working,controls,Observation,Item,controls not working,0,1,O
+controls,not working,Item,Observation,controls not working,1,0,HAS_OBSERVATION
+not working,crane,Observation,Item,crane controls not working,0,2,O
+crane,not working,Item,Observation,crane controls not working,2,0,HAS_OBSERVATION
+not working,rear,Observation,Location,rear crane controls not working,0,3,O
+rear,not working,Location,Observation,rear crane controls not working,3,0,O
+controls,crane,Item,Item,crane controls,1,2,APPEARS_WITH
+crane,controls,Item,Item,crane controls,2,1,O
+controls,rear,Item,Location,rear crane controls,1,3,HAS_LOCATION
+rear,controls,Location,Item,rear crane controls,3,1,O
+crane,rear,Item,Location,rear crane,2,3,HAS_LOCATION
+rear,crane,Location,Item,rear crane,3,2,O
+coming around too far,deck spanner,Observation,Item,deck spanner coming around too far,0,1,O
+deck spanner,coming around too far,Item,Observation,deck spanner coming around too far,1,0,HAS_OBSERVATION
+leaking badly,brake out ram,Observation,Item,brake out ram leaking badly,0,1,O
+brake out ram,leaking badly,Item,Observation,brake out ram leaking badly,1,0,HAS_OBSERVATION
+16/07,labour,Time,Activity,labour NA 16/07,0,1,O
+labour,16/07,Activity,Time,labour NA 16/07,1,0,O
+16/07,mem,Time,Agent,mem labour NA 16/07,0,2,O
+mem,16/07,Agent,Time,mem labour NA 16/07,2,0,O
+labour,mem,Activity,Agent,mem labour,1,2,O
+mem,labour,Agent,Activity,mem labour,2,1,O
+staying on,light,Observation,Item,light staying on,0,1,O
+light,staying on,Item,Observation,light staying on,1,0,HAS_OBSERVATION
+staying on,lock cyl.,Observation,Item,lock cyl. light staying on,0,2,O
+lock cyl.,staying on,Item,Observation,lock cyl. light staying on,2,0,HAS_OBSERVATION
+staying on,mast,Observation,Item,mast lock cyl. light staying on,0,3,O
+mast,staying on,Item,Observation,mast lock cyl. light staying on,3,0,HAS_OBSERVATION
+light,lock cyl.,Item,Item,lock cyl. light,1,2,APPEARS_WITH
+lock cyl.,light,Item,Item,lock cyl. light,2,1,O
+light,mast,Item,Item,mast lock cyl. light,1,3,APPEARS_WITH
+mast,light,Item,Item,mast lock cyl. light,3,1,O
+lock cyl.,mast,Item,Item,mast lock cyl.,2,3,APPEARS_WITH
+mast,lock cyl.,Item,Item,mast lock cyl.,3,2,O
+hyd tank,on top of,Item,Location,on top of hyd tank,0,1,HAS_LOCATION
+on top of,hyd tank,Location,Item,on top of hyd tank,1,0,O
+hyd tank,leak,Item,Observation,leak on top of hyd tank,0,2,HAS_OBSERVATION
+leak,hyd tank,Observation,Item,leak on top of hyd tank,2,0,O
+hyd tank,oil,Item,Consumable,oil leak on top of hyd tank,0,3,HAS_CONSUMABLE
+oil,hyd tank,Consumable,Item,oil leak on top of hyd tank,3,0,O
+hyd tank,repair,Item,Activity,repair oil leak on top of hyd tank,0,4,HAS_ACTIVITY
+repair,hyd tank,Activity,Item,repair oil leak on top of hyd tank,4,0,O
+on top of,leak,Location,Observation,leak on top of,1,2,O
+leak,on top of,Observation,Location,leak on top of,2,1,O
+on top of,oil,Location,Consumable,oil leak on top of,1,3,O
+oil,on top of,Consumable,Location,oil leak on top of,3,1,O
+on top of,repair,Location,Activity,repair oil leak on top of,1,4,O
+repair,on top of,Activity,Location,repair oil leak on top of,4,1,O
+leak,oil,Observation,Consumable,oil leak,2,3,O
+oil,leak,Consumable,Observation,oil leak,3,2,O
+leak,repair,Observation,Activity,repair oil leak,2,4,O
+repair,leak,Activity,Observation,repair oil leak,4,2,O
+oil,repair,Consumable,Activity,repair oil,3,4,O
+repair,oil,Activity,Consumable,repair oil,4,3,O
+cup,pipe support,Item,Item,pipe support cup,0,1,APPEARS_WITH
+pipe support,cup,Item,Item,pipe support cup,1,0,O
+cup,side,Item,Location,side pipe support cup,0,2,HAS_LOCATION
+side,cup,Location,Item,side pipe support cup,2,0,O
+cup,1,Item,Cardinality,1 side pipe support cup,0,3,HAS_CARDINALITY
+1,cup,Cardinality,Item,1 side pipe support cup,3,0,O
+cup,replace,Item,Activity,replace 1 side pipe support cup,0,4,HAS_ACTIVITY
+replace,cup,Activity,Item,replace 1 side pipe support cup,4,0,O
+pipe support,side,Item,Location,side pipe support,1,2,HAS_LOCATION
+side,pipe support,Location,Item,side pipe support,2,1,O
+pipe support,1,Item,Cardinality,1 side pipe support,1,3,HAS_CARDINALITY
+1,pipe support,Cardinality,Item,1 side pipe support,3,1,O
+pipe support,replace,Item,Activity,replace 1 side pipe support,1,4,HAS_ACTIVITY
+replace,pipe support,Activity,Item,replace 1 side pipe support,4,1,O
+side,1,Location,Cardinality,1 side,2,3,O
+1,side,Cardinality,Location,1 side,3,2,O
+side,replace,Location,Activity,replace 1 side,2,4,O
+replace,side,Activity,Location,replace 1 side,4,2,O
+1,replace,Cardinality,Activity,replace 1,3,4,O
+replace,1,Activity,Cardinality,replace 1,4,3,O
+leak,oil,Observation,Consumable,oil leak,0,1,O
+oil,leak,Consumable,Observation,oil leak,1,0,O
+glass,front,Item,Location,front glass,0,1,HAS_LOCATION
+front,glass,Location,Item,front glass,1,0,O
+glass,lh,Item,Location,lh front glass,0,2,HAS_LOCATION
+lh,glass,Location,Item,lh front glass,2,0,O
+glass,door,Item,Item,door & lh front glass,0,3,O
+door,glass,Item,Item,door & lh front glass,3,0,APPEARS_WITH
+glass,top,Item,Location,top door & lh front glass,0,4,HAS_LOCATION
+top,glass,Location,Item,top door & lh front glass,4,0,O
+glass,replace,Item,Activity,replace top door & lh front glass,0,5,HAS_ACTIVITY
+replace,glass,Activity,Item,replace top door & lh front glass,5,0,O
+front,lh,Location,Location,lh front,1,2,O
+lh,front,Location,Location,lh front,2,1,O
+front,door,Location,Item,door & lh front,1,3,O
+door,front,Item,Location,door & lh front,3,1,HAS_LOCATION
+front,top,Location,Location,top door & lh front,1,4,O
+top,front,Location,Location,top door & lh front,4,1,O
+front,replace,Location,Activity,replace top door & lh front,1,5,O
+replace,front,Activity,Location,replace top door & lh front,5,1,O
+lh,door,Location,Item,door & lh,2,3,O
+door,lh,Item,Location,door & lh,3,2,HAS_LOCATION
+lh,top,Location,Location,top door & lh,2,4,O
+top,lh,Location,Location,top door & lh,4,2,O
+lh,replace,Location,Activity,replace top door & lh,2,5,O
+replace,lh,Activity,Location,replace top door & lh,5,2,O
+door,top,Item,Location,top door,3,4,HAS_LOCATION
+top,door,Location,Item,top door,4,3,O
+door,replace,Item,Activity,replace top door,3,5,HAS_ACTIVITY
+replace,door,Activity,Item,replace top door,5,3,O
+top,replace,Location,Activity,replace top,4,5,O
+replace,top,Activity,Location,replace top,5,4,O
+controler,change out,Item,Activity,change out controler,0,1,HAS_ACTIVITY
+change out,controler,Activity,Item,change out controler,1,0,O
+work table,in,Item,Location,in work table,0,1,HAS_LOCATION
+in,work table,Location,Item,in work table,1,0,O
+work table,holes,Item,Observation,holes in work table,0,2,HAS_OBSERVATION
+holes,work table,Observation,Item,holes in work table,2,0,O
+work table,cut out,Item,Activity,cut out holes in work table,0,3,HAS_ACTIVITY
+cut out,work table,Activity,Item,cut out holes in work table,3,0,O
+in,holes,Location,Observation,holes in,1,2,O
+holes,in,Observation,Location,holes in,2,1,O
+in,cut out,Location,Activity,cut out holes in,1,3,O
+cut out,in,Activity,Location,cut out holes in,3,1,O
+holes,cut out,Observation,Activity,cut out holes,2,3,O
+cut out,holes,Activity,Observation,cut out holes,3,2,O
+injectors,replace,Item,Activity,replace sl32 injectors,0,1,HAS_ACTIVITY
+replace,injectors,Activity,Item,replace sl32 injectors,1,0,O
+cab,entering,Item,Observation,entering cab,0,1,HAS_OBSERVATION
+entering,cab,Observation,Item,entering cab,1,0,O
+drill rods,replace,Item,Activity,replace drill rods,0,1,HAS_ACTIVITY
+replace,drill rods,Activity,Item,replace drill rods,1,0,O
+drill rods,refurb,Item,Activity,refurb / replace drill rods,0,2,HAS_ACTIVITY
+refurb,drill rods,Activity,Item,refurb / replace drill rods,2,0,O
+drill rods,mindrill,Item,Agent,mindrill refurb / replace drill rods,0,3,HAS_AGENT
+mindrill,drill rods,Agent,Item,mindrill refurb / replace drill rods,3,0,O
+replace,refurb,Activity,Activity,refurb / replace,1,2,O
+refurb,replace,Activity,Activity,refurb / replace,2,1,O
+replace,mindrill,Activity,Agent,mindrill refurb / replace,1,3,O
+mindrill,replace,Agent,Activity,mindrill refurb / replace,3,1,O
+refurb,mindrill,Activity,Agent,mindrill refurb,2,3,O
+mindrill,refurb,Agent,Activity,mindrill refurb,3,2,O
+requires strengthing,carousel,Observation,Item,carousel requires strengthing,0,1,O
+carousel,requires strengthing,Item,Observation,carousel requires strengthing,1,0,HAS_OBSERVATION
+need,compressor,Observation,Item,compressor need,0,1,O
+compressor,need,Item,Observation,compressor need,1,0,HAS_OBSERVATION
+need,air lines,Observation,Item,air lines @ compressor need,0,2,O
+air lines,need,Item,Observation,air lines @ compressor need,2,0,HAS_OBSERVATION
+need,manufacturer24,Observation,Agent,manufacturer24 air lines @ compressor need,0,3,O
+manufacturer24,need,Agent,Observation,manufacturer24 air lines @ compressor need,3,0,O
+compressor,air lines,Item,Item,air lines @ compressor,1,2,O
+air lines,compressor,Item,Item,air lines @ compressor,2,1,APPEARS_WITH
+compressor,manufacturer24,Item,Agent,manufacturer24 air lines @ compressor,1,3,HAS_AGENT
+manufacturer24,compressor,Agent,Item,manufacturer24 air lines @ compressor,3,1,O
+air lines,manufacturer24,Item,Agent,manufacturer24 air lines,2,3,HAS_AGENT
+manufacturer24,air lines,Agent,Item,manufacturer24 air lines,3,2,O
+foot,levelling jack,Item,Item,levelling jack foot,0,1,APPEARS_WITH
+levelling jack,foot,Item,Item,levelling jack foot,1,0,O
+foot,lost,Item,Observation,lost levelling jack foot,0,2,HAS_OBSERVATION
+lost,foot,Observation,Item,lost levelling jack foot,2,0,O
+levelling jack,lost,Item,Observation,lost levelling jack,1,2,HAS_OBSERVATION
+lost,levelling jack,Observation,Item,lost levelling jack,2,1,O
+tacho,tramming relay,Item,Item,tramming relay for tacho,0,1,APPEARS_WITH
+tramming relay,tacho,Item,Item,tramming relay for tacho,1,0,O
+tacho,remove,Item,Activity,remove tramming relay for tacho,0,2,HAS_ACTIVITY
+remove,tacho,Activity,Item,remove tramming relay for tacho,2,0,O
+tramming relay,remove,Item,Activity,remove tramming relay,1,2,HAS_ACTIVITY
+remove,tramming relay,Activity,Item,remove tramming relay,2,1,O
+blow down gun,cab,Item,Item,cab blow down gun,0,1,APPEARS_WITH
+cab,blow down gun,Item,Item,cab blow down gun,1,0,O
+blow down gun,replace,Item,Activity,replace cab blow down gun,0,2,HAS_ACTIVITY
+replace,blow down gun,Activity,Item,replace cab blow down gun,2,0,O
+cab,replace,Item,Activity,replace cab,1,2,HAS_ACTIVITY
+replace,cab,Activity,Item,replace cab,2,1,O
+sub saver,reweld,Item,Activity,reweld sub saver,0,1,HAS_ACTIVITY
+reweld,sub saver,Activity,Item,reweld sub saver,1,0,O
+cab,hitting,Item,Observation,hitting in cab,0,1,HAS_OBSERVATION
+hitting,cab,Observation,Item,hitting in cab,1,0,O
+cab,rod support,Item,Item,rod support hitting in cab,0,2,APPEARS_WITH
+rod support,cab,Item,Item,rod support hitting in cab,2,0,O
+hitting,rod support,Observation,Item,rod support hitting,1,2,O
+rod support,hitting,Item,Observation,rod support hitting,2,1,HAS_OBSERVATION
+needs adjusting,rotation pressure,Observation,Attribute,rotation pressure needs adjusting,0,1,O
+rotation pressure,needs adjusting,Attribute,Observation,rotation pressure needs adjusting,1,0,O
+turbo,blown,Item,Observation,blown turbo,0,1,HAS_OBSERVATION
+blown,turbo,Observation,Item,blown turbo,1,0,O
+loose,mounting bolts,Observation,Item,mounting bolts loose,0,1,O
+mounting bolts,loose,Item,Observation,mounting bolts loose,1,0,HAS_OBSERVATION
+loose,hobo,Observation,Item,hobo mounting bolts loose,0,2,O
+hobo,loose,Item,Observation,hobo mounting bolts loose,2,0,HAS_OBSERVATION
+mounting bolts,hobo,Item,Item,hobo mounting bolts,1,2,O
+hobo,mounting bolts,Item,Item,hobo mounting bolts,2,1,APPEARS_WITH
+u/s,bolts,Observation,Item,bolts u/s,0,1,O
+bolts,u/s,Item,Observation,bolts u/s,1,0,HAS_OBSERVATION
+u/s,breakout die,Observation,Item,breakout die bolts u/s,0,2,O
+breakout die,u/s,Item,Observation,breakout die bolts u/s,2,0,HAS_OBSERVATION
+bolts,breakout die,Item,Item,breakout die bolts,1,2,APPEARS_WITH
+breakout die,bolts,Item,Item,breakout die bolts,2,1,O
+13/07/09,hoses,Time,Item,hoses NA 13/07/09,0,1,O
+hoses,13/07/09,Item,Time,hoses NA 13/07/09,1,0,HAS_TIME
+13/07/09,repair,Time,Activity,repair hoses NA 13/07/09,0,2,O
+repair,13/07/09,Activity,Time,repair hoses NA 13/07/09,2,0,O
+13/07/09,manufacturer24,Time,Agent,manufacturer24 repair hoses NA 13/07/09,0,3,O
+manufacturer24,13/07/09,Agent,Time,manufacturer24 repair hoses NA 13/07/09,3,0,O
+hoses,repair,Item,Activity,repair hoses,1,2,HAS_ACTIVITY
+repair,hoses,Activity,Item,repair hoses,2,1,O
+hoses,manufacturer24,Item,Agent,manufacturer24 repair hoses,1,3,HAS_AGENT
+manufacturer24,hoses,Agent,Item,manufacturer24 repair hoses,3,1,O
+repair,manufacturer24,Activity,Agent,manufacturer24 repair,2,3,O
+manufacturer24,repair,Agent,Activity,manufacturer24 repair,3,2,O
+pre start,operator,Activity,Agent,operator pre start,0,1,O
+operator,pre start,Agent,Activity,operator pre start,1,0,O
+pre start,jobs,Activity,Activity,jobs from operator pre start,0,2,O
+jobs,pre start,Activity,Activity,jobs from operator pre start,2,0,O
+operator,jobs,Agent,Activity,jobs from operator,1,2,O
+jobs,operator,Activity,Agent,jobs from operator,2,1,O
+4/08/09,x2,Time,Cardinality,x2 NA 4/08/09,0,1,O
+x2,4/08/09,Cardinality,Time,x2 NA 4/08/09,1,0,O
+4/08/09,labour,Time,Activity,labour x2 NA 4/08/09,0,2,O
+labour,4/08/09,Activity,Time,labour x2 NA 4/08/09,2,0,O
+4/08/09,mem,Time,Agent,mem labour x2 NA 4/08/09,0,3,O
+mem,4/08/09,Agent,Time,mem labour x2 NA 4/08/09,3,0,O
+x2,labour,Cardinality,Activity,labour x2,1,2,O
+labour,x2,Activity,Cardinality,labour x2,2,1,O
+x2,mem,Cardinality,Agent,mem labour x2,1,3,O
+mem,x2,Agent,Cardinality,mem labour x2,3,1,O
+labour,mem,Activity,Agent,mem labour,2,3,O
+mem,labour,Agent,Activity,mem labour,3,2,O
+wash down pump,rebuild,Item,Activity,rebuild wash down pump,0,1,HAS_ACTIVITY
+rebuild,wash down pump,Activity,Item,rebuild wash down pump,1,0,O
+emergency step,front,Item,Location,front emergency step,0,1,HAS_LOCATION
+front,emergency step,Location,Item,front emergency step,1,0,O
+emergency step,damaged,Item,Observation,damaged front emergency step,0,2,HAS_OBSERVATION
+damaged,emergency step,Observation,Item,damaged front emergency step,2,0,O
+emergency step,repair,Item,Activity,repair damaged front emergency step,0,3,HAS_ACTIVITY
+repair,emergency step,Activity,Item,repair damaged front emergency step,3,0,O
+front,damaged,Location,Observation,damaged front,1,2,O
+damaged,front,Observation,Location,damaged front,2,1,O
+front,repair,Location,Activity,repair damaged front,1,3,O
+repair,front,Activity,Location,repair damaged front,3,1,O
+damaged,repair,Observation,Activity,repair damaged,2,3,O
+repair,damaged,Activity,Observation,repair damaged,3,2,O
+tower,on,Item,Location,on tower,0,1,HAS_LOCATION
+on,tower,Location,Item,on tower,1,0,O
+tower,leak,Item,Observation,leak on tower,0,2,HAS_OBSERVATION
+leak,tower,Observation,Item,leak on tower,2,0,O
+tower,oil,Item,Consumable,oil leak on tower,0,3,HAS_CONSUMABLE
+oil,tower,Consumable,Item,oil leak on tower,3,0,O
+on,leak,Location,Observation,leak on,1,2,O
+leak,on,Observation,Location,leak on,2,1,O
+on,oil,Location,Consumable,oil leak on,1,3,O
+oil,on,Consumable,Location,oil leak on,3,1,O
+leak,oil,Observation,Consumable,oil leak,2,3,O
+oil,leak,Consumable,Observation,oil leak,3,2,O
+mast,on bottem of,Item,Location,on bottem of mast,0,1,HAS_LOCATION
+on bottem of,mast,Location,Item,on bottem of mast,1,0,O
+mast,hyd hose,Item,Item,hyd hose on bottem of mast,0,2,O
+hyd hose,mast,Item,Item,hyd hose on bottem of mast,2,0,APPEARS_WITH
+mast,blowen,Item,Observation,blowen hyd hose on bottem of mast,0,3,HAS_OBSERVATION
+blowen,mast,Observation,Item,blowen hyd hose on bottem of mast,3,0,O
+on bottem of,hyd hose,Location,Item,hyd hose on bottem of,1,2,O
+hyd hose,on bottem of,Item,Location,hyd hose on bottem of,2,1,HAS_LOCATION
+on bottem of,blowen,Location,Observation,blowen hyd hose on bottem of,1,3,O
+blowen,on bottem of,Observation,Location,blowen hyd hose on bottem of,3,1,O
+hyd hose,blowen,Item,Observation,blowen hyd hose,2,3,HAS_OBSERVATION
+blowen,hyd hose,Observation,Item,blowen hyd hose,3,2,O
+leaking,reservetnk,Observation,Item,reservetnk leaking,0,1,O
+reservetnk,leaking,Item,Observation,reservetnk leaking,1,0,HAS_OBSERVATION
+leaking,sump,Observation,Item,sump reservetnk leaking,0,2,O
+sump,leaking,Item,Observation,sump reservetnk leaking,2,0,HAS_OBSERVATION
+reservetnk,sump,Item,Item,sump reservetnk,1,2,APPEARS_WITH
+sump,reservetnk,Item,Item,sump reservetnk,2,1,O
+worn,positioner arm,Observation,Item,positioner arm worn,0,1,O
+positioner arm,worn,Item,Observation,positioner arm worn,1,0,HAS_OBSERVATION
+drive train,in,Item,Location,in drive train,0,1,HAS_LOCATION
+in,drive train,Location,Item,in drive train,1,0,O
+drive train,vibration,Item,Observation,vibration in drive train,0,2,HAS_OBSERVATION
+vibration,drive train,Observation,Item,vibration in drive train,2,0,O
+in,vibration,Location,Observation,vibration in,1,2,O
+vibration,in,Observation,Location,vibration in,2,1,O
+keeper plate,weld,Item,Activity,weld keeper plate,0,1,HAS_ACTIVITY
+weld,keeper plate,Activity,Item,weld keeper plate,1,0,O
+tube,jack,Item,Item,jack tube,0,1,O
+jack,tube,Item,Item,jack tube,1,0,APPEARS_WITH
+tube,rh,Item,Location,rh jack tube,0,2,HAS_LOCATION
+rh,tube,Location,Item,rh jack tube,2,0,O
+tube,at,Item,Location,at rh jack tube,0,3,HAS_LOCATION
+at,tube,Location,Item,at rh jack tube,3,0,O
+tube,frame,Item,Item,frame at rh jack tube,0,4,O
+frame,tube,Item,Item,frame at rh jack tube,4,0,APPEARS_WITH
+tube,in,Item,Location,in frame at rh jack tube,0,5,HAS_LOCATION
+in,tube,Location,Item,in frame at rh jack tube,5,0,O
+tube,crack,Item,Item,crack in frame at rh jack tube,0,6,O
+crack,tube,Item,Item,crack in frame at rh jack tube,6,0,APPEARS_WITH
+jack,rh,Item,Location,rh jack,1,2,HAS_LOCATION
+rh,jack,Location,Item,rh jack,2,1,O
+jack,at,Item,Location,at rh jack,1,3,HAS_LOCATION
+at,jack,Location,Item,at rh jack,3,1,O
+jack,frame,Item,Item,frame at rh jack,1,4,O
+frame,jack,Item,Item,frame at rh jack,4,1,APPEARS_WITH
+jack,in,Item,Location,in frame at rh jack,1,5,HAS_LOCATION
+in,jack,Location,Item,in frame at rh jack,5,1,O
+jack,crack,Item,Item,crack in frame at rh jack,1,6,O
+crack,jack,Item,Item,crack in frame at rh jack,6,1,APPEARS_WITH
+rh,at,Location,Location,at rh,2,3,O
+at,rh,Location,Location,at rh,3,2,O
+rh,frame,Location,Item,frame at rh,2,4,O
+frame,rh,Item,Location,frame at rh,4,2,HAS_LOCATION
+rh,in,Location,Location,in frame at rh,2,5,O
+in,rh,Location,Location,in frame at rh,5,2,O
+rh,crack,Location,Item,crack in frame at rh,2,6,O
+crack,rh,Item,Location,crack in frame at rh,6,2,HAS_LOCATION
+at,frame,Location,Item,frame at,3,4,O
+frame,at,Item,Location,frame at,4,3,HAS_LOCATION
+at,in,Location,Location,in frame at,3,5,O
+in,at,Location,Location,in frame at,5,3,O
+at,crack,Location,Item,crack in frame at,3,6,O
+crack,at,Item,Location,crack in frame at,6,3,HAS_LOCATION
+frame,in,Item,Location,in frame,4,5,HAS_LOCATION
+in,frame,Location,Item,in frame,5,4,O
+frame,crack,Item,Item,crack in frame,4,6,O
+crack,frame,Item,Item,crack in frame,6,4,APPEARS_WITH
+in,crack,Location,Item,crack in,5,6,O
+crack,in,Item,Location,crack in,6,5,HAS_LOCATION
+pumps,front,Item,Location,front pumps,0,1,HAS_LOCATION
+front,pumps,Location,Item,front pumps,1,0,O
+pumps,leaks,Item,Observation,leaks @ front pumps,0,2,HAS_OBSERVATION
+leaks,pumps,Observation,Item,leaks @ front pumps,2,0,O
+front,leaks,Location,Observation,leaks @ front,1,2,O
+leaks,front,Observation,Location,leaks @ front,2,1,O
+controls,crane,Item,Item,crane controls,0,1,APPEARS_WITH
+crane,controls,Item,Item,crane controls,1,0,O
+controls,under,Item,Location,under crane controls,0,2,HAS_LOCATION
+under,controls,Location,Item,under crane controls,2,0,O
+controls,dirt build,Item,Observation,dirt build under crane controls,0,3,HAS_OBSERVATION
+dirt build,controls,Observation,Item,dirt build under crane controls,3,0,O
+controls,relieve,Item,Activity,relieve dirt build under crane controls,0,4,HAS_ACTIVITY
+relieve,controls,Activity,Item,relieve dirt build under crane controls,4,0,O
+crane,under,Item,Location,under crane,1,2,HAS_LOCATION
+under,crane,Location,Item,under crane,2,1,O
+crane,dirt build,Item,Observation,dirt build under crane,1,3,HAS_OBSERVATION
+dirt build,crane,Observation,Item,dirt build under crane,3,1,O
+crane,relieve,Item,Activity,relieve dirt build under crane,1,4,HAS_ACTIVITY
+relieve,crane,Activity,Item,relieve dirt build under crane,4,1,O
+under,dirt build,Location,Observation,dirt build under,2,3,O
+dirt build,under,Observation,Location,dirt build under,3,2,O
+under,relieve,Location,Activity,relieve dirt build under,2,4,O
+relieve,under,Activity,Location,relieve dirt build under,4,2,O
+dirt build,relieve,Observation,Activity,relieve dirt build,3,4,O
+relieve,dirt build,Activity,Observation,relieve dirt build,4,3,O
+tripping out.,generator,Observation,Item,generator tripping out.,0,1,O
+generator,tripping out.,Item,Observation,generator tripping out.,1,0,HAS_OBSERVATION
+tripping out.,on,Observation,Location,on generator tripping out.,0,2,O
+on,tripping out.,Location,Observation,on generator tripping out.,2,0,O
+tripping out.,c/b,Observation,Item,c/b on generator tripping out.,0,3,O
+c/b,tripping out.,Item,Observation,c/b on generator tripping out.,3,0,HAS_OBSERVATION
+tripping out.,main,Observation,Specifier,main c/b on generator tripping out.,0,4,O
+main,tripping out.,Specifier,Observation,main c/b on generator tripping out.,4,0,O
+generator,on,Item,Location,on generator,1,2,HAS_LOCATION
+on,generator,Location,Item,on generator,2,1,O
+generator,c/b,Item,Item,c/b on generator,1,3,O
+c/b,generator,Item,Item,c/b on generator,3,1,APPEARS_WITH
+generator,main,Item,Specifier,main c/b on generator,1,4,HAS_SPECIFIER
+main,generator,Specifier,Item,main c/b on generator,4,1,O
+on,c/b,Location,Item,c/b on,2,3,O
+c/b,on,Item,Location,c/b on,3,2,HAS_LOCATION
+on,main,Location,Specifier,main c/b on,2,4,O
+main,on,Specifier,Location,main c/b on,4,2,O
+c/b,main,Item,Specifier,main c/b,3,4,HAS_SPECIFIER
+main,c/b,Specifier,Item,main c/b,4,3,O
+need,mast,Observation,Item,mast access need,0,1,O
+mast,need,Item,Observation,mast access need,1,0,HAS_OBSERVATION
+need,@,Observation,Location,@ mast access need,0,2,O
+@,need,Location,Observation,@ mast access need,2,0,O
+need,hand rails,Observation,Item,hand rails @ mast access need,0,3,O
+hand rails,need,Item,Observation,hand rails @ mast access need,3,0,HAS_OBSERVATION
+mast,@,Item,Location,@ mast,1,2,HAS_LOCATION
+@,mast,Location,Item,@ mast,2,1,O
+mast,hand rails,Item,Item,hand rails @ mast,1,3,O
+hand rails,mast,Item,Item,hand rails @ mast,3,1,APPEARS_WITH
+@,hand rails,Location,Item,hand rails @,2,3,O
+hand rails,@,Item,Location,hand rails @,3,2,HAS_LOCATION
+window,on top,Item,Location,on top window,0,1,HAS_LOCATION
+on top,window,Location,Item,on top window,1,0,O
+window,flood bar,Item,Item,flood bar on top window,0,2,O
+flood bar,window,Item,Item,flood bar on top window,2,0,APPEARS_WITH
+window,connect,Item,Activity,connect flood bar on top window,0,3,HAS_ACTIVITY
+connect,window,Activity,Item,connect flood bar on top window,3,0,O
+on top,flood bar,Location,Item,flood bar on top,1,2,O
+flood bar,on top,Item,Location,flood bar on top,2,1,HAS_LOCATION
+on top,connect,Location,Activity,connect flood bar on top,1,3,O
+connect,on top,Activity,Location,connect flood bar on top,3,1,O
+flood bar,connect,Item,Activity,connect flood bar,2,3,HAS_ACTIVITY
+connect,flood bar,Activity,Item,connect flood bar,3,2,O
+u/s,system,Observation,Item,system u/s,0,1,O
+system,u/s,Item,Observation,system u/s,1,0,HAS_OBSERVATION
+u/s,potable water,Observation,Item,potable water system u/s,0,2,O
+potable water,u/s,Item,Observation,potable water system u/s,2,0,HAS_OBSERVATION
+system,potable water,Item,Item,potable water system,1,2,O
+potable water,system,Item,Item,potable water system,2,1,APPEARS_WITH
+30/07,x2,Time,Cardinality,x2 NA 30/07,0,1,O
+x2,30/07,Cardinality,Time,x2 NA 30/07,1,0,O
+30/07,labour,Time,Activity,labour x2 NA 30/07,0,2,O
+labour,30/07,Activity,Time,labour x2 NA 30/07,2,0,O
+30/07,scv,Time,Agent,scv labour x2 NA 30/07,0,3,O
+scv,30/07,Agent,Time,scv labour x2 NA 30/07,3,0,O
+x2,labour,Cardinality,Activity,labour x2,1,2,O
+labour,x2,Activity,Cardinality,labour x2,2,1,O
+x2,scv,Cardinality,Agent,scv labour x2,1,3,O
+scv,x2,Agent,Cardinality,scv labour x2,3,1,O
+labour,scv,Activity,Agent,scv labour,2,3,O
+scv,labour,Agent,Activity,scv labour,3,2,O
+not working,grease,Observation,Item,grease not working,0,1,O
+grease,not working,Item,Observation,grease not working,1,0,HAS_OBSERVATION
+not working,thread,Observation,Item,thread grease not working,0,2,O
+thread,not working,Item,Observation,thread grease not working,2,0,HAS_OBSERVATION
+grease,thread,Item,Item,thread grease,1,2,APPEARS_WITH
+thread,grease,Item,Item,thread grease,2,1,O
+carousel,near,Item,Location,near carousel,0,1,HAS_LOCATION
+near,carousel,Location,Item,near carousel,1,0,O
+carousel,leaks,Item,Observation,leaks near carousel,0,2,HAS_OBSERVATION
+leaks,carousel,Observation,Item,leaks near carousel,2,0,O
+near,leaks,Location,Observation,leaks near,1,2,O
+leaks,near,Observation,Location,leaks near,2,1,O
+u/s,camera,Observation,Item,camera u/s,0,1,O
+camera,u/s,Item,Observation,camera u/s,1,0,HAS_OBSERVATION
+rotary head,to,Item,Location,to rotary head,0,1,HAS_LOCATION
+to,rotary head,Location,Item,to rotary head,1,0,O
+rotary head,sub saver,Item,Item,sub saver to rotary head,0,2,APPEARS_WITH
+sub saver,rotary head,Item,Item,sub saver to rotary head,2,0,O
+rotary head,reweld,Item,Activity,reweld sub saver to rotary head,0,3,HAS_ACTIVITY
+reweld,rotary head,Activity,Item,reweld sub saver to rotary head,3,0,O
+to,sub saver,Location,Item,sub saver to,1,2,O
+sub saver,to,Item,Location,sub saver to,2,1,HAS_LOCATION
+to,reweld,Location,Activity,reweld sub saver to,1,3,O
+reweld,to,Activity,Location,reweld sub saver to,3,1,O
+sub saver,reweld,Item,Activity,reweld sub saver,2,3,HAS_ACTIVITY
+reweld,sub saver,Activity,Item,reweld sub saver,3,2,O
+accident damage,rod,Observation,Item,rod [ accident damage,0,1,O
+rod,accident damage,Item,Observation,rod [ accident damage,1,0,HAS_OBSERVATION
+accident damage,bent,Observation,Observation,bent rod [ accident damage,0,2,O
+bent,accident damage,Observation,Observation,bent rod [ accident damage,2,0,O
+rod,bent,Item,Observation,bent rod,1,2,HAS_OBSERVATION
+bent,rod,Observation,Item,bent rod,2,1,O
+8/07,x1,Time,Cardinality,x1 NA 8/07,0,1,O
+x1,8/07,Cardinality,Time,x1 NA 8/07,1,0,O
+8/07,labour,Time,Activity,labour x1 NA 8/07,0,2,O
+labour,8/07,Activity,Time,labour x1 NA 8/07,2,0,O
+8/07,krown,Time,Agent,krown labour x1 NA 8/07,0,3,O
+krown,8/07,Agent,Time,krown labour x1 NA 8/07,3,0,O
+x1,labour,Cardinality,Activity,labour x1,1,2,O
+labour,x1,Activity,Cardinality,labour x1,2,1,O
+x1,krown,Cardinality,Agent,krown labour x1,1,3,O
+krown,x1,Agent,Cardinality,krown labour x1,3,1,O
+labour,krown,Activity,Agent,krown labour,2,3,O
+krown,labour,Agent,Activity,krown labour,3,2,O
+feed ropes,retension,Item,Activity,retension feed ropes,0,1,HAS_ACTIVITY
+retension,feed ropes,Activity,Item,retension feed ropes,1,0,O
+will not,two way,Observation,Item,two way will not,0,1,O
+two way,will not,Item,Observation,two way will not,1,0,HAS_OBSERVATION
+motor,rear of,Item,Location,rear of motor,0,1,HAS_LOCATION
+rear of,motor,Location,Item,rear of motor,1,0,O
+motor,leak,Item,Observation,leak rear of motor,0,2,HAS_OBSERVATION
+leak,motor,Observation,Item,leak rear of motor,2,0,O
+motor,oil,Item,Consumable,oil leak rear of motor,0,3,HAS_CONSUMABLE
+oil,motor,Consumable,Item,oil leak rear of motor,3,0,O
+motor,monitor,Item,Activity,monitor oil leak rear of motor,0,4,HAS_ACTIVITY
+monitor,motor,Activity,Item,monitor oil leak rear of motor,4,0,O
+rear of,leak,Location,Observation,leak rear of,1,2,O
+leak,rear of,Observation,Location,leak rear of,2,1,O
+rear of,oil,Location,Consumable,oil leak rear of,1,3,O
+oil,rear of,Consumable,Location,oil leak rear of,3,1,O
+rear of,monitor,Location,Activity,monitor oil leak rear of,1,4,O
+monitor,rear of,Activity,Location,monitor oil leak rear of,4,1,O
+leak,oil,Observation,Consumable,oil leak,2,3,O
+oil,leak,Consumable,Observation,oil leak,3,2,O
+leak,monitor,Observation,Activity,monitor oil leak,2,4,O
+monitor,leak,Activity,Observation,monitor oil leak,4,2,O
+oil,monitor,Consumable,Activity,monitor oil,3,4,O
+monitor,oil,Activity,Consumable,monitor oil,4,3,O
+hose,fan,Item,Item,fan hose,0,1,O
+fan,hose,Item,Item,fan hose,1,0,APPEARS_WITH
+hose,leaking,Item,Observation,leaking fan hose,0,2,HAS_OBSERVATION
+leaking,hose,Observation,Item,leaking fan hose,2,0,O
+fan,leaking,Item,Observation,leaking fan,1,2,HAS_OBSERVATION
+leaking,fan,Observation,Item,leaking fan,2,1,O
+not workin,audible alarm,Observation,Item,audible alarm not workin,0,1,O
+audible alarm,not workin,Item,Observation,audible alarm not workin,1,0,HAS_OBSERVATION
+not workin,pipe positioner,Observation,Item,pipe positioner audible alarm not workin,0,2,O
+pipe positioner,not workin,Item,Observation,pipe positioner audible alarm not workin,2,0,HAS_OBSERVATION
+audible alarm,pipe positioner,Item,Item,pipe positioner audible alarm,1,2,APPEARS_WITH
+pipe positioner,audible alarm,Item,Item,pipe positioner audible alarm,2,1,O
+hub,fan,Item,Item,fan hub,0,1,O
+fan,hub,Item,Item,fan hub,1,0,APPEARS_WITH
+hub,spare,Item,Specifier,spare fan hub,0,2,HAS_SPECIFIER
+spare,hub,Specifier,Item,spare fan hub,2,0,O
+hub,order,Item,Activity,order spare fan hub,0,3,HAS_ACTIVITY
+order,hub,Activity,Item,order spare fan hub,3,0,O
+fan,spare,Item,Specifier,spare fan,1,2,HAS_SPECIFIER
+spare,fan,Specifier,Item,spare fan,2,1,O
+fan,order,Item,Activity,order spare fan,1,3,HAS_ACTIVITY
+order,fan,Activity,Item,order spare fan,3,1,O
+spare,order,Specifier,Activity,order spare,2,3,O
+order,spare,Activity,Specifier,order spare,3,2,O
+wont turn,complain,Observation,Activity,complain wont turn,0,1,O
+complain,wont turn,Activity,Observation,complain wont turn,1,0,O
+wont turn,operators,Observation,Agent,operators complain wont turn,0,2,O
+operators,wont turn,Agent,Observation,operators complain wont turn,2,0,O
+complain,operators,Activity,Agent,operators complain,1,2,O
+operators,complain,Agent,Activity,operators complain,2,1,O
+rod support,repair,Item,Activity,repair rod support,0,1,HAS_ACTIVITY
+repair,rod support,Activity,Item,repair rod support,1,0,O
+rod support,weld,Item,Activity,weld repair rod support,0,2,HAS_ACTIVITY
+weld,rod support,Activity,Item,weld repair rod support,2,0,O
+repair,weld,Activity,Activity,weld repair,1,2,O
+weld,repair,Activity,Activity,weld repair,2,1,O
+u/s,leica screen,Observation,Item,leica screen u/s,0,1,O
+leica screen,u/s,Item,Observation,leica screen u/s,1,0,HAS_OBSERVATION
+loosing pressure,wash down,Observation,Activity,wash down hose loosing pressure,0,1,O
+wash down,loosing pressure,Activity,Observation,wash down hose loosing pressure,1,0,O
+creeping out on vertical,pipe loader,Observation,Item,pipe loader creeping out on vertical,0,1,O
+pipe loader,creeping out on vertical,Item,Observation,pipe loader creeping out on vertical,1,0,HAS_OBSERVATION
+damage,suport,Observation,Item,suport damage,0,1,O
+suport,damage,Item,Observation,suport damage,1,0,HAS_OBSERVATION
+damage,air pipe,Observation,Item,air pipe suport damage,0,2,O
+air pipe,damage,Item,Observation,air pipe suport damage,2,0,HAS_OBSERVATION
+damage,cabin,Observation,Item,cabin & air pipe suport damage,0,3,O
+cabin,damage,Item,Observation,cabin & air pipe suport damage,3,0,HAS_OBSERVATION
+suport,air pipe,Item,Item,air pipe suport,1,2,O
+air pipe,suport,Item,Item,air pipe suport,2,1,APPEARS_WITH
+suport,cabin,Item,Item,cabin & air pipe suport,1,3,O
+cabin,suport,Item,Item,cabin & air pipe suport,3,1,APPEARS_WITH
+air pipe,cabin,Item,Item,cabin & air pipe,2,3,APPEARS_WITH
+cabin,air pipe,Item,Item,cabin & air pipe,3,2,O
+not working.,heater,Observation,Item,heater not working.,0,1,O
+heater,not working.,Item,Observation,heater not working.,1,0,HAS_OBSERVATION
+air blower,rear,Item,Location,rear air blower,0,1,HAS_LOCATION
+rear,air blower,Location,Item,rear air blower,1,0,O
+leaking,level gauge,Observation,Item,level gauge leaking,0,1,O
+level gauge,leaking,Item,Observation,level gauge leaking,1,0,HAS_OBSERVATION
+leaking,oil,Observation,Consumable,oil level gauge leaking,0,2,O
+oil,leaking,Consumable,Observation,oil level gauge leaking,2,0,O
+leaking,hyd tank,Observation,Item,hyd tank oil level gauge leaking,0,3,O
+hyd tank,leaking,Item,Observation,hyd tank oil level gauge leaking,3,0,HAS_OBSERVATION
+level gauge,oil,Item,Consumable,oil level gauge,1,2,HAS_CONSUMABLE
+oil,level gauge,Consumable,Item,oil level gauge,2,1,O
+level gauge,hyd tank,Item,Item,hyd tank oil level gauge,1,3,O
+hyd tank,level gauge,Item,Item,hyd tank oil level gauge,3,1,APPEARS_WITH
+oil,hyd tank,Consumable,Item,hyd tank oil,2,3,O
+hyd tank,oil,Item,Consumable,hyd tank oil,3,2,HAS_CONSUMABLE
+bolts,head guide,Consumable,Item,head guide bolts,0,1,O
+head guide,bolts,Item,Consumable,head guide bolts,1,0,HAS_CONSUMABLE
+bolts,replace,Consumable,Activity,replace head guide bolts,0,2,O
+replace,bolts,Activity,Consumable,replace head guide bolts,2,0,O
+head guide,replace,Item,Activity,replace head guide,1,2,HAS_ACTIVITY
+replace,head guide,Activity,Item,replace head guide,2,1,O
+staying on,indicator lights,Observation,Item,indicator lights staying on,0,1,O
+indicator lights,staying on,Item,Observation,indicator lights staying on,1,0,HAS_OBSERVATION
+staying on,locking pin,Observation,Item,locking pin indicator lights staying on,0,2,O
+locking pin,staying on,Item,Observation,locking pin indicator lights staying on,2,0,HAS_OBSERVATION
+indicator lights,locking pin,Item,Item,locking pin indicator lights,1,2,APPEARS_WITH
+locking pin,indicator lights,Item,Item,locking pin indicator lights,2,1,O
+wear slides,rotary head,Item,Item,rotary head wear slides,0,1,O
+rotary head,wear slides,Item,Item,rotary head wear slides,1,0,APPEARS_WITH
+wear slides,changeout,Item,Activity,changeout rotary head wear slides,0,2,HAS_ACTIVITY
+changeout,wear slides,Activity,Item,changeout rotary head wear slides,2,0,O
+rotary head,changeout,Item,Activity,changeout rotary head,1,2,HAS_ACTIVITY
+changeout,rotary head,Activity,Item,changeout rotary head,2,1,O
+carrier rollers,front and rear,Item,Location,front and rear carrier rollers,0,1,HAS_LOCATION
+front and rear,carrier rollers,Location,Item,front and rear carrier rollers,1,0,O
+carrier rollers,replace,Item,Activity,replace front and rear carrier rollers,0,2,HAS_ACTIVITY
+replace,carrier rollers,Activity,Item,replace front and rear carrier rollers,2,0,O
+front and rear,replace,Location,Activity,replace front and rear,1,2,O
+replace,front and rear,Activity,Location,replace front and rear,2,1,O
+pivot bolts,mast,Consumable,Item,mast pivot bolts,0,1,O
+mast,pivot bolts,Item,Consumable,mast pivot bolts,1,0,HAS_CONSUMABLE
+pivot bolts,replace,Consumable,Activity,replace mast pivot bolts,0,2,O
+replace,pivot bolts,Activity,Consumable,replace mast pivot bolts,2,0,O
+mast,replace,Item,Activity,replace mast,1,2,HAS_ACTIVITY
+replace,mast,Activity,Item,replace mast,2,1,O
+head ropes,retension,Item,Activity,retension head ropes,0,1,HAS_ACTIVITY
+retension,head ropes,Activity,Item,retension head ropes,1,0,O
+setup,machine,Activity,Item,machine setup,0,1,O
+machine,setup,Item,Activity,machine setup,1,0,HAS_ACTIVITY
+electronic level system,adjust,Item,Activity,adjust electronic level system,0,1,HAS_ACTIVITY
+adjust,electronic level system,Activity,Item,adjust electronic level system,1,0,O
+wont retract,tong,Observation,Item,tong wont retract,0,1,O
+tong,wont retract,Item,Observation,tong wont retract,1,0,HAS_OBSERVATION
+signs,bin,Item,Item,bin signs,0,1,O
+bin,signs,Item,Item,bin signs,1,0,APPEARS_WITH
+signs,parts,Item,Item,parts bin signs,0,2,O
+parts,signs,Item,Item,parts bin signs,2,0,APPEARS_WITH
+signs,supply,Item,Activity,supply parts bin signs,0,3,HAS_ACTIVITY
+supply,signs,Activity,Item,supply parts bin signs,3,0,O
+signs,fabricate,Item,Activity,fabricate & supply parts bin signs,0,4,HAS_ACTIVITY
+fabricate,signs,Activity,Item,fabricate & supply parts bin signs,4,0,O
+signs,zacs,Item,Agent,zacs fabricate & supply parts bin signs,0,5,HAS_AGENT
+zacs,signs,Agent,Item,zacs fabricate & supply parts bin signs,5,0,O
+bin,parts,Item,Item,parts bin,1,2,APPEARS_WITH
+parts,bin,Item,Item,parts bin,2,1,O
+bin,supply,Item,Activity,supply parts bin,1,3,HAS_ACTIVITY
+supply,bin,Activity,Item,supply parts bin,3,1,O
+bin,fabricate,Item,Activity,fabricate & supply parts bin,1,4,HAS_ACTIVITY
+fabricate,bin,Activity,Item,fabricate & supply parts bin,4,1,O
+bin,zacs,Item,Agent,zacs fabricate & supply parts bin,1,5,HAS_AGENT
+zacs,bin,Agent,Item,zacs fabricate & supply parts bin,5,1,O
+parts,supply,Item,Activity,supply parts,2,3,HAS_ACTIVITY
+supply,parts,Activity,Item,supply parts,3,2,O
+parts,fabricate,Item,Activity,fabricate & supply parts,2,4,HAS_ACTIVITY
+fabricate,parts,Activity,Item,fabricate & supply parts,4,2,O
+parts,zacs,Item,Agent,zacs fabricate & supply parts,2,5,HAS_AGENT
+zacs,parts,Agent,Item,zacs fabricate & supply parts,5,2,O
+supply,fabricate,Activity,Activity,fabricate & supply,3,4,O
+fabricate,supply,Activity,Activity,fabricate & supply,4,3,O
+supply,zacs,Activity,Agent,zacs fabricate & supply,3,5,O
+zacs,supply,Agent,Activity,zacs fabricate & supply,5,3,O
+fabricate,zacs,Activity,Agent,zacs fabricate,4,5,O
+zacs,fabricate,Agent,Activity,zacs fabricate,5,4,O
+4/08,x2,Time,Cardinality,x2 NA 4/08,0,1,O
+x2,4/08,Cardinality,Time,x2 NA 4/08,1,0,O
+4/08,labour,Time,Activity,labour x2 NA 4/08,0,2,O
+labour,4/08,Activity,Time,labour x2 NA 4/08,2,0,O
+4/08,scv,Time,Agent,scv labour x2 NA 4/08,0,3,O
+scv,4/08,Agent,Time,scv labour x2 NA 4/08,3,0,O
+x2,labour,Cardinality,Activity,labour x2,1,2,O
+labour,x2,Activity,Cardinality,labour x2,2,1,O
+x2,scv,Cardinality,Agent,scv labour x2,1,3,O
+scv,x2,Agent,Cardinality,scv labour x2,3,1,O
+labour,scv,Activity,Agent,scv labour,2,3,O
+scv,labour,Agent,Activity,scv labour,3,2,O
+not working,light,Observation,Item,light not working,0,1,O
+light,not working,Item,Observation,light not working,1,0,HAS_OBSERVATION
+not working,mast,Observation,Item,mast light not working,0,2,O
+mast,not working,Item,Observation,mast light not working,2,0,HAS_OBSERVATION
+not working,check,Observation,Activity,check mast light not working,0,3,O
+check,not working,Activity,Observation,check mast light not working,3,0,O
+light,mast,Item,Item,mast light,1,2,APPEARS_WITH
+mast,light,Item,Item,mast light,2,1,O
+light,check,Item,Activity,check mast light,1,3,HAS_ACTIVITY
+check,light,Activity,Item,check mast light,3,1,O
+mast,check,Item,Activity,check mast,2,3,HAS_ACTIVITY
+check,mast,Activity,Item,check mast,3,2,O
+sheave,upper,Item,Location,upper sheave,0,1,HAS_LOCATION
+upper,sheave,Location,Item,upper sheave,1,0,O
+sheave,off,Item,Observation,off upper sheave,0,2,HAS_OBSERVATION
+off,sheave,Observation,Item,off upper sheave,2,0,O
+sheave,feed rope,Item,Item,feed rope off upper sheave,0,3,O
+feed rope,sheave,Item,Item,feed rope off upper sheave,3,0,APPEARS_WITH
+upper,off,Location,Observation,off upper,1,2,O
+off,upper,Observation,Location,off upper,2,1,O
+upper,feed rope,Location,Item,feed rope off upper,1,3,O
+feed rope,upper,Item,Location,feed rope off upper,3,1,HAS_LOCATION
+off,feed rope,Observation,Item,feed rope off,2,3,O
+feed rope,off,Item,Observation,feed rope off,3,2,HAS_OBSERVATION
+level,oil,Attribute,Consumable,oil level,0,1,O
+oil,level,Consumable,Attribute,oil level,1,0,O
+level,engine,Attribute,Item,engine oil level,0,2,O
+engine,level,Item,Attribute,engine oil level,2,0,HAS_ATTRIBUTE
+level,monitor,Attribute,Activity,monitor engine oil level,0,3,O
+monitor,level,Activity,Attribute,monitor engine oil level,3,0,O
+oil,engine,Consumable,Item,engine oil,1,2,O
+engine,oil,Item,Consumable,engine oil,2,1,HAS_CONSUMABLE
+oil,monitor,Consumable,Activity,monitor engine oil,1,3,O
+monitor,oil,Activity,Consumable,monitor engine oil,3,1,O
+engine,monitor,Item,Activity,monitor engine,2,3,HAS_ACTIVITY
+monitor,engine,Activity,Item,monitor engine,3,2,O
+tyrbo timer,repairs to,Item,Activity,repairs to tyrbo timer,0,1,HAS_ACTIVITY
+repairs to,tyrbo timer,Activity,Item,repairs to tyrbo timer,1,0,O
+cracked,radiator,Observation,Item,radiator cracked,0,1,O
+radiator,cracked,Item,Observation,radiator cracked,1,0,HAS_OBSERVATION
+cracked,on,Observation,Location,on radiator cracked,0,2,O
+on,cracked,Location,Observation,on radiator cracked,2,0,O
+cracked,suction line,Observation,Item,suction line on radiator cracked,0,3,O
+suction line,cracked,Item,Observation,suction line on radiator cracked,3,0,HAS_OBSERVATION
+radiator,on,Item,Location,on radiator,1,2,HAS_LOCATION
+on,radiator,Location,Item,on radiator,2,1,O
+radiator,suction line,Item,Item,suction line on radiator,1,3,APPEARS_WITH
+suction line,radiator,Item,Item,suction line on radiator,3,1,O
+on,suction line,Location,Item,suction line on,2,3,O
+suction line,on,Item,Location,suction line on,3,2,HAS_LOCATION
+flow divider,water inj,Item,Item,water inj flow divider,0,1,APPEARS_WITH
+water inj,flow divider,Item,Item,water inj flow divider,1,0,O
+flow divider,leak,Item,Observation,leak water inj flow divider,0,2,HAS_OBSERVATION
+leak,flow divider,Observation,Item,leak water inj flow divider,2,0,O
+flow divider,oil,Item,Consumable,oil leak water inj flow divider,0,3,HAS_CONSUMABLE
+oil,flow divider,Consumable,Item,oil leak water inj flow divider,3,0,O
+water inj,leak,Item,Observation,leak water inj,1,2,HAS_OBSERVATION
+leak,water inj,Observation,Item,leak water inj,2,1,O
+water inj,oil,Item,Consumable,oil leak water inj,1,3,HAS_CONSUMABLE
+oil,water inj,Consumable,Item,oil leak water inj,3,1,O
+leak,oil,Observation,Consumable,oil leak,2,3,O
+oil,leak,Consumable,Observation,oil leak,3,2,O
+machine,from,Item,Location,from machine,0,1,HAS_LOCATION
+from,machine,Location,Item,from machine,1,0,O
+machine,rods,Item,Item,rods from machine,0,2,APPEARS_WITH
+rods,machine,Item,Item,rods from machine,2,0,O
+machine,remove,Item,Activity,remove rods from machine,0,3,HAS_ACTIVITY
+remove,machine,Activity,Item,remove rods from machine,3,0,O
+from,rods,Location,Item,rods from,1,2,O
+rods,from,Item,Location,rods from,2,1,HAS_LOCATION
+from,remove,Location,Activity,remove rods from,1,3,O
+remove,from,Activity,Location,remove rods from,3,1,O
+rods,remove,Item,Activity,remove rods,2,3,HAS_ACTIVITY
+remove,rods,Activity,Item,remove rods,3,2,O
+glass rubber strips,cracks in,Item,Observation,cracks in glass rubber strips,0,1,HAS_OBSERVATION
+cracks in,glass rubber strips,Observation,Item,cracks in glass rubber strips,1,0,O
+glass rubber strips,seal,Item,Item,seal cracks in glass rubber strips,0,2,APPEARS_WITH
+seal,glass rubber strips,Item,Item,seal cracks in glass rubber strips,2,0,O
+cracks in,seal,Observation,Item,seal cracks in,1,2,O
+seal,cracks in,Item,Observation,seal cracks in,2,1,HAS_OBSERVATION
+uni,on,Item,Location,on uni,0,1,HAS_LOCATION
+on,uni,Location,Item,on uni,1,0,O
+uni,grease nipple,Item,Item,grease nipple on uni,0,2,O
+grease nipple,uni,Item,Item,grease nipple on uni,2,0,APPEARS_WITH
+uni,replace,Item,Activity,replace grease nipple on uni,0,3,HAS_ACTIVITY
+replace,uni,Activity,Item,replace grease nipple on uni,3,0,O
+on,grease nipple,Location,Item,grease nipple on,1,2,O
+grease nipple,on,Item,Location,grease nipple on,2,1,HAS_LOCATION
+on,replace,Location,Activity,replace grease nipple on,1,3,O
+replace,on,Activity,Location,replace grease nipple on,3,1,O
+grease nipple,replace,Item,Activity,replace grease nipple,2,3,HAS_ACTIVITY
+replace,grease nipple,Activity,Item,replace grease nipple,3,2,O
+will not go in to,track,Observation,Item,track will not go in to,0,1,O
+track,will not go in to,Item,Observation,track will not go in to,1,0,HAS_OBSERVATION
+will not go in to,off side,Observation,Location,off side track will not go in to,0,2,O
+off side,will not go in to,Location,Observation,off side track will not go in to,2,0,O
+track,off side,Item,Location,off side track,1,2,HAS_LOCATION
+off side,track,Location,Item,off side track,2,1,O
+nozzle,missing,Item,Observation,missing nozzle,0,1,HAS_OBSERVATION
+missing,nozzle,Observation,Item,missing nozzle,1,0,O
+nozzle,wash down hose,Item,Item,wash down hose missing nozzle,0,2,APPEARS_WITH
+wash down hose,nozzle,Item,Item,wash down hose missing nozzle,2,0,O
+missing,wash down hose,Observation,Item,wash down hose missing,1,2,O
+wash down hose,missing,Item,Observation,wash down hose missing,2,1,HAS_OBSERVATION
+chip deflector,replace,Item,Activity,replace chip deflector,0,1,HAS_ACTIVITY
+replace,chip deflector,Activity,Item,replace chip deflector,1,0,O
+1/07,inspection,Time,Activity,inspection NA 1/07,0,1,O
+inspection,1/07,Activity,Time,inspection NA 1/07,1,0,O
+1/07,hose,Time,Item,hose inspection NA 1/07,0,2,O
+hose,1/07,Item,Time,hose inspection NA 1/07,2,0,HAS_TIME
+1/07,manufacturer24,Time,Agent,manufacturer24 hose inspection NA 1/07,0,3,O
+manufacturer24,1/07,Agent,Time,manufacturer24 hose inspection NA 1/07,3,0,O
+inspection,hose,Activity,Item,hose inspection,1,2,O
+hose,inspection,Item,Activity,hose inspection,2,1,HAS_ACTIVITY
+inspection,manufacturer24,Activity,Agent,manufacturer24 hose inspection,1,3,O
+manufacturer24,inspection,Agent,Activity,manufacturer24 hose inspection,3,1,O
+hose,manufacturer24,Item,Agent,manufacturer24 hose,2,3,HAS_AGENT
+manufacturer24,hose,Agent,Item,manufacturer24 hose,3,2,O
+21/07/09,inspection,Time,Activity,inspection NA 21/07/09,0,1,O
+inspection,21/07/09,Activity,Time,inspection NA 21/07/09,1,0,O
+21/07/09,hose,Time,Item,hose inspection NA 21/07/09,0,2,O
+hose,21/07/09,Item,Time,hose inspection NA 21/07/09,2,0,HAS_TIME
+21/07/09,manufacturer24,Time,Agent,manufacturer24 hose inspection NA 21/07/09,0,3,O
+manufacturer24,21/07/09,Agent,Time,manufacturer24 hose inspection NA 21/07/09,3,0,O
+inspection,hose,Activity,Item,hose inspection,1,2,O
+hose,inspection,Item,Activity,hose inspection,2,1,HAS_ACTIVITY
+inspection,manufacturer24,Activity,Agent,manufacturer24 hose inspection,1,3,O
+manufacturer24,inspection,Agent,Activity,manufacturer24 hose inspection,3,1,O
+hose,manufacturer24,Item,Agent,manufacturer24 hose,2,3,HAS_AGENT
+manufacturer24,hose,Agent,Item,manufacturer24 hose,3,2,O
+not clamping,positioner cups,Observation,Item,positioner cups not clamping,0,1,O
+positioner cups,not clamping,Item,Observation,positioner cups not clamping,1,0,HAS_OBSERVATION
+tramming fault,check,Observation,Activity,check tramming fault,0,1,O
+check,tramming fault,Activity,Observation,check tramming fault,1,0,O
+not working,lights,Observation,Item,lights not working,0,1,O
+lights,not working,Item,Observation,lights not working,1,0,HAS_OBSERVATION
+not working,rear,Observation,Location,rear lights not working,0,2,O
+rear,not working,Location,Observation,rear lights not working,2,0,O
+lights,rear,Item,Location,rear lights,1,2,HAS_LOCATION
+rear,lights,Location,Item,rear lights,2,1,O
+not working,temp gauge,Observation,Item,temp gauge not working,0,1,O
+temp gauge,not working,Item,Observation,temp gauge not working,1,0,HAS_OBSERVATION
+not working,gearbox,Observation,Item,gearbox temp gauge not working,0,2,O
+gearbox,not working,Item,Observation,gearbox temp gauge not working,2,0,HAS_OBSERVATION
+temp gauge,gearbox,Item,Item,gearbox temp gauge,1,2,O
+gearbox,temp gauge,Item,Item,gearbox temp gauge,2,1,APPEARS_WITH
+skid,sign,Item,Item,sign skid,0,1,O
+sign,skid,Item,Item,sign skid,1,0,APPEARS_WITH
+skid,repairs to,Item,Activity,repairs to sign skid,0,2,HAS_ACTIVITY
+repairs to,skid,Activity,Item,repairs to sign skid,2,0,O
+sign,repairs to,Item,Activity,repairs to sign,1,2,HAS_ACTIVITY
+repairs to,sign,Activity,Item,repairs to sign,2,1,O
+dim,hyd tank,Observation,Item,hyd tank dim,0,1,O
+hyd tank,dim,Item,Observation,hyd tank dim,1,0,HAS_OBSERVATION
+dim,near,Observation,Location,near hyd tank dim,0,2,O
+near,dim,Location,Observation,near hyd tank dim,2,0,O
+dim,lights,Observation,Item,lights near hyd tank dim,0,3,O
+lights,dim,Item,Observation,lights near hyd tank dim,3,0,HAS_OBSERVATION
+hyd tank,near,Item,Location,near hyd tank,1,2,HAS_LOCATION
+near,hyd tank,Location,Item,near hyd tank,2,1,O
+hyd tank,lights,Item,Item,lights near hyd tank,1,3,APPEARS_WITH
+lights,hyd tank,Item,Item,lights near hyd tank,3,1,O
+near,lights,Location,Item,lights near,2,3,O
+lights,near,Item,Location,lights near,3,2,HAS_LOCATION
+air filters,repalce,Item,Activity,repalce air filters,0,1,HAS_ACTIVITY
+repalce,air filters,Activity,Item,repalce air filters,1,0,O
+not working.,speed gauge,Observation,Item,speed gauge not working.,0,1,O
+speed gauge,not working.,Item,Observation,speed gauge not working.,1,0,HAS_OBSERVATION
+not working.,rotary head,Observation,Item,rotary head speed gauge not working.,0,2,O
+rotary head,not working.,Item,Observation,rotary head speed gauge not working.,2,0,HAS_OBSERVATION
+speed gauge,rotary head,Item,Item,rotary head speed gauge,1,2,O
+rotary head,speed gauge,Item,Item,rotary head speed gauge,2,1,APPEARS_WITH
+air window cleaner,repair,Item,Activity,repair air window cleaner,0,1,HAS_ACTIVITY
+repair,air window cleaner,Activity,Item,repair air window cleaner,1,0,O
+not working,pipe positioner,Observation,Item,pipe positioner not working,0,1,O
+pipe positioner,not working,Item,Observation,pipe positioner not working,1,0,HAS_OBSERVATION
+stallout pressure,low,Attribute,Observation,low stallout pressure,0,1,O
+low,stallout pressure,Observation,Attribute,low stallout pressure,1,0,O
+stallout pressure,slow,Attribute,Observation,slow & low stallout pressure,0,2,O
+slow,stallout pressure,Observation,Attribute,slow & low stallout pressure,2,0,O
+stallout pressure,rotation,Attribute,Attribute,rotation slow & low stallout pressure,0,3,O
+rotation,stallout pressure,Attribute,Attribute,rotation slow & low stallout pressure,3,0,O
+low,slow,Observation,Observation,slow & low,1,2,O
+slow,low,Observation,Observation,slow & low,2,1,O
+low,rotation,Observation,Attribute,rotation slow & low,1,3,O
+rotation,low,Attribute,Observation,rotation slow & low,3,1,O
+slow,rotation,Observation,Attribute,rotation slow,2,3,O
+rotation,slow,Attribute,Observation,rotation slow,3,2,O
+misssing,wiper blade,Observation,Item,wiper blade misssing,0,1,O
+wiper blade,misssing,Item,Observation,wiper blade misssing,1,0,HAS_OBSERVATION
+intermittent,control lever,Observation,Item,control lever intermittent,0,1,O
+control lever,intermittent,Item,Observation,control lever intermittent,1,0,HAS_OBSERVATION
+intermittent,feed,Observation,Item,feed control lever intermittent,0,2,O
+feed,intermittent,Item,Observation,feed control lever intermittent,2,0,HAS_OBSERVATION
+control lever,feed,Item,Item,feed control lever,1,2,APPEARS_WITH
+feed,control lever,Item,Item,feed control lever,2,1,O
+needs,chip deflector,Observation,Item,chip deflector needs,0,1,O
+chip deflector,needs,Item,Observation,chip deflector needs,1,0,HAS_OBSERVATION
+u/s,lights,Observation,Item,lights u/s,0,1,O
+lights,u/s,Item,Observation,lights u/s,1,0,HAS_OBSERVATION
+u/s,mast,Observation,Item,mast lights u/s,0,2,O
+mast,u/s,Item,Observation,mast lights u/s,2,0,HAS_OBSERVATION
+lights,mast,Item,Item,mast lights,1,2,APPEARS_WITH
+mast,lights,Item,Item,mast lights,2,1,O
+leaking,water injuction pipe,Observation,Item,water injuction pipe leaking,0,1,O
+water injuction pipe,leaking,Item,Observation,water injuction pipe leaking,1,0,HAS_OBSERVATION
+gearbox,aux,Item,Specifier,aux gearbox,0,1,HAS_SPECIFIER
+aux,gearbox,Specifier,Item,aux gearbox,1,0,O
+gearbox,level,Item,Attribute,level aux gearbox,0,2,HAS_ATTRIBUTE
+level,gearbox,Attribute,Item,level aux gearbox,2,0,O
+gearbox,oil,Item,Consumable,oil level aux gearbox,0,3,HAS_CONSUMABLE
+oil,gearbox,Consumable,Item,oil level aux gearbox,3,0,O
+gearbox,check,Item,Activity,check oil level aux gearbox,0,4,HAS_ACTIVITY
+check,gearbox,Activity,Item,check oil level aux gearbox,4,0,O
+aux,level,Specifier,Attribute,level aux,1,2,O
+level,aux,Attribute,Specifier,level aux,2,1,O
+aux,oil,Specifier,Consumable,oil level aux,1,3,O
+oil,aux,Consumable,Specifier,oil level aux,3,1,O
+aux,check,Specifier,Activity,check oil level aux,1,4,O
+check,aux,Activity,Specifier,check oil level aux,4,1,O
+level,oil,Attribute,Consumable,oil level,2,3,O
+oil,level,Consumable,Attribute,oil level,3,2,O
+level,check,Attribute,Activity,check oil level,2,4,O
+check,level,Activity,Attribute,check oil level,4,2,O
+oil,check,Consumable,Activity,check oil,3,4,O
+check,oil,Activity,Consumable,check oil,4,3,O
+wrong type,pressure gauge,Observation,Item,pressure gauge wrong type,0,1,O
+pressure gauge,wrong type,Item,Observation,pressure gauge wrong type,1,0,HAS_OBSERVATION
+wrong type,receiver,Observation,Item,receiver pressure gauge wrong type,0,2,O
+receiver,wrong type,Item,Observation,receiver pressure gauge wrong type,2,0,HAS_OBSERVATION
+pressure gauge,receiver,Item,Item,receiver pressure gauge,1,2,APPEARS_WITH
+receiver,pressure gauge,Item,Item,receiver pressure gauge,2,1,O
+machine,in,Item,Location,in machine,0,1,HAS_LOCATION
+in,machine,Location,Item,in machine,1,0,O
+machine,vibration,Item,Observation,vibration in machine,0,2,HAS_OBSERVATION
+vibration,machine,Observation,Item,vibration in machine,2,0,O
+machine,check out,Item,Activity,check out vibration in machine,0,3,HAS_ACTIVITY
+check out,machine,Activity,Item,check out vibration in machine,3,0,O
+in,vibration,Location,Observation,vibration in,1,2,O
+vibration,in,Observation,Location,vibration in,2,1,O
+in,check out,Location,Activity,check out vibration in,1,3,O
+check out,in,Activity,Location,check out vibration in,3,1,O
+vibration,check out,Observation,Activity,check out vibration,2,3,O
+check out,vibration,Activity,Observation,check out vibration,3,2,O
+hose,carosell,Item,Item,carosell hose,0,1,O
+carosell,hose,Item,Item,carosell hose,1,0,APPEARS_WITH
+hose,blown,Item,Observation,blown carosell hose,0,2,HAS_OBSERVATION
+blown,hose,Observation,Item,blown carosell hose,2,0,O
+hose,replace,Item,Activity,replace blown carosell hose,0,3,HAS_ACTIVITY
+replace,hose,Activity,Item,replace blown carosell hose,3,0,O
+carosell,blown,Item,Observation,blown carosell,1,2,HAS_OBSERVATION
+blown,carosell,Observation,Item,blown carosell,2,1,O
+carosell,replace,Item,Activity,replace blown carosell,1,3,HAS_ACTIVITY
+replace,carosell,Activity,Item,replace blown carosell,3,1,O
+blown,replace,Observation,Activity,replace blown,2,3,O
+replace,blown,Activity,Observation,replace blown,3,2,O
+fell out,chain gard,Observation,Item,chain gard fell out,0,1,O
+chain gard,fell out,Item,Observation,chain gard fell out,1,0,HAS_OBSERVATION
+a/c units,sanitised,Item,Activity,sanitised a/c units,0,1,HAS_ACTIVITY
+sanitised,a/c units,Activity,Item,sanitised a/c units,1,0,O
+door,rear,Item,Location,rear door,0,1,HAS_LOCATION
+rear,door,Location,Item,rear door,1,0,O
+door,adjust,Item,Activity,adjust rear door,0,2,HAS_ACTIVITY
+adjust,door,Activity,Item,adjust rear door,2,0,O
+rear,adjust,Location,Activity,adjust rear,1,2,O
+adjust,rear,Activity,Location,adjust rear,2,1,O
+tool wrench,on,Item,Location,on tool wrench,0,1,HAS_LOCATION
+on,tool wrench,Location,Item,on tool wrench,1,0,O
+tool wrench,ram,Item,Item,ram on tool wrench,0,2,O
+ram,tool wrench,Item,Item,ram on tool wrench,2,0,APPEARS_WITH
+tool wrench,leaking,Item,Observation,leaking ram on tool wrench,0,3,HAS_OBSERVATION
+leaking,tool wrench,Observation,Item,leaking ram on tool wrench,3,0,O
+on,ram,Location,Item,ram on,1,2,O
+ram,on,Item,Location,ram on,2,1,HAS_LOCATION
+on,leaking,Location,Observation,leaking ram on,1,3,O
+leaking,on,Observation,Location,leaking ram on,3,1,O
+ram,leaking,Item,Observation,leaking ram,2,3,HAS_OBSERVATION
+leaking,ram,Observation,Item,leaking ram,3,2,O
+prestart,operator,Activity,Agent,operator prestart,0,1,O
+operator,prestart,Agent,Activity,operator prestart,1,0,O
+accident damage,steps,Observation,Item,steps accident damage,0,1,O
+steps,accident damage,Item,Observation,steps accident damage,1,0,HAS_OBSERVATION
+accident damage,repair,Observation,Activity,repair steps accident damage,0,2,O
+repair,accident damage,Activity,Observation,repair steps accident damage,2,0,O
+steps,repair,Item,Activity,repair steps,1,2,HAS_ACTIVITY
+repair,steps,Activity,Item,repair steps,2,1,O
+feed cylinder,mast,Item,Item,mast feed cylinder,0,1,APPEARS_WITH
+mast,feed cylinder,Item,Item,mast feed cylinder,1,0,O
+feed cylinder,rh,Item,Location,rh mast feed cylinder,0,2,HAS_LOCATION
+rh,feed cylinder,Location,Item,rh mast feed cylinder,2,0,O
+feed cylinder,change,Item,Activity,change rh mast feed cylinder,0,3,HAS_ACTIVITY
+change,feed cylinder,Activity,Item,change rh mast feed cylinder,3,0,O
+mast,rh,Item,Location,rh mast,1,2,HAS_LOCATION
+rh,mast,Location,Item,rh mast,2,1,O
+mast,change,Item,Activity,change rh mast,1,3,HAS_ACTIVITY
+change,mast,Activity,Item,change rh mast,3,1,O
+rh,change,Location,Activity,change rh,2,3,O
+change,rh,Activity,Location,change rh,3,2,O
+handrails,bent,Item,Observation,bent handrails,0,1,HAS_OBSERVATION
+bent,handrails,Observation,Item,bent handrails,1,0,O
+starter,upper,Item,Location,upper starter,0,1,HAS_LOCATION
+upper,starter,Location,Item,upper starter,1,0,O
+starter,c/o,Item,Activity,c/o upper starter,0,2,HAS_ACTIVITY
+c/o,starter,Activity,Item,c/o upper starter,2,0,O
+upper,c/o,Location,Activity,c/o upper,1,2,O
+c/o,upper,Activity,Location,c/o upper,2,1,O
+repairs,fire supression system,Activity,Item,fire supression system repairs,0,1,O
+fire supression system,repairs,Item,Activity,fire supression system repairs,1,0,HAS_ACTIVITY
+hard to lower,emergency stairs,Observation,Item,emergency stairs hard to lower,0,1,O
+emergency stairs,hard to lower,Item,Observation,emergency stairs hard to lower,1,0,HAS_OBSERVATION
+hard to lower,front,Observation,Location,front emergency stairs hard to lower,0,2,O
+front,hard to lower,Location,Observation,front emergency stairs hard to lower,2,0,O
+emergency stairs,front,Item,Location,front emergency stairs,1,2,HAS_LOCATION
+front,emergency stairs,Location,Item,front emergency stairs,2,1,O
+replacing.,holding wrench,Activity,Item,holding wrench requires replacing.,0,1,O
+holding wrench,replacing.,Item,Activity,holding wrench requires replacing.,1,0,HAS_ACTIVITY
+deck fork,change,Item,Activity,change deck fork,0,1,HAS_ACTIVITY
+change,deck fork,Activity,Item,change deck fork,1,0,O
+deck fork,inspect,Item,Activity,inspect / change deck fork,0,2,HAS_ACTIVITY
+inspect,deck fork,Activity,Item,inspect / change deck fork,2,0,O
+change,inspect,Activity,Activity,inspect / change,1,2,O
+inspect,change,Activity,Activity,inspect / change,2,1,O
+breather,coming out,Item,Observation,coming out of breather,0,1,HAS_OBSERVATION
+coming out,breather,Observation,Item,coming out of breather,1,0,O
+breather,oil,Item,Consumable,oil coming out of breather,0,2,HAS_CONSUMABLE
+oil,breather,Consumable,Item,oil coming out of breather,2,0,O
+coming out,oil,Observation,Consumable,oil coming out,1,2,O
+oil,coming out,Consumable,Observation,oil coming out,2,1,O
+set up,pre service,Activity,Activity,pre service set up,0,1,O
+pre service,set up,Activity,Activity,pre service set up,1,0,O
+fork cylinders,retaining blocks,Item,Item,retaining blocks fork cylinders,0,1,APPEARS_WITH
+retaining blocks,fork cylinders,Item,Item,retaining blocks fork cylinders,1,0,O
+fork cylinders,remove,Item,Activity,remove retaining blocks fork cylinders,0,2,HAS_ACTIVITY
+remove,fork cylinders,Activity,Item,remove retaining blocks fork cylinders,2,0,O
+retaining blocks,remove,Item,Activity,remove retaining blocks,1,2,HAS_ACTIVITY
+remove,retaining blocks,Activity,Item,remove retaining blocks,2,1,O
+seal,damaged,Item,Observation,damaged seal,0,1,HAS_OBSERVATION
+damaged,seal,Observation,Item,damaged seal,1,0,O
+seal,replaced,Item,Activity,replaced damaged seal,0,2,HAS_ACTIVITY
+replaced,seal,Activity,Item,replaced damaged seal,2,0,O
+damaged,replaced,Observation,Activity,replaced damaged,1,2,O
+replaced,damaged,Activity,Observation,replaced damaged,2,1,O
+16.07,x2,Time,Cardinality,x2 NA 16.07,0,1,O
+x2,16.07,Cardinality,Time,x2 NA 16.07,1,0,O
+16.07,labour,Time,Activity,labour x2 NA 16.07,0,2,O
+labour,16.07,Activity,Time,labour x2 NA 16.07,2,0,O
+16.07,scv,Time,Agent,scv labour x2 NA 16.07,0,3,O
+scv,16.07,Agent,Time,scv labour x2 NA 16.07,3,0,O
+x2,labour,Cardinality,Activity,labour x2,1,2,O
+labour,x2,Activity,Cardinality,labour x2,2,1,O
+x2,scv,Cardinality,Agent,scv labour x2,1,3,O
+scv,x2,Agent,Cardinality,scv labour x2,3,1,O
+labour,scv,Activity,Agent,scv labour,2,3,O
+scv,labour,Agent,Activity,scv labour,3,2,O
+viewing window,roof,Item,Item,roof viewing window,0,1,O
+roof,viewing window,Item,Item,roof viewing window,1,0,APPEARS_WITH
+viewing window,broken,Item,Observation,broken roof viewing window,0,2,HAS_OBSERVATION
+broken,viewing window,Observation,Item,broken roof viewing window,2,0,O
+viewing window,replace,Item,Activity,replace broken roof viewing window,0,3,HAS_ACTIVITY
+replace,viewing window,Activity,Item,replace broken roof viewing window,3,0,O
+viewing window,agl,Item,Agent,agl replace broken roof viewing window,0,4,HAS_AGENT
+agl,viewing window,Agent,Item,agl replace broken roof viewing window,4,0,O
+roof,broken,Item,Observation,broken roof,1,2,HAS_OBSERVATION
+broken,roof,Observation,Item,broken roof,2,1,O
+roof,replace,Item,Activity,replace broken roof,1,3,HAS_ACTIVITY
+replace,roof,Activity,Item,replace broken roof,3,1,O
+roof,agl,Item,Agent,agl replace broken roof,1,4,HAS_AGENT
+agl,roof,Agent,Item,agl replace broken roof,4,1,O
+broken,replace,Observation,Activity,replace broken,2,3,O
+replace,broken,Activity,Observation,replace broken,3,2,O
+broken,agl,Observation,Agent,agl replace broken,2,4,O
+agl,broken,Agent,Observation,agl replace broken,4,2,O
+replace,agl,Activity,Agent,agl replace,3,4,O
+agl,replace,Agent,Activity,agl replace,4,3,O
+faulty,arm rests,Observation,Item,arm rests faulty,0,1,O
+arm rests,faulty,Item,Observation,arm rests faulty,1,0,HAS_OBSERVATION
+faulty,seat,Observation,Item,seat arm rests faulty,0,2,O
+seat,faulty,Item,Observation,seat arm rests faulty,2,0,HAS_OBSERVATION
+arm rests,seat,Item,Item,seat arm rests,1,2,APPEARS_WITH
+seat,arm rests,Item,Item,seat arm rests,2,1,O
+pump drive box,on,Item,Location,on pump drive box,0,1,HAS_LOCATION
+on,pump drive box,Location,Item,on pump drive box,1,0,O
+pump drive box,breather,Item,Item,breather on pump drive box,0,2,O
+breather,pump drive box,Item,Item,breather on pump drive box,2,0,APPEARS_WITH
+pump drive box,replace,Item,Activity,replace breather on pump drive box,0,3,HAS_ACTIVITY
+replace,pump drive box,Activity,Item,replace breather on pump drive box,3,0,O
+on,breather,Location,Item,breather on,1,2,O
+breather,on,Item,Location,breather on,2,1,HAS_LOCATION
+on,replace,Location,Activity,replace breather on,1,3,O
+replace,on,Activity,Location,replace breather on,3,1,O
+breather,replace,Item,Activity,replace breather,2,3,HAS_ACTIVITY
+replace,breather,Activity,Item,replace breather,3,2,O
+air pressure,low,Attribute,Observation,low air pressure,0,1,O
+low,air pressure,Observation,Attribute,low air pressure,1,0,O
+air pressure,thread,Attribute,Item,thread lube has low air pressure,0,2,O
+thread,air pressure,Item,Attribute,thread lube has low air pressure,2,0,HAS_ATTRIBUTE
+low,thread,Observation,Item,thread lube has low,1,2,O
+thread,low,Item,Observation,thread lube has low,2,1,HAS_OBSERVATION
+lube pot,relocate,Item,Activity,relocate lube pot,0,1,HAS_ACTIVITY
+relocate,lube pot,Activity,Item,relocate lube pot,1,0,O
+track,right hand,Item,Location,right hand track,0,1,HAS_LOCATION
+right hand,track,Location,Item,right hand track,1,0,O
+track,refit,Item,Activity,refit right hand track,0,2,HAS_ACTIVITY
+refit,track,Activity,Item,refit right hand track,2,0,O
+right hand,refit,Location,Activity,refit right hand,1,2,O
+refit,right hand,Activity,Location,refit right hand,2,1,O
+weeping,seal,Observation,Consumable,seal weeping,0,1,O
+seal,weeping,Consumable,Observation,seal weeping,1,0,O
+weeping,adaptor,Observation,Item,adaptor seal weeping,0,2,O
+adaptor,weeping,Item,Observation,adaptor seal weeping,2,0,HAS_OBSERVATION
+weeping,pump,Observation,Item,pump adaptor seal weeping,0,3,O
+pump,weeping,Item,Observation,pump adaptor seal weeping,3,0,HAS_OBSERVATION
+weeping,fan,Observation,Item,fan pump adaptor seal weeping,0,4,O
+fan,weeping,Item,Observation,fan pump adaptor seal weeping,4,0,HAS_OBSERVATION
+weeping,lh,Observation,Location,lh fan pump adaptor seal weeping,0,5,O
+lh,weeping,Location,Observation,lh fan pump adaptor seal weeping,5,0,O
+seal,adaptor,Consumable,Item,adaptor seal,1,2,O
+adaptor,seal,Item,Consumable,adaptor seal,2,1,HAS_CONSUMABLE
+seal,pump,Consumable,Item,pump adaptor seal,1,3,O
+pump,seal,Item,Consumable,pump adaptor seal,3,1,HAS_CONSUMABLE
+seal,fan,Consumable,Item,fan pump adaptor seal,1,4,O
+fan,seal,Item,Consumable,fan pump adaptor seal,4,1,HAS_CONSUMABLE
+seal,lh,Consumable,Location,lh fan pump adaptor seal,1,5,O
+lh,seal,Location,Consumable,lh fan pump adaptor seal,5,1,O
+adaptor,pump,Item,Item,pump adaptor,2,3,APPEARS_WITH
+pump,adaptor,Item,Item,pump adaptor,3,2,O
+adaptor,fan,Item,Item,fan pump adaptor,2,4,APPEARS_WITH
+fan,adaptor,Item,Item,fan pump adaptor,4,2,O
+adaptor,lh,Item,Location,lh fan pump adaptor,2,5,HAS_LOCATION
+lh,adaptor,Location,Item,lh fan pump adaptor,5,2,O
+pump,fan,Item,Item,fan pump,3,4,O
+fan,pump,Item,Item,fan pump,4,3,APPEARS_WITH
+pump,lh,Item,Location,lh fan pump,3,5,HAS_LOCATION
+lh,pump,Location,Item,lh fan pump,5,3,O
+fan,lh,Item,Location,lh fan,4,5,HAS_LOCATION
+lh,fan,Location,Item,lh fan,5,4,O
+rod support,scope,Item,Activity,scope slop in rod support,0,1,HAS_ACTIVITY
+scope,rod support,Activity,Item,scope slop in rod support,1,0,O
+alternator,to,Item,Location,to alternator,0,1,HAS_LOCATION
+to,alternator,Location,Item,to alternator,1,0,O
+alternator,fault,Item,Observation,fault to alternator,0,2,HAS_OBSERVATION
+fault,alternator,Observation,Item,fault to alternator,2,0,O
+to,fault,Location,Observation,fault to,1,2,O
+fault,to,Observation,Location,fault to,2,1,O
+work lights,24v,Item,Specifier,24v work lights,0,1,HAS_SPECIFIER
+24v,work lights,Specifier,Item,24v work lights,1,0,O
+work lights,240v,Item,Specifier,240v and 24v work lights,0,2,HAS_SPECIFIER
+240v,work lights,Specifier,Item,240v and 24v work lights,2,0,O
+work lights,all,Item,Cardinality,all 240v and 24v work lights,0,3,HAS_CARDINALITY
+all,work lights,Cardinality,Item,all 240v and 24v work lights,3,0,O
+work lights,repair,Item,Activity,repair all 240v and 24v work lights,0,4,HAS_ACTIVITY
+repair,work lights,Activity,Item,repair all 240v and 24v work lights,4,0,O
+24v,240v,Specifier,Specifier,240v and 24v,1,2,O
+240v,24v,Specifier,Specifier,240v and 24v,2,1,O
+24v,all,Specifier,Cardinality,all 240v and 24v,1,3,O
+all,24v,Cardinality,Specifier,all 240v and 24v,3,1,O
+24v,repair,Specifier,Activity,repair all 240v and 24v,1,4,O
+repair,24v,Activity,Specifier,repair all 240v and 24v,4,1,O
+240v,all,Specifier,Cardinality,all 240v,2,3,O
+all,240v,Cardinality,Specifier,all 240v,3,2,O
+240v,repair,Specifier,Activity,repair all 240v,2,4,O
+repair,240v,Activity,Specifier,repair all 240v,4,2,O
+all,repair,Cardinality,Activity,repair all,3,4,O
+repair,all,Activity,Cardinality,repair all,4,3,O
+water pump,fron,Item,Location,fron water pump,0,1,HAS_LOCATION
+fron,water pump,Location,Item,fron water pump,1,0,O
+water pump,leak,Item,Observation,leak fron water pump,0,2,HAS_OBSERVATION
+leak,water pump,Observation,Item,leak fron water pump,2,0,O
+water pump,oil,Item,Consumable,oil leak fron water pump,0,3,HAS_CONSUMABLE
+oil,water pump,Consumable,Item,oil leak fron water pump,3,0,O
+fron,leak,Location,Observation,leak fron,1,2,O
+leak,fron,Observation,Location,leak fron,2,1,O
+fron,oil,Location,Consumable,oil leak fron,1,3,O
+oil,fron,Consumable,Location,oil leak fron,3,1,O
+leak,oil,Observation,Consumable,oil leak,2,3,O
+oil,leak,Consumable,Observation,oil leak,3,2,O
+cab,near,Item,Location,near cab,0,1,HAS_LOCATION
+near,cab,Location,Item,near cab,1,0,O
+cab,leak,Item,Observation,leak near cab,0,2,HAS_OBSERVATION
+leak,cab,Observation,Item,leak near cab,2,0,O
+near,leak,Location,Observation,leak near,1,2,O
+leak,near,Observation,Location,leak near,2,1,O
+stem,break,Item,Activity,break stem,0,1,HAS_ACTIVITY
+break,stem,Activity,Item,break stem,1,0,O
+stem,heat,Item,Activity,heat and break stem,0,2,HAS_ACTIVITY
+heat,stem,Activity,Item,heat and break stem,2,0,O
+break,heat,Activity,Activity,heat and break,1,2,O
+heat,break,Activity,Activity,heat and break,2,1,O
+washdown pump,fallen off,Item,Observation,fallen off washdown pump,0,1,HAS_OBSERVATION
+fallen off,washdown pump,Observation,Item,fallen off washdown pump,1,0,O
+washdown pump,hose,Item,Item,hose fallen off washdown pump,0,2,O
+hose,washdown pump,Item,Item,hose fallen off washdown pump,2,0,APPEARS_WITH
+fallen off,hose,Observation,Item,hose fallen off,1,2,O
+hose,fallen off,Item,Observation,hose fallen off,2,1,HAS_OBSERVATION
+away,has,Observation,Observation,has come away,0,1,O
+has,away,Observation,Observation,has come away,1,0,O
+away,limit switch,Observation,Item,limit switch has come away,0,2,O
+limit switch,away,Item,Observation,limit switch has come away,2,0,HAS_OBSERVATION
+has,limit switch,Observation,Item,limit switch has,1,2,O
+limit switch,has,Item,Observation,limit switch has,2,1,HAS_OBSERVATION
+chain,dust deflector,Item,Item,dust deflector chain,0,1,APPEARS_WITH
+dust deflector,chain,Item,Item,dust deflector chain,1,0,O
+chain,repair,Item,Activity,repair dust deflector chain,0,2,HAS_ACTIVITY
+repair,chain,Activity,Item,repair dust deflector chain,2,0,O
+dust deflector,repair,Item,Activity,repair dust deflector,1,2,HAS_ACTIVITY
+repair,dust deflector,Activity,Item,repair dust deflector,2,1,O
+changeout,extension,Activity,Item,extension thin changeout,0,1,O
+extension,changeout,Item,Activity,extension thin changeout,1,0,HAS_ACTIVITY
+changeout,reamer,Activity,Item,reamer & extension thin changeout,0,2,O
+reamer,changeout,Item,Activity,reamer & extension thin changeout,2,0,HAS_ACTIVITY
+extension,reamer,Item,Item,reamer & extension,1,2,APPEARS_WITH
+reamer,extension,Item,Item,reamer & extension,2,1,O
+dust curtains,replace,Item,Activity,replace dust curtains,0,1,HAS_ACTIVITY
+replace,dust curtains,Activity,Item,replace dust curtains,1,0,O
+oil,leaking,Consumable,Observation,leaking oil,0,1,O
+leaking,oil,Observation,Consumable,leaking oil,1,0,O
+oil,deck fork,Consumable,Item,deck fork leaking oil,0,2,O
+deck fork,oil,Item,Consumable,deck fork leaking oil,2,0,HAS_CONSUMABLE
+leaking,deck fork,Observation,Item,deck fork leaking,1,2,O
+deck fork,leaking,Item,Observation,deck fork leaking,2,1,HAS_OBSERVATION
+bracket,lighting,Item,Item,lighting bracket,0,1,APPEARS_WITH
+lighting,bracket,Item,Item,lighting bracket,1,0,O
+bracket,on,Item,Location,on lighting bracket,0,2,HAS_LOCATION
+on,bracket,Location,Item,on lighting bracket,2,0,O
+bracket,bolts,Item,Consumable,bolts on lighting bracket,0,3,HAS_CONSUMABLE
+bolts,bracket,Consumable,Item,bolts on lighting bracket,3,0,O
+bracket,loose,Item,Observation,loose bolts on lighting bracket,0,4,HAS_OBSERVATION
+loose,bracket,Observation,Item,loose bolts on lighting bracket,4,0,O
+lighting,on,Item,Location,on lighting,1,2,HAS_LOCATION
+on,lighting,Location,Item,on lighting,2,1,O
+lighting,bolts,Item,Consumable,bolts on lighting,1,3,HAS_CONSUMABLE
+bolts,lighting,Consumable,Item,bolts on lighting,3,1,O
+lighting,loose,Item,Observation,loose bolts on lighting,1,4,HAS_OBSERVATION
+loose,lighting,Observation,Item,loose bolts on lighting,4,1,O
+on,bolts,Location,Consumable,bolts on,2,3,O
+bolts,on,Consumable,Location,bolts on,3,2,O
+on,loose,Location,Observation,loose bolts on,2,4,O
+loose,on,Observation,Location,loose bolts on,4,2,O
+bolts,loose,Consumable,Observation,loose bolts,3,4,O
+loose,bolts,Observation,Consumable,loose bolts,4,3,O
+not working,sensor,Observation,Item,sensor not working,0,1,O
+sensor,not working,Item,Observation,sensor not working,1,0,HAS_OBSERVATION
+not working,hole,Observation,Item,hole sensor not working,0,2,O
+hole,not working,Item,Observation,hole sensor not working,2,0,HAS_OBSERVATION
+not working,in,Observation,Location,in hole sensor not working,0,3,O
+in,not working,Location,Observation,in hole sensor not working,3,0,O
+not working,pipe,Observation,Item,pipe in hole sensor not working,0,4,O
+pipe,not working,Item,Observation,pipe in hole sensor not working,4,0,HAS_OBSERVATION
+sensor,hole,Item,Item,hole sensor,1,2,O
+hole,sensor,Item,Item,hole sensor,2,1,APPEARS_WITH
+sensor,in,Item,Location,in hole sensor,1,3,HAS_LOCATION
+in,sensor,Location,Item,in hole sensor,3,1,O
+sensor,pipe,Item,Item,pipe in hole sensor,1,4,O
+pipe,sensor,Item,Item,pipe in hole sensor,4,1,APPEARS_WITH
+hole,in,Item,Location,in hole,2,3,HAS_LOCATION
+in,hole,Location,Item,in hole,3,2,O
+hole,pipe,Item,Item,pipe in hole,2,4,APPEARS_WITH
+pipe,hole,Item,Item,pipe in hole,4,2,O
+in,pipe,Location,Item,pipe in,3,4,O
+pipe,in,Item,Location,pipe in,4,3,HAS_LOCATION
+work deck,on,Item,Location,on work deck,0,1,HAS_LOCATION
+on,work deck,Location,Item,on work deck,1,0,O
+work deck,hand rail,Item,Item,hand rail on work deck,0,2,O
+hand rail,work deck,Item,Item,hand rail on work deck,2,0,APPEARS_WITH
+work deck,broken,Item,Observation,broken hand rail on work deck,0,3,HAS_OBSERVATION
+broken,work deck,Observation,Item,broken hand rail on work deck,3,0,O
+on,hand rail,Location,Item,hand rail on,1,2,O
+hand rail,on,Item,Location,hand rail on,2,1,HAS_LOCATION
+on,broken,Location,Observation,broken hand rail on,1,3,O
+broken,on,Observation,Location,broken hand rail on,3,1,O
+hand rail,broken,Item,Observation,broken hand rail,2,3,HAS_OBSERVATION
+broken,hand rail,Observation,Item,broken hand rail,3,2,O
+wrench,deck,Item,Item,deck wrench,0,1,O
+deck,wrench,Item,Item,deck wrench,1,0,APPEARS_WITH
+wrench,on,Item,Location,on deck wrench,0,2,HAS_LOCATION
+on,wrench,Location,Item,on deck wrench,2,0,O
+wrench,fitting,Item,Item,fitting on deck wrench,0,3,O
+fitting,wrench,Item,Item,fitting on deck wrench,3,0,APPEARS_WITH
+wrench,repair,Item,Activity,repair fitting on deck wrench,0,4,HAS_ACTIVITY
+repair,wrench,Activity,Item,repair fitting on deck wrench,4,0,O
+deck,on,Item,Location,on deck,1,2,HAS_LOCATION
+on,deck,Location,Item,on deck,2,1,O
+deck,fitting,Item,Item,fitting on deck,1,3,APPEARS_WITH
+fitting,deck,Item,Item,fitting on deck,3,1,O
+deck,repair,Item,Activity,repair fitting on deck,1,4,HAS_ACTIVITY
+repair,deck,Activity,Item,repair fitting on deck,4,1,O
+on,fitting,Location,Item,fitting on,2,3,O
+fitting,on,Item,Location,fitting on,3,2,HAS_LOCATION
+on,repair,Location,Activity,repair fitting on,2,4,O
+repair,on,Activity,Location,repair fitting on,4,2,O
+fitting,repair,Item,Activity,repair fitting,3,4,HAS_ACTIVITY
+repair,fitting,Activity,Item,repair fitting,4,3,O
+rotation pipe,replace,Item,Activity,replace forward rotation pipe,0,1,HAS_ACTIVITY
+replace,rotation pipe,Activity,Item,replace forward rotation pipe,1,0,O
+compressor,on,Item,Location,on compressor,0,1,HAS_LOCATION
+on,compressor,Location,Item,on compressor,1,0,O
+compressor,oil,Item,Consumable,oil laek on compressor,0,2,HAS_CONSUMABLE
+oil,compressor,Consumable,Item,oil laek on compressor,2,0,O
+on,oil,Location,Consumable,oil laek on,1,2,O
+oil,on,Consumable,Location,oil laek on,2,1,O
+machine,on,Item,Location,on the machine,0,1,HAS_LOCATION
+on,machine,Location,Item,on the machine,1,0,O
+machine,lights out,Item,Observation,lights out on the machine,0,2,HAS_OBSERVATION
+lights out,machine,Observation,Item,lights out on the machine,2,0,O
+machine,repair,Item,Activity,repair lights out on the machine,0,3,HAS_ACTIVITY
+repair,machine,Activity,Item,repair lights out on the machine,3,0,O
+on,lights out,Location,Observation,lights out on,1,2,O
+lights out,on,Observation,Location,lights out on,2,1,O
+on,repair,Location,Activity,repair lights out on,1,3,O
+repair,on,Activity,Location,repair lights out on,3,1,O
+lights out,repair,Observation,Activity,repair lights out,2,3,O
+repair,lights out,Activity,Observation,repair lights out,3,2,O
+lhs forward,slow,Location,Observation,slow tramming lhs forward,0,1,O
+slow,lhs forward,Observation,Location,slow tramming lhs forward,1,0,O
+seal,deck,Item,Item,deck seal,0,1,O
+deck,seal,Item,Item,deck seal,1,0,APPEARS_WITH
+seal,chip deflector,Item,Item,chip deflector & deck seal,0,2,O
+chip deflector,seal,Item,Item,chip deflector & deck seal,2,0,APPEARS_WITH
+seal,replace,Item,Activity,replace chip deflector & deck seal,0,3,HAS_ACTIVITY
+replace,seal,Activity,Item,replace chip deflector & deck seal,3,0,O
+deck,chip deflector,Item,Item,chip deflector & deck,1,2,O
+chip deflector,deck,Item,Item,chip deflector & deck,2,1,APPEARS_WITH
+deck,replace,Item,Activity,replace chip deflector & deck,1,3,HAS_ACTIVITY
+replace,deck,Activity,Item,replace chip deflector & deck,3,1,O
+chip deflector,replace,Item,Activity,replace chip deflector,2,3,HAS_ACTIVITY
+replace,chip deflector,Activity,Item,replace chip deflector,3,2,O
+leak,hyd oil,Observation,Consumable,hyd oil leak,0,1,O
+hyd oil,leak,Consumable,Observation,hyd oil leak,1,0,O
+leak,check,Observation,Activity,check hyd oil leak,0,2,O
+check,leak,Activity,Observation,check hyd oil leak,2,0,O
+hyd oil,check,Consumable,Activity,check hyd oil,1,2,O
+check,hyd oil,Activity,Consumable,check hyd oil,2,1,O
+over- full,pump drive box,Observation,Item,pump drive box over- full,0,1,O
+pump drive box,over- full,Item,Observation,pump drive box over- full,1,0,HAS_OBSERVATION
+hose,broken,Item,Observation,broken hose,0,1,HAS_OBSERVATION
+broken,hose,Observation,Item,broken hose,1,0,O
+hose,propel pump,Item,Item,propel pump broken hose,0,2,APPEARS_WITH
+propel pump,hose,Item,Item,propel pump broken hose,2,0,O
+hose,rh,Item,Location,rh propel pump broken hose,0,3,HAS_LOCATION
+rh,hose,Location,Item,rh propel pump broken hose,3,0,O
+broken,propel pump,Observation,Item,propel pump broken,1,2,O
+propel pump,broken,Item,Observation,propel pump broken,2,1,HAS_OBSERVATION
+broken,rh,Observation,Location,rh propel pump broken,1,3,O
+rh,broken,Location,Observation,rh propel pump broken,3,1,O
+propel pump,rh,Item,Location,rh propel pump,2,3,HAS_LOCATION
+rh,propel pump,Location,Item,rh propel pump,3,2,O
+camera,eng,Item,Item,eng camera,0,1,APPEARS_WITH
+eng,camera,Item,Item,eng camera,1,0,O
+camera,move,Item,Activity,move eng camera,0,2,HAS_ACTIVITY
+move,camera,Activity,Item,move eng camera,2,0,O
+eng,move,Item,Activity,move eng,1,2,HAS_ACTIVITY
+move,eng,Activity,Item,move eng,2,1,O
+21/07/09,x2,Time,Cardinality,x2 NA 21/07/09,0,1,O
+x2,21/07/09,Cardinality,Time,x2 NA 21/07/09,1,0,O
+21/07/09,labour,Time,Activity,labour x2 NA 21/07/09,0,2,O
+labour,21/07/09,Activity,Time,labour x2 NA 21/07/09,2,0,O
+21/07/09,scv,Time,Agent,scv labour x2 NA 21/07/09,0,3,O
+scv,21/07/09,Agent,Time,scv labour x2 NA 21/07/09,3,0,O
+x2,labour,Cardinality,Activity,labour x2,1,2,O
+labour,x2,Activity,Cardinality,labour x2,2,1,O
+x2,scv,Cardinality,Agent,scv labour x2,1,3,O
+scv,x2,Agent,Cardinality,scv labour x2,3,1,O
+labour,scv,Activity,Agent,scv labour,2,3,O
+scv,labour,Agent,Activity,scv labour,3,2,O
+not retracting,lock pin,Observation,Item,lock pin not retracting,0,1,O
+lock pin,not retracting,Item,Observation,lock pin not retracting,1,0,HAS_OBSERVATION
+not retracting,carousel,Observation,Item,carousel lock pin not retracting,0,2,O
+carousel,not retracting,Item,Observation,carousel lock pin not retracting,2,0,HAS_OBSERVATION
+lock pin,carousel,Item,Item,carousel lock pin,1,2,O
+carousel,lock pin,Item,Item,carousel lock pin,2,1,APPEARS_WITH
+system,potable water,Item,Item,potable water system,0,1,O
+potable water,system,Item,Item,potable water system,1,0,APPEARS_WITH
+system,check,Item,Activity,check potable water system,0,2,HAS_ACTIVITY
+check,system,Activity,Item,check potable water system,2,0,O
+potable water,check,Item,Activity,check potable water,1,2,HAS_ACTIVITY
+check,potable water,Activity,Item,check potable water,2,1,O
+rotary head,top up,Item,Activity,top up rotary head,0,1,HAS_ACTIVITY
+top up,rotary head,Activity,Item,top up rotary head,1,0,O
+skid,to,Item,Location,to skid,0,1,HAS_LOCATION
+to,skid,Location,Item,to skid,1,0,O
+skid,signs,Item,Item,signs to skid,0,2,O
+signs,skid,Item,Item,signs to skid,2,0,APPEARS_WITH
+skid,new,Item,Specifier,new signs to skid,0,3,HAS_SPECIFIER
+new,skid,Specifier,Item,new signs to skid,3,0,O
+skid,fit,Item,Activity,fit new signs to skid,0,4,HAS_ACTIVITY
+fit,skid,Activity,Item,fit new signs to skid,4,0,O
+to,signs,Location,Item,signs to,1,2,O
+signs,to,Item,Location,signs to,2,1,HAS_LOCATION
+to,new,Location,Specifier,new signs to,1,3,O
+new,to,Specifier,Location,new signs to,3,1,O
+to,fit,Location,Activity,fit new signs to,1,4,O
+fit,to,Activity,Location,fit new signs to,4,1,O
+signs,new,Item,Specifier,new signs,2,3,HAS_SPECIFIER
+new,signs,Specifier,Item,new signs,3,2,O
+signs,fit,Item,Activity,fit new signs,2,4,HAS_ACTIVITY
+fit,signs,Activity,Item,fit new signs,4,2,O
+new,fit,Specifier,Activity,fit new,3,4,O
+fit,new,Activity,Specifier,fit new,4,3,O
+hydraulic tank,over filled,Item,Observation,over filled hydraulic tank,0,1,HAS_OBSERVATION
+over filled,hydraulic tank,Observation,Item,over filled hydraulic tank,1,0,O
+building up,slapper blocks,Activity,Item,slapper blocks need building up,0,1,O
+slapper blocks,building up,Item,Activity,slapper blocks need building up,1,0,HAS_ACTIVITY
+shock sub,overhaul,Item,Activity,overhaul shock sub,0,1,HAS_ACTIVITY
+overhaul,shock sub,Activity,Item,overhaul shock sub,1,0,O
+shock sub,strip,Item,Activity,strip and overhaul shock sub,0,2,HAS_ACTIVITY
+strip,shock sub,Activity,Item,strip and overhaul shock sub,2,0,O
+overhaul,strip,Activity,Activity,strip and overhaul,1,2,O
+strip,overhaul,Activity,Activity,strip and overhaul,2,1,O
+steel pipe,on,Item,Location,on steel pipe,0,1,HAS_LOCATION
+on,steel pipe,Location,Item,on steel pipe,1,0,O
+steel pipe,oring,Item,Item,oring on steel pipe,0,2,O
+oring,steel pipe,Item,Item,oring on steel pipe,2,0,APPEARS_WITH
+steel pipe,weeping,Item,Observation,weeping oring on steel pipe,0,3,HAS_OBSERVATION
+weeping,steel pipe,Observation,Item,weeping oring on steel pipe,3,0,O
+on,oring,Location,Item,oring on,1,2,O
+oring,on,Item,Location,oring on,2,1,HAS_LOCATION
+on,weeping,Location,Observation,weeping oring on,1,3,O
+weeping,on,Observation,Location,weeping oring on,3,1,O
+oring,weeping,Item,Observation,weeping oring,2,3,HAS_OBSERVATION
+weeping,oring,Observation,Item,weeping oring,3,2,O
+filter parts,misssing,Item,Observation,misssing filter parts,0,1,HAS_OBSERVATION
+misssing,filter parts,Observation,Item,misssing filter parts,1,0,O
+filter parts,fit up,Item,Activity,fit up misssing filter parts,0,2,HAS_ACTIVITY
+fit up,filter parts,Activity,Item,fit up misssing filter parts,2,0,O
+misssing,fit up,Observation,Activity,fit up misssing,1,2,O
+fit up,misssing,Activity,Observation,fit up misssing,2,1,O
+positioner arm,to,Item,Location,to positioner arm,0,1,HAS_LOCATION
+to,positioner arm,Location,Item,to positioner arm,1,0,O
+positioner arm,stops,Item,Item,stops to positioner arm,0,2,APPEARS_WITH
+stops,positioner arm,Item,Item,stops to positioner arm,2,0,O
+positioner arm,fit,Item,Activity,fit stops to positioner arm,0,3,HAS_ACTIVITY
+fit,positioner arm,Activity,Item,fit stops to positioner arm,3,0,O
+to,stops,Location,Item,stops to,1,2,O
+stops,to,Item,Location,stops to,2,1,HAS_LOCATION
+to,fit,Location,Activity,fit stops to,1,3,O
+fit,to,Activity,Location,fit stops to,3,1,O
+stops,fit,Item,Activity,fit stops,2,3,HAS_ACTIVITY
+fit,stops,Activity,Item,fit stops,3,2,O
+drill rods,changeout,Item,Activity,changeout drill rods,0,1,HAS_ACTIVITY
+changeout,drill rods,Activity,Item,changeout drill rods,1,0,O
+chains,adjustment,Item,Activity,adjustment of chains,0,1,HAS_ACTIVITY
+adjustment,chains,Activity,Item,adjustment of chains,1,0,O
+chains,check,Item,Activity,check adjustment of chains,0,2,HAS_ACTIVITY
+check,chains,Activity,Item,check adjustment of chains,2,0,O
+adjustment,check,Activity,Activity,check adjustment,1,2,O
+check,adjustment,Activity,Activity,check adjustment,2,1,O
+door,insp,Item,Activity,insp door,0,1,HAS_ACTIVITY
+insp,door,Activity,Item,insp door,1,0,O
+door,alternator,Item,Item,alternator insp door,0,2,O
+alternator,door,Item,Item,alternator insp door,2,0,APPEARS_WITH
+door,latch,Item,Item,latch alternator insp door,0,3,APPEARS_WITH
+latch,door,Item,Item,latch alternator insp door,3,0,O
+door,broken,Item,Observation,broken latch alternator insp door,0,4,HAS_OBSERVATION
+broken,door,Observation,Item,broken latch alternator insp door,4,0,O
+insp,alternator,Activity,Item,alternator insp,1,2,O
+alternator,insp,Item,Activity,alternator insp,2,1,HAS_ACTIVITY
+insp,latch,Activity,Item,latch alternator insp,1,3,O
+latch,insp,Item,Activity,latch alternator insp,3,1,HAS_ACTIVITY
+insp,broken,Activity,Observation,broken latch alternator insp,1,4,O
+broken,insp,Observation,Activity,broken latch alternator insp,4,1,O
+alternator,latch,Item,Item,latch alternator,2,3,APPEARS_WITH
+latch,alternator,Item,Item,latch alternator,3,2,O
+alternator,broken,Item,Observation,broken latch alternator,2,4,HAS_OBSERVATION
+broken,alternator,Observation,Item,broken latch alternator,4,2,O
+latch,broken,Item,Observation,broken latch,3,4,HAS_OBSERVATION
+broken,latch,Observation,Item,broken latch,4,3,O
+walkway gate,mast,Item,Item,mast walkway gate,0,1,O
+mast,walkway gate,Item,Item,mast walkway gate,1,0,APPEARS_WITH
+walkway gate,fabricate,Item,Activity,fabricate mast walkway gate,0,2,HAS_ACTIVITY
+fabricate,walkway gate,Activity,Item,fabricate mast walkway gate,2,0,O
+mast,fabricate,Item,Activity,fabricate mast,1,2,HAS_ACTIVITY
+fabricate,mast,Activity,Item,fabricate mast,2,1,O
+housing,engine oil filter,Item,Item,engine oil filter housing,0,1,O
+engine oil filter,housing,Item,Item,engine oil filter housing,1,0,APPEARS_WITH
+housing,shroud,Item,Item,shroud engine oil filter housing,0,2,APPEARS_WITH
+shroud,housing,Item,Item,shroud engine oil filter housing,2,0,O
+housing,loose,Item,Observation,loose shroud engine oil filter housing,0,3,HAS_OBSERVATION
+loose,housing,Observation,Item,loose shroud engine oil filter housing,3,0,O
+engine oil filter,shroud,Item,Item,shroud engine oil filter,1,2,APPEARS_WITH
+shroud,engine oil filter,Item,Item,shroud engine oil filter,2,1,O
+engine oil filter,loose,Item,Observation,loose shroud engine oil filter,1,3,HAS_OBSERVATION
+loose,engine oil filter,Observation,Item,loose shroud engine oil filter,3,1,O
+shroud,loose,Item,Observation,loose shroud,2,3,HAS_OBSERVATION
+loose,shroud,Observation,Item,loose shroud,3,2,O
+oil,making,Consumable,Observation,making oil,0,1,O
+making,oil,Observation,Consumable,making oil,1,0,O
+oil,gearbox,Consumable,Item,gearbox making oil,0,2,O
+gearbox,oil,Item,Consumable,gearbox making oil,2,0,HAS_CONSUMABLE
+oil,aux,Consumable,Specifier,aux gearbox making oil,0,3,O
+aux,oil,Specifier,Consumable,aux gearbox making oil,3,0,O
+making,gearbox,Observation,Item,gearbox making,1,2,O
+gearbox,making,Item,Observation,gearbox making,2,1,HAS_OBSERVATION
+making,aux,Observation,Specifier,aux gearbox making,1,3,O
+aux,making,Specifier,Observation,aux gearbox making,3,1,O
+gearbox,aux,Item,Specifier,aux gearbox,2,3,HAS_SPECIFIER
+aux,gearbox,Specifier,Item,aux gearbox,3,2,O
+pumps,off,Item,Location,off pumps,0,1,HAS_LOCATION
+off,pumps,Location,Item,off pumps,1,0,O
+pumps,part no,Item,Attribute,part no off pumps,0,2,HAS_ATTRIBUTE
+part no,pumps,Attribute,Item,part no off pumps,2,0,O
+pumps,get,Item,Activity,get part no off pumps,0,3,HAS_ACTIVITY
+get,pumps,Activity,Item,get part no off pumps,3,0,O
+off,part no,Location,Attribute,part no off,1,2,O
+part no,off,Attribute,Location,part no off,2,1,O
+off,get,Location,Activity,get part no off,1,3,O
+get,off,Activity,Location,get part no off,3,1,O
+part no,get,Attribute,Activity,get part no,2,3,O
+get,part no,Activity,Attribute,get part no,3,2,O
+metering pump,from,Item,Location,from metering pump,0,1,HAS_LOCATION
+from,metering pump,Location,Item,from metering pump,1,0,O
+replaced,track roller,Activity,Item,track roller to be replaced,0,1,O
+track roller,replaced,Item,Activity,track roller to be replaced,1,0,HAS_ACTIVITY
+catching,hosing,Observation,Item,hosing catching,0,1,O
+hosing,catching,Item,Observation,hosing catching,1,0,HAS_OBSERVATION
+catching,mast,Observation,Item,mast hosing catching,0,2,O
+mast,catching,Item,Observation,mast hosing catching,2,0,HAS_OBSERVATION
+catching,tidy up,Observation,Activity,tidy up mast hosing catching,0,3,O
+tidy up,catching,Activity,Observation,tidy up mast hosing catching,3,0,O
+hosing,mast,Item,Item,mast hosing,1,2,APPEARS_WITH
+mast,hosing,Item,Item,mast hosing,2,1,O
+hosing,tidy up,Item,Activity,tidy up mast hosing,1,3,HAS_ACTIVITY
+tidy up,hosing,Activity,Item,tidy up mast hosing,3,1,O
+mast,tidy up,Item,Activity,tidy up mast,2,3,HAS_ACTIVITY
+tidy up,mast,Activity,Item,tidy up mast,3,2,O
+feed cylinder,mast,Item,Item,mast feed cylinder,0,1,APPEARS_WITH
+mast,feed cylinder,Item,Item,mast feed cylinder,1,0,O
+feed cylinder,lh,Item,Location,lh mast feed cylinder,0,2,HAS_LOCATION
+lh,feed cylinder,Location,Item,lh mast feed cylinder,2,0,O
+feed cylinder,change,Item,Activity,change lh mast feed cylinder,0,3,HAS_ACTIVITY
+change,feed cylinder,Activity,Item,change lh mast feed cylinder,3,0,O
+mast,lh,Item,Location,lh mast,1,2,HAS_LOCATION
+lh,mast,Location,Item,lh mast,2,1,O
+mast,change,Item,Activity,change lh mast,1,3,HAS_ACTIVITY
+change,mast,Activity,Item,change lh mast,3,1,O
+lh,change,Location,Activity,change lh,2,3,O
+change,lh,Activity,Location,change lh,3,2,O
+16/07,x1,Time,Cardinality,x1 NA 16/07,0,1,O
+x1,16/07,Cardinality,Time,x1 NA 16/07,1,0,O
+16/07,labour,Time,Activity,labour x1 NA 16/07,0,2,O
+labour,16/07,Activity,Time,labour x1 NA 16/07,2,0,O
+16/07,krown,Time,Agent,krown labour x1 NA 16/07,0,3,O
+krown,16/07,Agent,Time,krown labour x1 NA 16/07,3,0,O
+x1,labour,Cardinality,Activity,labour x1,1,2,O
+labour,x1,Activity,Cardinality,labour x1,2,1,O
+x1,krown,Cardinality,Agent,krown labour x1,1,3,O
+krown,x1,Agent,Cardinality,krown labour x1,3,1,O
+labour,krown,Activity,Agent,krown labour,2,3,O
+krown,labour,Agent,Activity,krown labour,3,2,O
+rotation hose,weeping,Item,Observation,weeping rotation hose,0,1,HAS_OBSERVATION
+weeping,rotation hose,Observation,Item,weeping rotation hose,1,0,O
+rotation hose,seal,Item,Item,seal weeping rotation hose,0,2,APPEARS_WITH
+seal,rotation hose,Item,Item,seal weeping rotation hose,2,0,O
+weeping,seal,Observation,Item,seal weeping,1,2,O
+seal,weeping,Item,Observation,seal weeping,2,1,HAS_OBSERVATION
+leaking,input seal,Observation,Item,input seal leaking,0,1,O
+input seal,leaking,Item,Observation,input seal leaking,1,0,HAS_OBSERVATION
+leaking,compressor,Observation,Item,compressor input seal leaking,0,2,O
+compressor,leaking,Item,Observation,compressor input seal leaking,2,0,HAS_OBSERVATION
+input seal,compressor,Item,Item,compressor input seal,1,2,O
+compressor,input seal,Item,Item,compressor input seal,2,1,APPEARS_WITH
+arm rests,seat,Item,Item,seat arm rests,0,1,APPEARS_WITH
+seat,arm rests,Item,Item,seat arm rests,1,0,O
+arm rests,replace,Item,Activity,replace seat arm rests,0,2,HAS_ACTIVITY
+replace,arm rests,Activity,Item,replace seat arm rests,2,0,O
+seat,replace,Item,Activity,replace seat,1,2,HAS_ACTIVITY
+replace,seat,Activity,Item,replace seat,2,1,O
