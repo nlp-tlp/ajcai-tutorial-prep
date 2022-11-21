@@ -99,17 +99,18 @@ class DictionaryNERModel(NERModel):
         with open(os.path.join(model_path, "model.pkl"), "wb") as f:
             pkl.dump(self._chunked_frequency_dict, f)
 
-    def inference(self, raw_sents: list) -> list:
+    def inference(self, sent: list) -> list:
         """Run the inference on a given list of short texts.
 
         Raises:
             ValueError: If the model has not yet been trained.
 
         Args:
-            raw_sents (list): The list of raw sents to run the inference on.
+            sent (list): The sentence to run the inference on.
 
         Returns:
-            list: The list of documents with predictions.
+            dict: The sentence now in the form of {'tokens': [list],
+                'labels': [list]}.
         """
         if self._chunked_frequency_dict is None:
             raise ValueError(
@@ -117,46 +118,40 @@ class DictionaryNERModel(NERModel):
                 "Please run the train function before proceeding."
             )
 
-        preds = []
-
         min_words = min(self._chunked_frequency_dict.keys())
         max_words = max(self._chunked_frequency_dict.keys()) + 1
         cfd = self._chunked_frequency_dict
 
-        for sent in raw_sents:
-            tokens = sent
-            labels = ["O"] * len(sent)
+        tokens = sent
+        labels = ["O"] * len(sent)
 
-            for i, t in enumerate(tokens):
+        for i, t in enumerate(tokens):
 
-                # If label already predicted (by a larger term),
-                # move on.
-                if labels[i] != "O":
+            # If label already predicted (by a larger term),
+            # move on.
+            if labels[i] != "O":
+                continue
+
+            # Go through each number of words (in reverse order).
+            # Check each chunk of words to see whether they are in
+            # the cfd. If so, set the labels accordingly.
+            for j in reversed(range(min_words, max_words)):
+                if j not in cfd:
                     continue
+                if (i + j) > len(tokens):
+                    continue
+                token_str = " ".join(tokens[i : i + j])
 
-                # Go through each number of words (in reverse order).
-                # Check each chunk of words to see whether they are in
-                # the cfd. If so, set the labels accordingly.
-                for j in reversed(range(min_words, max_words)):
-                    if j not in cfd:
-                        continue
-                    if (i + j) > len(tokens):
-                        continue
-                    token_str = " ".join(tokens[i : i + j])
+                if token_str in cfd[j]:
+                    base_class = cfd[j][token_str]
+                    labels[i] = "B-" + base_class
+                    for x in range((i + 1), (i + j)):
+                        labels[x] = "I-" + base_class
+                        i += 1
+                        # Skip ahead so the labels are not overwritten
 
-                    if token_str in cfd[j]:
-                        base_class = cfd[j][token_str]
-                        labels[i] = "B-" + base_class
-                        for x in range((i + 1), (i + j)):
-                            labels[x] = "I-" + base_class
-                            i += 1
-                            # Skip ahead so the labels are not overwritten
-
-            # Create a ConllDocument from these tokens and labels and append.
-            doc = {"tokens": tokens, "labels": labels}
-            preds.append(doc)
-
-        return preds
+        # Create a ConllDocument from these tokens and labels and append.
+        return {"tokens": tokens, "labels": labels}
 
     def _load_conll_data(self, datasets_path: str) -> dict:
         """Load the CONLL-formatted data from the given folder.

@@ -74,12 +74,13 @@ machine tramming to one side Item Observation machine tramming to one side
 
 wrench deck Item Item deck wrench
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 deck wrench Item Item deck wrench
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 wrench worn Item Observation worn deck wrench
  - Gold: HAS_OBSERVATION
@@ -376,7 +377,8 @@ light deck Item Item deck light
 
 deck light Item Item deck light
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 light reposition Item Activity reposition deck light
  - Gold: HAS_ACTIVITY
@@ -407,11 +409,12 @@ blown hose Observation Item blown hose
 
 breather gearbox Item Item gearbox breather
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 gearbox breather Item Item gearbox breather
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 breather replace Item Activity replace gearbox breather
@@ -708,7 +711,7 @@ pedal thread grease Item Item thread grease pedal
 
 thread grease pedal Item Item thread grease pedal
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 time on Observation Observation on all time
@@ -844,12 +847,13 @@ top leaks when closed Location Observation top heater tap leaks when closed
 
 tap heater Item Item heater tap
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 heater tap Item Item heater tap
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 tap top Item Location top heater tap
  - Gold: HAS_LOCATION
@@ -1207,20 +1211,22 @@ on cylinder Location Item on cylinder
 
 cylinder locking pin Item Item locking pin on cylinder
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 locking pin cylinder Item Item locking pin on cylinder
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 cylinder hose Item Item hose locking pin on cylinder
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 hose cylinder Item Item hose locking pin on cylinder
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 cylinder replace Item Activity replace hose locking pin on cylinder
@@ -1267,7 +1273,8 @@ locking pin hose Item Item hose locking pin
 
 hose locking pin Item Item hose locking pin
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 locking pin replace Item Activity replace hose locking pin
  - Gold: HAS_ACTIVITY
@@ -1438,7 +1445,7 @@ repalce bolts Activity Consumable repalce mast pivot bolts
 
 pivot mast Item Item mast pivot
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 mast pivot Item Item mast pivot
@@ -1609,7 +1616,8 @@ hoses deck spanner Item Item deck spanner hoses
 
 deck spanner hoses Item Item deck spanner hoses
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 noisy a/c Observation Item a/c 's noisy
  - Gold: O
@@ -1724,12 +1732,13 @@ not working thread Observation Item not working on thread
 
 thread grease pump Item Item grease pump not working on thread
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 grease pump thread Item Item grease pump not working on thread
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 on not working Location Observation not working on
  - Gold: O
@@ -1770,7 +1779,8 @@ stair control unit broken off Item Observation stair control unit broken off
 
 seal wiper Item Item wiper seal
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 wiper seal Item Item wiper seal
  - Gold: O
@@ -1779,7 +1789,7 @@ wiper seal Item Item wiper seal
 
 seal rod Item Item rod wiper seal
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 rod seal Item Item rod wiper seal
@@ -1933,7 +1943,7 @@ deck head slide Item Item head slide on deck
 
 head slide deck Item Item head slide on deck
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 on head slide Location Item head slide on
@@ -2002,8 +2012,7 @@ manifold gasket Item Item manifold gasket
 
 gasket poppet Item Item poppet manifold gasket
  - Gold: APPEARS_WITH
- - Pred: 
- -> MISMATCH!
+ - Pred: APPEARS_WITH
 
 poppet gasket Item Item poppet manifold gasket
  - Gold: O
@@ -2012,13 +2021,12 @@ poppet gasket Item Item poppet manifold gasket
 
 gasket compressor Item Item compressor poppet manifold gasket
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 compressor gasket Item Item compressor poppet manifold gasket
  - Gold: APPEARS_WITH
- - Pred: 
- -> MISMATCH!
+ - Pred: APPEARS_WITH
 
 manifold poppet Item Item poppet manifold
  - Gold: APPEARS_WITH
@@ -2491,11 +2499,12 @@ replace front Activity Location replace front
 
 c spanner o ring Item Item o ring c spanner
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 o ring c spanner Item Item o ring c spanner
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 c spanner replace Item Activity replace o ring c spanner
@@ -2766,7 +2775,7 @@ valve dog box Item Item valve in dog box
 
 dog box a/c Item Item a/c valve in dog box
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 a/c dog box Item Item a/c valve in dog box
@@ -2813,7 +2822,7 @@ both in Cardinality Location both a/c valve in
 
 valve a/c Item Item a/c valve
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 a/c valve Item Item a/c valve
@@ -2921,8 +2930,7 @@ wear slides carousel Item Item carousel wear slides
 
 carousel wear slides Item Item carousel wear slides
  - Gold: APPEARS_WITH
- - Pred: 
- -> MISMATCH!
+ - Pred: APPEARS_WITH
 
 wear slides lower Item Location lower carousel wear slides
  - Gold: HAS_LOCATION
@@ -3355,23 +3363,21 @@ feed needs Item Observation feed pressure pot knob needs
 
 knob pressure pot Item Item pressure pot knob
  - Gold: APPEARS_WITH
- - Pred: 
- -> MISMATCH!
+ - Pred: APPEARS_WITH
 
 pressure pot knob Item Item pressure pot knob
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 knob feed Item Item feed pressure pot knob
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 feed knob Item Item feed pressure pot knob
  - Gold: APPEARS_WITH
- - Pred: 
- -> MISMATCH!
+ - Pred: APPEARS_WITH
 
 pressure pot feed Item Item feed pressure pot
  - Gold: O
@@ -3475,18 +3481,17 @@ strainer water tank Item Item water tank strainer
 
 water tank strainer Item Item water tank strainer
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 strainer drill Item Item drill water tank strainer
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 drill strainer Item Item drill water tank strainer
  - Gold: APPEARS_WITH
- - Pred: 
- -> MISMATCH!
+ - Pred: APPEARS_WITH
 
 strainer replace Item Activity replace drill water tank strainer
  - Gold: HAS_ACTIVITY
@@ -3732,11 +3737,12 @@ on feed pump Location Item on feed pump
 
 feed pump o ring Item Item o ring on feed pump
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 o ring feed pump Item Item o ring on feed pump
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 feed pump port Item Item port o ring on feed pump
@@ -3769,11 +3775,12 @@ port on Item Location port o ring on
 
 o ring port Item Item port o ring
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 port o ring Item Item port o ring
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 will not come down winch Observation Item winch will not come down
@@ -3907,11 +3914,12 @@ cracked deck Observation Item cracked at deck
 
 deck handrail Item Item handrail cracked at deck
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 handrail deck Item Item handrail cracked at deck
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 at cracked Location Observation cracked at
@@ -4340,7 +4348,7 @@ deck wrench fitting Item Item fitting on deck wrench
 
 fitting deck wrench Item Item fitting on deck wrench
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 deck wrench broken Item Observation broken fitting on deck wrench
@@ -4631,12 +4639,13 @@ tight stems Observation Item tight on stems
 
 stems pipe support Item Item pipe support tight on stems
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 pipe support stems Item Item pipe support tight on stems
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 on tight Location Observation tight on
  - Gold: O
@@ -4809,21 +4818,23 @@ fit new Activity Specifier fit new
 
 seal deck Item Item deck seal
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 deck seal Item Item deck seal
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 seal chip deflector Item Item chip deflector & deck seal
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 chip deflector seal Item Item chip deflector & deck seal
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 seal replace Item Activity replace chip deflector & deck seal
  - Gold: HAS_ACTIVITY
@@ -4968,11 +4979,12 @@ on driveshaft Location Item on driveshaft
 
 driveshaft grease nipple Item Item grease nipple on driveshaft
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 grease nipple driveshaft Item Item grease nipple on driveshaft
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 driveshaft change Item Activity change grease nipple on driveshaft
@@ -5051,12 +5063,11 @@ rh adaptor Location Item rh fan adaptor
 
 adaptor drain bung Item Item drain bung rh fan adaptor
  - Gold: APPEARS_WITH
- - Pred: 
- -> MISMATCH!
+ - Pred: APPEARS_WITH
 
 drain bung adaptor Item Item drain bung rh fan adaptor
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 adaptor replace Item Activity replace drain bung rh fan adaptor
@@ -5162,12 +5173,13 @@ feed cracked Item Observation feed pipe cracked
 
 pipe feed Item Item feed pipe
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 feed pipe Item Item feed pipe
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 hydraulic hose blown Item Observation blown hydraulic hose
  - Gold: HAS_OBSERVATION
@@ -5255,12 +5267,13 @@ on pulldown chain Location Item on pulldown chain
 
 pulldown chain hose Item Item hose on pulldown chain
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 hose pulldown chain Item Item hose on pulldown chain
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 pulldown chain replace Item Activity replace hose on pulldown chain
  - Gold: HAS_ACTIVITY
@@ -5409,8 +5422,7 @@ repair 11/07 Activity Time repair NA 11/07
 
 hose 11/07 Item Time hose repair NA 11/07
  - Gold: HAS_TIME
- - Pred: 
- -> MISMATCH!
+ - Pred: HAS_TIME
 
 11/07 manufacturer24 Time Agent manufacturer24 hose repair NA 11/07
  - Gold: O
@@ -5479,20 +5491,22 @@ mast staying on Item Observation mast lock light staying on
 
 light lock Item Item lock light
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 lock light Item Item lock light
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 light mast Item Item mast lock light
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 mast light Item Item mast lock light
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 lock mast Item Item mast lock
@@ -5501,7 +5515,7 @@ lock mast Item Item mast lock
 
 mast lock Item Item mast lock
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 rod remove Item Activity remove rod
@@ -5533,7 +5547,7 @@ equiliser bar worn Item Observation equiliser bar mountings worn
 
 mountings equiliser bar Item Item equiliser bar mountings
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 equiliser bar mountings Item Item equiliser bar mountings
@@ -6219,11 +6233,12 @@ in fork hose Location Item in fork hose
 
 fork hose staple lock Item Item staple lock in fork hose
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 staple lock fork hose Item Item staple lock in fork hose
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 fork hose replace Item Activity replace staple lock in fork hose
@@ -6316,7 +6331,7 @@ bolt mast Item Item mast pivot bolt
 
 mast bolt Item Item mast pivot bolt
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 bolt measure Item Activity measure mast pivot bolt
@@ -6330,7 +6345,7 @@ measure bolt Activity Item measure mast pivot bolt
 
 pivot mast Item Item mast pivot
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 mast pivot Item Item mast pivot
@@ -6372,7 +6387,7 @@ mount pump Item Item pump at mount
 
 pump mount Item Item pump at mount
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 mount acc Item Item acc pump at mount
@@ -6658,16 +6673,17 @@ relocate fire extinguisher Activity Item relocate fire extinguisher
 
 hoses wrench Item Item wrench hoses
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 wrench hoses Item Item wrench hoses
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 hoses deck Item Item deck wrench hoses
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 deck hoses Item Item deck wrench hoses
@@ -6685,12 +6701,13 @@ relocate hoses Activity Item relocate deck wrench hoses
 
 wrench deck Item Item deck wrench
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 deck wrench Item Item deck wrench
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 wrench relocate Item Activity relocate deck wrench
  - Gold: HAS_ACTIVITY
@@ -6865,7 +6882,8 @@ track grease hose Item Item grease hose rh track
 
 grease hose track Item Item grease hose rh track
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 track replace Item Activity replace grease hose rh track
  - Gold: HAS_ACTIVITY
@@ -7179,11 +7197,12 @@ at cabin Location Item at cabin
 
 cabin flap Item Item flap at cabin
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 flap cabin Item Item flap at cabin
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 cabin rusted Item Observation rusted flap at cabin
@@ -7637,12 +7656,13 @@ drain g/box Activity Item drain g/box
 
 seal deck Item Item deck seal
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 deck seal Item Item deck seal
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 seal c/o Item Activity c/o deck seal
  - Gold: HAS_ACTIVITY
@@ -7682,13 +7702,12 @@ slapper wrench weldout Item Activity slapper wrench stopper block weldout
 
 stopper block slapper wrench Item Item slapper wrench stopper block
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 slapper wrench stopper block Item Item slapper wrench stopper block
  - Gold: APPEARS_WITH
- - Pred: 
- -> MISMATCH!
+ - Pred: APPEARS_WITH
 
 cycle time track Attribute Item track cycle time
  - Gold: O
@@ -7817,7 +7836,7 @@ dog box door latch Item Item door latch on dog box
 
 door latch dog box Item Item door latch on dog box
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 on door latch Location Item door latch on
@@ -7906,7 +7925,7 @@ lower seal Location Item lower seal
 
 seal rotary head Item Item rotary head lower seal
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 rotary head seal Item Item rotary head lower seal
@@ -8039,11 +8058,12 @@ monitor oil Activity Consumable monitor oil
 
 air piping mast Item Item mast air piping
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 mast air piping Item Item mast air piping
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 air piping repair Item Activity repair mast air piping
@@ -8178,7 +8198,8 @@ rear not working Location Observation rear crane controls not working
 
 controls crane Item Item crane controls
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 crane controls Item Item crane controls
  - Gold: O
@@ -8280,7 +8301,8 @@ mast staying on Item Observation mast lock cyl. light staying on
 
 light lock cyl. Item Item lock cyl. light
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 lock cyl. light Item Item lock cyl. light
  - Gold: O
@@ -8289,16 +8311,18 @@ lock cyl. light Item Item lock cyl. light
 
 light mast Item Item mast lock cyl. light
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 mast light Item Item mast lock cyl. light
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 lock cyl. mast Item Item mast lock cyl.
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 mast lock cyl. Item Item mast lock cyl.
  - Gold: O
@@ -8403,8 +8427,7 @@ repair oil Activity Consumable repair oil
 
 cup pipe support Item Item pipe support cup
  - Gold: APPEARS_WITH
- - Pred: 
- -> MISMATCH!
+ - Pred: APPEARS_WITH
 
 pipe support cup Item Item pipe support cup
  - Gold: O
@@ -8956,7 +8979,8 @@ hitting cab Observation Item hitting in cab
 
 cab rod support Item Item rod support hitting in cab
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 rod support cab Item Item rod support hitting in cab
  - Gold: O
@@ -9016,7 +9040,8 @@ mounting bolts hobo Item Item hobo mounting bolts
 
 hobo mounting bolts Item Item hobo mounting bolts
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 u/s bolts Observation Item bolts u/s
  - Gold: O
@@ -9053,8 +9078,7 @@ breakout die bolts Item Item breakout die bolts
 
 hoses 13/07/09 Item Time hoses NA 13/07/09
  - Gold: HAS_TIME
- - Pred: 
- -> MISMATCH!
+ - Pred: HAS_TIME
 
 13/07/09 repair Time Activity repair hoses NA 13/07/09
  - Gold: O
@@ -9328,7 +9352,7 @@ on bottem of mast Location Item on bottem of mast
 
 mast hyd hose Item Item hyd hose on bottem of mast
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 hyd hose mast Item Item hyd hose on bottem of mast
@@ -9397,7 +9421,7 @@ reservetnk sump Item Item sump reservetnk
 
 sump reservetnk Item Item sump reservetnk
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 worn positioner arm Observation Item positioner arm worn
@@ -9448,7 +9472,7 @@ weld keeper plate Activity Item weld keeper plate
 
 tube jack Item Item jack tube
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 jack tube Item Item jack tube
@@ -9476,7 +9500,7 @@ at tube Location Item at rh jack tube
 
 tube frame Item Item frame at rh jack tube
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 frame tube Item Item frame at rh jack tube
@@ -9495,7 +9519,7 @@ in tube Location Item in frame at rh jack tube
 
 tube crack Item Item crack in frame at rh jack tube
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 crack tube Item Item crack in frame at rh jack tube
@@ -9528,7 +9552,8 @@ jack frame Item Item frame at rh jack
 
 frame jack Item Item frame at rh jack
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 jack in Item Location in frame at rh jack
  - Gold: HAS_LOCATION
@@ -9626,12 +9651,13 @@ in frame Location Item in frame
 
 frame crack Item Item crack in frame
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 crack frame Item Item crack in frame
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 in crack Location Item crack in
  - Gold: O
@@ -9813,12 +9839,13 @@ on generator Location Item on generator
 
 generator c/b Item Item c/b on generator
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 c/b generator Item Item c/b on generator
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 generator main Item Specifier main c/b on generator
  - Gold: HAS_SPECIFIER
@@ -9923,12 +9950,13 @@ on top window Location Item on top window
 
 window flood bar Item Item flood bar on top window
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 flood bar window Item Item flood bar on top window
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 window connect Item Activity connect flood bar on top window
  - Gold: HAS_ACTIVITY
@@ -10075,11 +10103,12 @@ thread not working Item Observation thread grease not working
 
 grease thread Item Item thread grease
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 thread grease Item Item thread grease
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 carousel near Item Location near carousel
@@ -10619,16 +10648,16 @@ suport cabin Item Item cabin & air pipe suport
 
 cabin suport Item Item cabin & air pipe suport
  - Gold: APPEARS_WITH
- - Pred: 
- -> MISMATCH!
+ - Pred: APPEARS_WITH
 
 air pipe cabin Item Item cabin & air pipe
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 cabin air pipe Item Item cabin & air pipe
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 not working. heater Observation Item heater not working.
@@ -10763,7 +10792,7 @@ locking pin indicator lights Item Item locking pin indicator lights
 
 wear slides rotary head Item Item rotary head wear slides
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 rotary head wear slides Item Item rotary head wear slides
@@ -10882,7 +10911,7 @@ tong wont retract Item Observation tong wont retract
 
 signs bin Item Item bin signs
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 bin signs Item Item bin signs
@@ -11111,11 +11140,12 @@ check not working Activity Observation check mast light not working
 
 light mast Item Item mast light
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 mast light Item Item mast light
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 light check Item Activity check mast light
@@ -11380,7 +11410,8 @@ from machine Location Item from machine
 
 machine rods Item Item rods from machine
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 rods machine Item Item rods from machine
  - Gold: O
@@ -11462,12 +11493,13 @@ on uni Location Item on uni
 
 uni grease nipple Item Item grease nipple on uni
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 grease nipple uni Item Item grease nipple on uni
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 uni replace Item Activity replace grease nipple on uni
  - Gold: HAS_ACTIVITY
@@ -11549,7 +11581,7 @@ nozzle wash down hose Item Item wash down hose missing nozzle
 
 wash down hose nozzle Item Item wash down hose missing nozzle
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 missing wash down hose Observation Item wash down hose missing
@@ -11587,8 +11619,7 @@ inspection 1/07 Activity Time inspection NA 1/07
 
 hose 1/07 Item Time hose inspection NA 1/07
  - Gold: HAS_TIME
- - Pred: 
- -> MISMATCH!
+ - Pred: HAS_TIME
 
 1/07 manufacturer24 Time Agent manufacturer24 hose inspection NA 1/07
  - Gold: O
@@ -11645,8 +11676,7 @@ inspection 21/07/09 Activity Time inspection NA 21/07/09
 
 hose 21/07/09 Item Time hose inspection NA 21/07/09
  - Gold: HAS_TIME
- - Pred: 
- -> MISMATCH!
+ - Pred: HAS_TIME
 
 21/07/09 manufacturer24 Time Agent manufacturer24 hose inspection NA 21/07/09
  - Gold: O
@@ -11762,7 +11792,7 @@ gearbox temp gauge Item Item gearbox temp gauge
 
 skid sign Item Item sign skid
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 sign skid Item Item sign skid
@@ -11877,7 +11907,8 @@ speed gauge rotary head Item Item rotary head speed gauge
 
 rotary head speed gauge Item Item rotary head speed gauge
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 air window cleaner repair Item Activity repair air window cleaner
  - Gold: HAS_ACTIVITY
@@ -12027,7 +12058,7 @@ lights mast Item Item mast lights
 
 mast lights Item Item mast lights
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 leaking water injuction pipe Observation Item water injuction pipe leaking
@@ -12155,7 +12186,8 @@ receiver wrong type Item Observation receiver pressure gauge wrong type
 
 pressure gauge receiver Item Item receiver pressure gauge
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 receiver pressure gauge Item Item receiver pressure gauge
  - Gold: O
@@ -12332,12 +12364,13 @@ on tool wrench Location Item on tool wrench
 
 tool wrench ram Item Item ram on tool wrench
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 ram tool wrench Item Item ram on tool wrench
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 tool wrench leaking Item Observation leaking ram on tool wrench
  - Gold: HAS_OBSERVATION
@@ -12416,7 +12449,8 @@ repair steps Activity Item repair steps
 
 feed cylinder mast Item Item mast feed cylinder
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 mast feed cylinder Item Item mast feed cylinder
  - Gold: O
@@ -12620,8 +12654,7 @@ pre service set up Activity Activity pre service set up
 
 fork cylinders retaining blocks Item Item retaining blocks fork cylinders
  - Gold: APPEARS_WITH
- - Pred: 
- -> MISMATCH!
+ - Pred: APPEARS_WITH
 
 retaining blocks fork cylinders Item Item retaining blocks fork cylinders
  - Gold: O
@@ -12736,12 +12769,13 @@ scv labour Agent Activity scv labour
 
 viewing window roof Item Item roof viewing window
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 roof viewing window Item Item roof viewing window
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 viewing window broken Item Observation broken roof viewing window
  - Gold: HAS_OBSERVATION
@@ -12865,12 +12899,13 @@ on pump drive box Location Item on pump drive box
 
 pump drive box breather Item Item breather on pump drive box
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 breather pump drive box Item Item breather on pump drive box
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 pump drive box replace Item Activity replace breather on pump drive box
  - Gold: HAS_ACTIVITY
@@ -13512,11 +13547,12 @@ deck fork leaking Item Observation deck fork leaking
 
 bracket lighting Item Item lighting bracket
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 lighting bracket Item Item lighting bracket
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 bracket on Item Location on lighting bracket
@@ -13680,11 +13716,12 @@ in hole Location Item in hole
 
 hole pipe Item Item pipe in hole
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 pipe hole Item Item pipe in hole
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 in pipe Location Item pipe in
@@ -13707,12 +13744,13 @@ on work deck Location Item on work deck
 
 work deck hand rail Item Item hand rail on work deck
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 hand rail work deck Item Item hand rail on work deck
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 work deck broken Item Observation broken hand rail on work deck
  - Gold: HAS_OBSERVATION
@@ -13753,12 +13791,13 @@ broken hand rail Observation Item broken hand rail
 
 wrench deck Item Item deck wrench
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 deck wrench Item Item deck wrench
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 wrench on Item Location on deck wrench
  - Gold: HAS_LOCATION
@@ -13771,12 +13810,13 @@ on wrench Location Item on deck wrench
 
 wrench fitting Item Item fitting on deck wrench
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 fitting wrench Item Item fitting on deck wrench
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 wrench repair Item Activity repair fitting on deck wrench
  - Gold: HAS_ACTIVITY
@@ -13802,7 +13842,7 @@ deck fitting Item Item fitting on deck
 
 fitting deck Item Item fitting on deck
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 deck repair Item Activity repair fitting on deck
@@ -13948,21 +13988,23 @@ slow lhs forward Observation Location slow tramming lhs forward
 
 seal deck Item Item deck seal
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 deck seal Item Item deck seal
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 seal chip deflector Item Item chip deflector & deck seal
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 chip deflector seal Item Item chip deflector & deck seal
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 seal replace Item Activity replace chip deflector & deck seal
  - Gold: HAS_ACTIVITY
@@ -14208,7 +14250,8 @@ lock pin carousel Item Item carousel lock pin
 
 carousel lock pin Item Item carousel lock pin
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 system potable water Item Item potable water system
  - Gold: O
@@ -14403,7 +14446,8 @@ steel pipe oring Item Item oring on steel pipe
 
 oring steel pipe Item Item oring on steel pipe
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 steel pipe weeping Item Observation weeping oring on steel pipe
  - Gold: HAS_OBSERVATION
@@ -14583,12 +14627,11 @@ alternator door Item Item alternator insp door
 
 door latch Item Item latch alternator insp door
  - Gold: APPEARS_WITH
- - Pred: 
- -> MISMATCH!
+ - Pred: APPEARS_WITH
 
 latch door Item Item latch alternator insp door
  - Gold: O
- - Pred: 
+ - Pred: APPEARS_WITH
  -> MISMATCH!
 
 door broken Item Observation broken latch alternator insp door
@@ -14902,11 +14945,12 @@ tidy up catching Activity Observation tidy up mast hosing catching
 
 hosing mast Item Item mast hosing
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 mast hosing Item Item mast hosing
  - Gold: O
- - Pred: APPEARS_WITH
+ - Pred: 
  -> MISMATCH!
 
 hosing tidy up Item Activity tidy up mast hosing
@@ -14929,7 +14973,8 @@ tidy up mast Activity Item tidy up mast
 
 feed cylinder mast Item Item mast feed cylinder
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 mast feed cylinder Item Item mast feed cylinder
  - Gold: O
@@ -15100,7 +15145,8 @@ compressor input seal Item Item compressor input seal
 
 arm rests seat Item Item seat arm rests
  - Gold: APPEARS_WITH
- - Pred: APPEARS_WITH
+ - Pred: 
+ -> MISMATCH!
 
 seat arm rests Item Item seat arm rests
  - Gold: O
