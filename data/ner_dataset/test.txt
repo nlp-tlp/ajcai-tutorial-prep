@@ -1,5 +1,5 @@
 alarm B-Item
-on B-Location
+on O
 positioner B-Item
 arm I-Item
 not B-Observation
@@ -29,7 +29,7 @@ and O
 ram B-Item
 
 compressor B-Item
-oil B-Consumable
+oil O
 pressure B-Item
 switch I-Item
 u/s B-Observation
@@ -37,21 +37,21 @@ u/s B-Observation
 increase B-Activity
 view B-Item
 window I-Item
-air B-Attribute
-pressure I-Attribute
+air O
+pressure O
 
 misssing O
 2 O
 " O
 cam B-Item
 lock I-Item
-lh B-Location
-fill B-Location
-point I-Location
+lh O
+fill O
+point O
 
-oil B-Consumable
+oil O
 leak B-Observation
-on B-Location
+on O
 engine B-Item
 deck B-Item
 
@@ -73,17 +73,17 @@ replace B-Activity
 gearbox B-Item
 breather B-Item
 
-lube B-Consumable
+lube O
 sys B-Item
 going B-Observation
 out I-Observation
 on I-Observation
 falt O
 
-mindrill B-Agent
+mindrill O
 changeout B-Activity
 on O
-site B-Location
+site O
 na O
 
 broken B-Observation
@@ -94,14 +94,14 @@ item_id O
 rotary B-Item
 head I-Item
 making B-Observation
-oil B-Consumable
+oil O
 item_id O
 
-krown B-Agent
+krown O
 labour B-Activity
-x1 B-Cardinality
+x1 O
 na O
-4/08 B-Time
+4/08 O
 
 drill B-Item
 wo B-Observation
@@ -112,14 +112,14 @@ drilling I-Observation
 to I-Observation
 tram I-Observation
 
-scv B-Agent
+scv O
 labour B-Activity
-x2 B-Cardinality
+x2 O
 na O
-22/07/09 B-Time
+22/07/09 O
 
 rebuild B-Activity
-rear B-Location
+rear O
 d90 O
 jack B-Item
 cyl I-Item
@@ -129,7 +129,7 @@ grease I-Item
 pedal B-Item
 sticking B-Observation
 
-top B-Location
+top O
 view B-Item
 window I-Item
 blower B-Item
@@ -141,7 +141,7 @@ alternator B-Item
 needs B-Observation
 realigning I-Observation
 
-top B-Location
+top O
 heater B-Item
 tap B-Item
 leaks B-Observation
@@ -153,15 +153,15 @@ machine B-Item
 
 change B-Activity
 out I-Activity
-l/h B-Location
+l/h O
 propel B-Item
 hose I-Item
 
 light B-Item
 directed O
-at B-Location
-top I-Location
-of I-Location
+at O
+top O
+of O
 boom B-Item
 u/s B-Observation
 
@@ -171,9 +171,9 @@ cylinder I-Item
 creeping B-Observation
 
 order B-Activity
-spare B-Specifier
-u B-Consumable
-bolts I-Consumable
+spare O
+u O
+bolts O
 for O
 feed B-Item
 brackets I-Item
@@ -181,18 +181,18 @@ brackets I-Item
 holding B-Item
 wrench I-Item
 leaking B-Observation
-oil B-Consumable
+oil O
 badly. O
 
 adjust B-Activity
-hydraulic B-Attribute
-pressure I-Attribute
+hydraulic O
+pressure O
 
 check B-Activity
 machine B-Item
 for O
-hydraulic B-Consumable
-oil I-Consumable
+hydraulic O
+oil O
 leak B-Observation
 
 engine B-Item
@@ -201,7 +201,7 @@ dying I-Observation
 item_id O
 
 head B-Item
-rotation B-Attribute
+rotation O
 slow B-Observation
 
 repair B-Activity
@@ -218,17 +218,17 @@ replace B-Activity
 hose B-Item
 locking B-Item
 pin I-Item
-on B-Location
+on O
 cylinder B-Item
 
 servo B-Item
 filter B-Item
-oil B-Consumable
+oil O
 leak B-Observation
 na O
 
 broken B-Observation
-bolts B-Consumable
+bolts O
 plennum B-Item
 chamber I-Item
 
@@ -245,9 +245,9 @@ rod I-Item
 repalce B-Activity
 mast B-Item
 pivot B-Item
-bolts B-Consumable
+bolts O
 
-l/h B-Location
+l/h O
 air B-Item
 filter I-Item
 guage B-Item
@@ -258,7 +258,7 @@ need O
 fitting O
 & O
 hose B-Item
-outside B-Location
+outside O
 cab B-Item
 
 replace B-Activity
@@ -273,13 +273,13 @@ keep B-Observation
 coming O
 loose. B-Observation
 
-both B-Cardinality
+both O
 a/c B-Item
 's O
 noisy B-Observation
 
 align B-Activity
-under B-Location
+under O
 deck B-Item
 camera B-Item
 
@@ -291,7 +291,7 @@ grease B-Item
 pump I-Item
 not B-Observation
 working I-Observation
-on B-Location
+on O
 thread B-Item
 lube O
 
@@ -310,7 +310,7 @@ blowen B-Observation
 tourbcharger O
 
 wnty O
-left B-Location
+left O
 mast B-Item
 raise B-Item
 cylinder I-Item
@@ -320,7 +320,7 @@ wear B-Observation
 found O
 head B-Item
 slide I-Item
-on B-Location
+on O
 deck B-Item
 
 adjust B-Activity
@@ -335,7 +335,7 @@ gasket B-Item
 leakin B-Observation
 
 replace B-Activity
-l/h B-Location
+l/h O
 propel B-Item
 pump I-Item
 
@@ -357,12 +357,12 @@ item_id O
 arm B-Item
 rest I-Item
 misssing B-Observation
-from B-Location
+from O
 seat B-Item
 
-oil B-Consumable
+oil O
 leak B-Observation
-on B-Location
+on O
 wrench B-Item
 
 check B-Activity
@@ -379,11 +379,10 @@ to O
 cross O
 
 loose B-Observation
-bolt B-Consumable
-on B-Location
+bolt O
+on O
 deck B-Item
 spanner I-Item
-edd095 O
 
 air B-Item
 cond I-Item
@@ -397,12 +396,12 @@ coolant I-Observation
 
 repair B-Activity
 guide B-Item
-rear B-Location
-l.h. B-Location
+rear O
+l.h. O
 jack B-Item
 
 replace B-Activity
-front B-Location
+front O
 camera B-Item
 
 replace B-Activity
@@ -411,7 +410,7 @@ ring I-Item
 c B-Item
 spanner I-Item
 
-new B-Specifier
+new O
 mirrors B-Item
 need B-Observation
 to O
@@ -432,16 +431,16 @@ misc O
 jobs B-Activity
 na O
 
-scv B-Agent
+scv O
 labour B-Activity
-x2 B-Cardinality
+x2 O
 na O
-8/07 B-Time
+8/07 O
 
-both B-Cardinality
+both O
 a/c B-Item
 valve B-Item
-in B-Location
+in O
 dog B-Item
 box I-Item
 leaking B-Observation
@@ -460,49 +459,49 @@ working I-Observation
 
 monitor B-Activity
 engine B-Item
-oil B-Consumable
-level B-Attribute
+oil O
+level O
 item_id O
 
 replace B-Activity
-lower B-Location
+lower O
 carousel B-Item
 wear B-Item
 slides I-Item
 
 repairs B-Activity
 to I-Activity
-rear B-Location
+rear O
 camera B-Item
 
 wnty O
-right B-Location
+right O
 mast B-Item
 raise B-Item
 cylinder I-Item
 rod B-Item
 wear B-Observation
 
-hastings B-Agent
+hastings O
 checking B-Activity
 lights B-Item
-on B-Location
+on O
 mast B-Item
 na O
 
 fit B-Activity
-bottom B-Location
+bottom O
 radiator B-Item
 hose. B-Item
 
-hastings B-Agent
+hastings O
 order B-Activity
-top B-Location
+top O
 viewer B-Item
 window I-Item
 blind I-Item
 
-oil B-Consumable
+oil O
 pressure B-Item
 gauge I-Item
 reading B-Observation
@@ -516,12 +515,12 @@ needs B-Observation
 locking O
 
 c/o B-Activity
-lower B-Location
+lower O
 starter B-Item
 
-oil B-Consumable
+oil O
 leak B-Observation
-under B-Location
+under O
 machine B-Item
 
 replace B-Activity
@@ -530,7 +529,7 @@ water B-Item
 tank I-Item
 strainer B-Item
 
-rear B-Location
+rear O
 drive B-Item
 shaft I-Item
 rear O
@@ -543,9 +542,9 @@ after O
 down O
 day O
 
-oil B-Consumable
+oil O
 leak B-Observation
-on B-Location
+on O
 carosell B-Item
 
 deck B-Item
@@ -553,8 +552,8 @@ has O
 falling B-Observation
 out I-Observation
 
-oil B-Consumable
-in B-Location
+oil O
+in O
 radiator B-Item
 item_id O
 
@@ -562,7 +561,7 @@ k O
 port B-Item
 o B-Item
 ring I-Item
-on B-Location
+on O
 feed B-Item
 pump I-Item
 leaking B-Observation
@@ -581,57 +580,57 @@ relocate B-Activity
 cab B-Item
 light I-Item
 pointing O
-at B-Location
+at O
 work B-Item
 deck I-Item
 
 handrail B-Item
 cracked B-Observation
-at B-Location
+at O
 deck B-Item
-area. B-Location
+area. O
 
 remove B-Activity
-one B-Cardinality
+one O
 rod B-Item
-from B-Location
+from O
 carousel. B-Item
 
 order B-Activity
 deck B-Item
-seals B-Consumable
+seals O
 for O
 na O
 
 replace B-Activity
 retainer B-Item
-under B-Location
+under O
 floor B-Item
 
 warranty O
-l/h B-Location
+l/h O
 feed B-Item
 cylinder I-Item
 gland B-Item
 leaking B-Observation
 
 carousel B-Item
-oil B-Consumable
+oil O
 leak B-Observation
 na O
 
 lost B-Observation
 down O
 hole B-Item
-air B-Attribute
-pressure I-Attribute
+air O
+pressure O
 
 dash B-Item
 lights I-Item
 not B-Observation
 working I-Observation
 
-lube B-Consumable
+lube O
 cycle B-Item
 timer I-Item
 not B-Observation
@@ -640,14 +639,14 @@ working I-Observation
 put B-Activity
 rod B-Item
 back O
-in B-Location
-to I-Location
+in O
+to O
 carsel B-Item
 
 repair B-Activity
 broken B-Observation
 fitting B-Item
-on B-Location
+on O
 deck B-Item
 wrench I-Item
 
@@ -658,11 +657,11 @@ pipe B-Item
 positioner I-Item
 arm I-Item
 
-oil B-Consumable
+oil O
 leak B-Observation
 and O
 vibration B-Observation
-@ B-Location
+@ O
 auxiliary B-Item
 box I-Item
 
@@ -671,33 +670,33 @@ hydraulic B-Item
 cooling I-Item
 fan I-Item
 
-krown B-Agent
+krown O
 labour B-Activity
-x1 B-Cardinality
+x1 O
 na O
-30/07 B-Time
+30/07 O
 
 pipe B-Item
 support I-Item
 tight B-Observation
-on B-Location
+on O
 stems B-Item
 
 replace B-Activity
 light B-Item
-on B-Location
+on O
 walk B-Item
 way I-Item
 item_id O
 
-mem B-Agent
+mem O
 labour O
-x6 B-Cardinality
+x6 O
 na O
-22/07/09 B-Time
+22/07/09 O
 
 fit B-Activity
-new B-Specifier
+new O
 extension B-Item
 & O
 reamer B-Item
@@ -710,16 +709,16 @@ deflector I-Item
 deck B-Item
 seal B-Item
 
-numerous B-Cardinality
-oil B-Consumable
+numerous O
+oil O
 leaks B-Observation
-on B-Location
+on O
 machine B-Item
 
 change B-Activity
 grease B-Item
 nipple I-Item
-on B-Location
+on O
 driveshaft B-Item
 na O
 
@@ -736,7 +735,7 @@ work. I-Observation
 replace B-Activity
 drain B-Item
 bung I-Item
-rh B-Location
+rh O
 fan B-Item
 adaptor B-Item
 
@@ -761,7 +760,7 @@ item_id O
 
 warr O
 : O
-lh B-Location
+lh O
 rotation B-Item
 motor I-Item
 u/s B-Observation
@@ -769,18 +768,18 @@ item_id O
 
 replace B-Activity
 hose B-Item
-on B-Location
+on O
 pulldown B-Item
 chain I-Item
 adjuster B-Item
 
 warranty O
-lh B-Location
+lh O
 feed B-Item
 cylinder I-Item
 leaking B-Observation
 
-chubb B-Agent
+chubb O
 service B-Activity
 fire B-Item
 suppression I-Item
@@ -792,8 +791,8 @@ sub I-Item
 water B-Item
 trap I-Item
 needed O
-on B-Location
-top I-Location
+on O
+top O
 view B-Item
 window I-Item
 
@@ -801,11 +800,11 @@ check B-Activity
 pulldown B-Item
 chains I-Item
 
-manufacturer24 B-Agent
+manufacturer24 O
 hose B-Item
 repair B-Activity
 na O
-11/07 B-Time
+11/07 O
 
 mast B-Item
 lock B-Item
@@ -825,11 +824,11 @@ bar I-Item
 mountings B-Item
 worn B-Observation
 
-manufacturer24 B-Agent
+manufacturer24 O
 hose B-Item
 inspection B-Activity
 na O
-30/07 B-Time
+30/07 O
 
 blown B-Observation
 rotation B-Item
@@ -837,12 +836,12 @@ line I-Item
 
 reweld B-Activity
 guide B-Item
-rear B-Location
-left I-Location
+rear O
+left O
 jack B-Item
 
 warr O
-front B-Location
+front O
 drive B-Item
 shaft I-Item
 u/s B-Observation
@@ -861,7 +860,7 @@ wrench I-Item
 not B-Observation
 working I-Observation
 
-rear B-Location
+rear O
 pump B-Item
 drive I-Item
 hot B-Observation
@@ -880,18 +879,18 @@ na O
 
 no B-Observation
 labeling I-Observation
-@ B-Location
-fuel B-Consumable
-fill B-Location
-point I-Location
+@ O
+fuel O
+fill O
+point O
 
 replace B-Activity
-lhs B-Location
+lhs O
 tram B-Item
 hose I-Item
 na O
 
-front B-Location
+front O
 emergency B-Item
 step I-Item
 getting B-Observation
@@ -901,11 +900,11 @@ breakout B-Item
 cylinder I-Item
 weeping B-Observation
 
-main B-Specifier
+main O
 pump B-Item
 box I-Item
 making B-Observation
-oil B-Consumable
+oil O
 
 repair B-Activity
 exhaust B-Item
@@ -921,7 +920,7 @@ item_id O
 
 loose B-Observation
 bolt O
-on B-Location
+on O
 head B-Item
 slide I-Item
 catching B-Observation
@@ -940,7 +939,7 @@ back O
 to B-Observation
 front I-Observation
 
-hastings B-Agent
+hastings O
 monitoring B-Activity
 , O
 inspection B-Activity
@@ -955,7 +954,7 @@ leaks B-Observation
 replace B-Activity
 staple B-Item
 lock I-Item
-in B-Location
+in O
 fork B-Item
 hose I-Item
 item_id O
@@ -964,21 +963,21 @@ measure B-Activity
 mast B-Item
 pivot B-Item
 bolt B-Item
-size B-Attribute
+size O
 
-oil B-Consumable
+oil O
 leak B-Observation
 acc B-Item
 pump B-Item
-at B-Location
+at O
 mount B-Item
 ? O
 ? O
 
 check B-Activity
-oil B-Consumable
+oil O
 alarm B-Item
-on B-Location
+on O
 dms B-Item
 panel I-Item
 na O
@@ -1008,10 +1007,10 @@ wrench B-Item
 hoses B-Item
 na O
 
-hastings B-Agent
+hastings O
 check B-Activity
 hoses B-Item
-on B-Location
+on O
 mast B-Item
 na O
 
@@ -1027,7 +1026,7 @@ bushs B-Item
 geo O
 graph O
 
-chubb B-Agent
+chubb O
 fire B-Item
 suppression I-Item
 service B-Activity
@@ -1035,7 +1034,7 @@ service B-Activity
 replace B-Activity
 grease B-Item
 hose I-Item
-rh B-Location
+rh O
 track B-Item
 
 engine B-Item
@@ -1051,22 +1050,22 @@ take O
 printout O
 
 reweld B-Activity
-rhs B-Location
-bottom B-Location
+rhs O
+bottom O
 sheave B-Item
 cover I-Item
 na O
 
-oil B-Consumable
+oil O
 leak B-Observation
-on B-Location
-lh B-Location
+on O
+lh O
 track B-Item
 adjuster I-Item
 piping B-Item
 
 vibration B-Observation
-in B-Location
+in O
 machine B-Item
 item_id O
 
@@ -1085,14 +1084,14 @@ air O
 replace B-Activity
 rusted B-Observation
 flap B-Item
-at B-Location
+at O
 cabin B-Item
 ? O
 ? O
 ? O
 
-hastings B-Agent
-250hr B-Time
+hastings O
+250hr O
 initial B-Activity
 service I-Activity
 
@@ -1109,7 +1108,7 @@ continue I-Observation
 to I-Observation
 run I-Observation
 
-rear B-Location
+rear O
 jack B-Item
 indication B-Item
 light I-Item
@@ -1117,7 +1116,7 @@ not B-Observation
 working I-Observation
 
 minor O
-oil B-Consumable
+oil O
 leak B-Observation
 compressor B-Item
 tank B-Item
@@ -1146,16 +1145,16 @@ fit B-Activity
 up I-Activity
 air B-Item
 hose I-Item
-inside B-Location
+inside O
 & O
-outside B-Location
+outside O
 of O
 cab B-Item
 
 tighten B-Activity
 sight B-Item
 glass I-Item
-on B-Location
+on O
 rotary B-Item
 head I-Item
 
@@ -1177,17 +1176,17 @@ weldout B-Activity
 
 check B-Activity
 track B-Item
-cycle B-Attribute
-time I-Attribute
+cycle O
+time O
 
-front B-Location
+front O
 ac B-Item
 not B-Observation
 functioning I-Observation
 properly O
 
 monitor B-Activity
-rear B-Location
+rear O
 tri B-Item
 box I-Item
 imput O
@@ -1196,17 +1195,17 @@ shaft O
 warranty O
 door B-Item
 latch I-Item
-on B-Location
+on O
 dog B-Item
 box I-Item
 u/s B-Observation
 
-chubb B-Agent
+chubb O
 replace B-Activity
 foam B-Item
 extingisher I-Item
-on B-Location
-front I-Location
+on O
+front O
 
 miscelaneous O
 cracking B-Observation
@@ -1216,11 +1215,11 @@ sub B-Item
 saver I-Item
 
 monitor B-Activity
-oil B-Consumable
+oil O
 weep B-Observation
 rotary B-Item
 head I-Item
-lower B-Location
+lower O
 seal B-Item
 
 acc O
@@ -1234,11 +1233,11 @@ scv O
 refit B-Activity
 pivot B-Item
 pin I-Item
-to B-Location
+to O
 positioner B-Item
 arm I-Item
 
-rear B-Location
+rear O
 crane B-Item
 controls B-Item
 not B-Observation
@@ -1262,10 +1261,10 @@ ram I-Item
 leaking B-Observation
 badly I-Observation
 
-mem B-Agent
+mem O
 labour B-Activity
 na O
-16/07 B-Time
+16/07 O
 
 mast B-Item
 lock B-Item
@@ -1279,31 +1278,31 @@ flow B-Item
 meter I-Item
 
 repair B-Activity
-oil B-Consumable
+oil O
 leak B-Observation
-on B-Location
-top I-Location
-of I-Location
+on O
+top O
+of O
 hyd B-Item
 tank I-Item
 
 replace B-Activity
-1 B-Cardinality
-side B-Location
+1 O
+side O
 pipe B-Item
 support I-Item
 cup B-Item
 
-oil B-Consumable
+oil O
 leak B-Observation
 item_id O
 
 replace B-Activity
-top B-Location
+top O
 door B-Item
 & O
-lh B-Location
-front B-Location
+lh O
+front O
 glass B-Item
 
 change B-Activity
@@ -1313,7 +1312,7 @@ controler B-Item
 cut B-Activity
 out I-Activity
 holes B-Observation
-in B-Location
+in O
 work B-Item
 table I-Item
 for O
@@ -1327,7 +1326,7 @@ dust O
 entering B-Observation
 cab B-Item
 
-mindrill B-Agent
+mindrill O
 refurb B-Activity
 / O
 replace B-Activity
@@ -1339,7 +1338,7 @@ requires B-Observation
 strengthing I-Observation
 ppl O
 
-manufacturer24 B-Agent
+manufacturer24 O
 air B-Item
 lines I-Item
 @ O
@@ -1375,8 +1374,8 @@ hitting B-Observation
 in O
 cab B-Item
 
-rotation B-Attribute
-pressure I-Attribute
+rotation O
+pressure O
 needs B-Observation
 adjusting I-Observation
 
@@ -1395,24 +1394,24 @@ bolts B-Item
 u/s B-Observation
 item_id O
 
-manufacturer24 B-Agent
+manufacturer24 O
 repair B-Activity
 hoses B-Item
 na O
-13/07/09 B-Time
+13/07/09 O
 
 misc O
 jobs B-Activity
 from O
-operator B-Agent
+operator O
 pre B-Activity
 start I-Activity
 
-mem B-Agent
+mem O
 labour B-Activity
-x2 B-Cardinality
+x2 O
 na O
-4/08/09 B-Time
+4/08/09 O
 
 item_id O
 pre B-Activity
@@ -1426,22 +1425,22 @@ pump I-Item
 
 repair B-Activity
 damaged B-Observation
-front B-Location
+front O
 emergency B-Item
 step I-Item
 
-oil B-Consumable
+oil O
 leak B-Observation
-on B-Location
+on O
 tower B-Item
 na O
 
 blowen B-Observation
 hyd B-Item
 hose I-Item
-on B-Location
-bottem I-Location
-of I-Location
+on O
+bottem O
+of O
 mast B-Item
 
 sump B-Item
@@ -1453,7 +1452,7 @@ arm I-Item
 worn B-Observation
 
 vibration B-Observation
-in B-Location
+in O
 drive B-Item
 train I-Item
 
@@ -1466,17 +1465,17 @@ hold O
 in O
 
 crack B-Item
-in B-Location
+in O
 frame B-Item
-at B-Location
-rh B-Location
+at O
+rh O
 jack B-Item
 tube B-Item
 
 miscelaneous O
 leaks B-Observation
 @ O
-front B-Location
+front O
 pumps B-Item
 ? O
 ? O
@@ -1484,20 +1483,20 @@ pumps B-Item
 relieve B-Activity
 dirt B-Observation
 build I-Observation
-under B-Location
+under O
 crane B-Item
 controls B-Item
 
-main B-Specifier
+main O
 c/b B-Item
-on B-Location
+on O
 generator B-Item
 tripping B-Observation
 out. I-Observation
 
 hand B-Item
 rails I-Item
-@ B-Location
+@ O
 mast B-Item
 access O
 need B-Observation
@@ -1506,8 +1505,8 @@ removing O
 connect B-Activity
 flood B-Item
 bar I-Item
-on B-Location
-top I-Location
+on O
+top O
 window B-Item
 
 potable B-Item
@@ -1515,11 +1514,11 @@ water I-Item
 system B-Item
 u/s B-Observation
 
-scv B-Agent
+scv O
 labour B-Activity
-x2 B-Cardinality
+x2 O
 na O
-30/07 B-Time
+30/07 O
 
 thread B-Item
 grease B-Item
@@ -1528,7 +1527,7 @@ working I-Observation
 na O
 
 leaks B-Observation
-near B-Location
+near O
 carousel B-Item
 
 camera B-Item
@@ -1538,7 +1537,7 @@ item_id O
 reweld B-Activity
 sub B-Item
 saver I-Item
-to B-Location
+to O
 rotary B-Item
 head I-Item
 
@@ -1549,11 +1548,11 @@ accident B-Observation
 damage I-Observation
 ] O
 
-krown B-Agent
+krown O
 labour B-Activity
-x1 B-Cardinality
+x1 O
 na O
-8/07 B-Time
+8/07 O
 
 retension B-Activity
 feed B-Item
@@ -1566,10 +1565,10 @@ not I-Observation
 tranismit O
 
 monitor B-Activity
-oil B-Consumable
+oil O
 leak B-Observation
-rear B-Location
-of I-Location
+rear O
+of O
 motor B-Item
 
 leaking B-Observation
@@ -1585,11 +1584,11 @@ not B-Observation
 workin I-Observation
 
 order B-Activity
-spare B-Specifier
+spare O
 fan B-Item
 hub B-Item
 
-operators B-Agent
+operators O
 complain B-Activity
 wont B-Observation
 turn I-Observation
@@ -1633,7 +1632,7 @@ heater B-Item
 not B-Observation
 working. I-Observation
 
-rear B-Location
+rear O
 air B-Item
 blower I-Item
 to O
@@ -1641,7 +1640,7 @@ short O
 
 hyd B-Item
 tank I-Item
-oil B-Consumable
+oil O
 level B-Item
 gauge I-Item
 leaking B-Observation
@@ -1649,7 +1648,7 @@ leaking B-Observation
 replace B-Activity
 head B-Item
 guide I-Item
-bolts B-Consumable
+bolts O
 
 locking B-Item
 pin I-Item
@@ -1665,16 +1664,16 @@ wear B-Item
 slides I-Item
 
 replace B-Activity
-front B-Location
-and I-Location
-rear I-Location
+front O
+and O
+rear O
 carrier B-Item
 rollers I-Item
 
 replace B-Activity
 mast B-Item
-pivot B-Consumable
-bolts I-Consumable
+pivot O
+bolts O
 
 retension B-Activity
 head B-Item
@@ -1696,7 +1695,7 @@ tong B-Item
 wont B-Observation
 retract I-Observation
 
-zacs B-Agent
+zacs O
 fabricate B-Activity
 & O
 supply B-Activity
@@ -1704,11 +1703,11 @@ parts B-Item
 bin B-Item
 signs B-Item
 
-scv B-Agent
+scv O
 labour B-Activity
-x2 B-Cardinality
+x2 O
 na O
-4/08 B-Time
+4/08 O
 
 check B-Activity
 mast B-Item
@@ -1719,13 +1718,13 @@ working I-Observation
 feed B-Item
 rope I-Item
 off B-Observation
-upper B-Location
+upper O
 sheave B-Item
 
 monitor B-Activity
 engine B-Item
-oil B-Consumable
-level B-Attribute
+oil O
+level O
 na O
 
 repairs B-Activity
@@ -1735,11 +1734,11 @@ timer I-Item
 
 suction B-Item
 line I-Item
-on B-Location
+on O
 radiator B-Item
 cracked B-Observation
 
-oil B-Consumable
+oil O
 leak B-Observation
 water B-Item
 inj I-Item
@@ -1748,7 +1747,7 @@ divider I-Item
 
 remove B-Activity
 rods B-Item
-from B-Location
+from O
 machine B-Item
 
 seal B-Item
@@ -1761,12 +1760,12 @@ strips I-Item
 replace B-Activity
 grease B-Item
 nipple I-Item
-on B-Location
+on O
 uni B-Item
 na O
 
-off B-Location
-side I-Location
+off O
+side O
 track B-Item
 will B-Observation
 not I-Observation
@@ -1787,17 +1786,17 @@ replace B-Activity
 chip B-Item
 deflector I-Item
 
-manufacturer24 B-Agent
+manufacturer24 O
 hose B-Item
 inspection B-Activity
 na O
-1/07 B-Time
+1/07 O
 
-manufacturer24 B-Agent
+manufacturer24 O
 hose B-Item
 inspection B-Activity
 na O
-21/07/09 B-Time
+21/07/09 O
 
 positioner B-Item
 cups I-Item
@@ -1809,7 +1808,7 @@ check B-Activity
 tramming B-Observation
 fault I-Observation
 
-rear B-Location
+rear O
 lights B-Item
 not B-Observation
 working I-Observation
@@ -1826,7 +1825,7 @@ sign B-Item
 skid B-Item
 
 lights B-Item
-near B-Location
+near O
 hyd B-Item
 tank I-Item
 dim B-Observation
@@ -1854,12 +1853,12 @@ not B-Observation
 working I-Observation
 na O
 
-rotation B-Attribute
+rotation O
 slow B-Observation
 & O
 low B-Observation
-stallout B-Attribute
-pressure I-Attribute
+stallout O
+pressure O
 
 wiper B-Item
 blade I-Item
@@ -1893,9 +1892,9 @@ pipe I-Item
 leaking B-Observation
 
 check B-Activity
-oil B-Consumable
-level B-Attribute
-aux B-Specifier
+oil O
+level O
+aux O
 gearbox B-Item
 na O
 
@@ -1908,7 +1907,7 @@ type I-Observation
 check B-Activity
 out I-Activity
 vibration B-Observation
-in B-Location
+in O
 machine B-Item
 
 replace B-Activity
@@ -1928,12 +1927,12 @@ a/c B-Item
 units I-Item
 
 adjust B-Activity
-rear B-Location
+rear O
 door B-Item
 
 leaking B-Observation
 ram B-Item
-on B-Location
+on O
 tool B-Item
 wrench I-Item
 na O
@@ -1941,7 +1940,7 @@ na O
 misc O
 jobs O
 from O
-operator B-Agent
+operator O
 prestart B-Activity
 insp O
 6/ O
@@ -1952,7 +1951,7 @@ accident B-Observation
 damage I-Observation
 
 change B-Activity
-rh B-Location
+rh O
 mast B-Item
 feed B-Item
 cylinder I-Item
@@ -1961,7 +1960,7 @@ bent B-Observation
 handrails B-Item
 
 c/o B-Activity
-upper B-Location
+upper O
 starter B-Item
 
 fire B-Item
@@ -1969,7 +1968,7 @@ supression I-Item
 system I-Item
 repairs B-Activity
 
-front B-Location
+front O
 emergency B-Item
 stairs I-Item
 hard B-Observation
@@ -1987,7 +1986,7 @@ change B-Activity
 deck B-Item
 fork I-Item
 
-oil B-Consumable
+oil O
 coming B-Observation
 out I-Observation
 of O
@@ -2010,13 +2009,13 @@ replaced B-Activity
 damaged B-Observation
 seal B-Item
 
-scv B-Agent
+scv O
 labour B-Activity
-x2 B-Cardinality
+x2 O
 na O
-16.07 B-Time
+16.07 O
 
-agl B-Agent
+agl O
 replace B-Activity
 broken B-Observation
 roof B-Item
@@ -2030,7 +2029,7 @@ faulty B-Observation
 
 replace B-Activity
 breather B-Item
-on B-Location
+on O
 pump B-Item
 drive I-Item
 box I-Item
@@ -2039,8 +2038,8 @@ thread B-Item
 lube O
 has O
 low B-Observation
-air B-Attribute
-pressure I-Attribute
+air O
+pressure O
 
 relocate B-Activity
 lube B-Item
@@ -2048,15 +2047,15 @@ pot I-Item
 overflow O
 
 refit B-Activity
-right B-Location
-hand I-Location
+right O
+hand O
 track B-Item
 
-lh B-Location
+lh O
 fan B-Item
 pump B-Item
 adaptor B-Item
-seal B-Consumable
+seal O
 weeping B-Observation
 
 scope B-Activity
@@ -2067,28 +2066,28 @@ support I-Item
 
 wiring O
 fault B-Observation
-to B-Location
+to O
 alternator B-Item
 item_id O
 
 repair B-Activity
-all B-Cardinality
-240v B-Specifier
+all O
+240v O
 and O
-24v B-Specifier
+24v O
 work B-Item
 lights I-Item
 
-oil B-Consumable
+oil O
 leak B-Observation
-fron B-Location
+fron O
 water B-Item
 pump I-Item
 
 tec O
 50 O
 leak B-Observation
-near B-Location
+near O
 cab B-Item
 item_id O
 
@@ -2129,16 +2128,16 @@ curtains I-Item
 deck B-Item
 fork I-Item
 leaking B-Observation
-oil B-Consumable
+oil O
 
 loose B-Observation
-bolts B-Consumable
-on B-Location
+bolts O
+on O
 lighting B-Item
 bracket B-Item
 
 pipe B-Item
-in B-Location
+in O
 hole B-Item
 sensor B-Item
 not B-Observation
@@ -2147,14 +2146,14 @@ working I-Observation
 broken B-Observation
 hand B-Item
 rail I-Item
-on B-Location
+on O
 work B-Item
 deck I-Item
 item_id O
 
 repair B-Activity
 fitting B-Item
-on B-Location
+on O
 deck B-Item
 wrench B-Item
 na O
@@ -2164,22 +2163,22 @@ forward O
 rotation B-Item
 pipe I-Item
 
-oil B-Consumable
+oil O
 laek O
-on B-Location
+on O
 compressor B-Item
 
 repair B-Activity
 lights B-Observation
 out I-Observation
-on B-Location
+on O
 the O
 machine B-Item
 
 slow B-Observation
 tramming O
-lhs B-Location
-forward I-Location
+lhs O
+forward O
 na O
 
 replace B-Activity
@@ -2191,8 +2190,8 @@ seal B-Item
 l O
 
 check B-Activity
-hyd B-Consumable
-oil I-Consumable
+hyd O
+oil O
 leak B-Observation
 na O
 
@@ -2202,7 +2201,7 @@ box I-Item
 over- B-Observation
 full I-Observation
 
-rh B-Location
+rh O
 propel B-Item
 pump I-Item
 broken B-Observation
@@ -2213,11 +2212,11 @@ move B-Activity
 eng B-Item
 camera B-Item
 
-scv B-Agent
+scv O
 labour B-Activity
-x2 B-Cardinality
+x2 O
 na O
-21/07/09 B-Time
+21/07/09 O
 
 carousel B-Item
 lock B-Item
@@ -2241,9 +2240,9 @@ start I-Observation
 item_id O
 
 fit B-Activity
-new B-Specifier
+new O
 signs B-Item
-to B-Location
+to O
 skid B-Item
 item_id O
 
@@ -2267,7 +2266,7 @@ sub I-Item
 
 weeping B-Observation
 oring B-Item
-on B-Location
+on O
 steel B-Item
 pipe I-Item
 
@@ -2279,7 +2278,7 @@ parts I-Item
 
 fit B-Activity
 stops B-Item
-to B-Location
+to O
 positioner B-Item
 arm I-Item
 
@@ -2311,21 +2310,21 @@ oil I-Item
 filter I-Item
 housing B-Item
 
-aux B-Specifier
+aux O
 gearbox B-Item
 making B-Observation
-oil B-Consumable
+oil O
 na O
 
 get B-Activity
-part B-Attribute
-no I-Attribute
-off B-Location
+part O
+no O
+off O
 pumps B-Item
 
 replaec O
 hosev O
-from B-Location
+from O
 metering B-Item
 pump I-Item
 
@@ -2343,16 +2342,16 @@ hosing B-Item
 catching B-Observation
 
 change B-Activity
-lh B-Location
+lh O
 mast B-Item
 feed B-Item
 cylinder I-Item
 
-krown B-Agent
+krown O
 labour B-Activity
-x1 B-Cardinality
+x1 O
 na O
-16/07 B-Time
+16/07 O
 
 seal B-Item
 weeping B-Observation
@@ -2369,4 +2368,5 @@ replace B-Activity
 seat B-Item
 arm B-Item
 rests I-Item
+
 

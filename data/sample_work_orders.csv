@@ -1,15 +1,501 @@
-StartDate,FLOC,ShortText
-10/07/2005,1234.1.1,repair cracked hyd tank
-14/07/2005,1234.1.2,engine wont start
-17/07/2005,1234.1.3,a/c blowing hot air
-20/07/2005,1234.1.2,engin u/s
-21/07/2005,1234.1.2,fix engine
-22/07/2005,1234.1.4,pump service
-23/07/2005,1234.1.4,pump leak
-24/07/2005,1234.1.4,fix leak on pump
-25/07/2005,1234.1.2,engine not running
-26/07/2005,1234.1.2,engine has problems starting
-27/07/2005,1234.1.4,pump fault
-28/07/2005,1234.1.4,pump leaking
-29/07/2005,1234.1.3,a/c not working
-30/07/2005,1234.1.3,a/c broken
+StartDate,FLOC,ShortText,Cost
+,1234.01.01,1000 hr mechanical and lube service,200
+,1234.01.02,2 lights out on machine,300
+22/02/2006,1234.01.03,3 x 240 volt lights out,400
+18/02/2006,1234.01.04,ITEM_ID compressor oil requires top up,500
+,1234.01.05,ITEM_ID inspection 29/12,600
+31/03/2006,1234.01.06,ITEM_ID mechancial service 4 wk/500 hr,700
+10/03/2006,1234.01.07,ITEM_ID not tramming,800
+,1234.01.08,ITEM_ID pre service setup,900
+14/03/2006,1234.01.09,ITEM_ID pre-service setup,1000
+13/04/2006,1234.01.10,ITEM_ID pre-service setup,1100
+15/08/2001,1234.01.11,access audit repairs,1200
+,1234.01.12,adjust rotary head guides,1300
+,1234.01.13,air /con very noisy,1400
+9/03/2006,1234.01.14,air cond compressor,1500
+17/08/2001,1234.01.15,air cond. working intermittently,1600
+,1234.01.16,air leak around rotary head,1700
+,1234.01.17,air valve not shutting off,1800
+27/02/2006,1234.01.18,alternator r/s,1900
+12/08/2001,1234.01.19,audible alarm on softly at all times,2000
+,1234.01.20,auto level device reading backwards,2100
+,1234.02.01,autosparks NA 08/03/06,2200
+14/03/2006,1234.02.02,bad vibration,2300
+16/08/2001,1234.02.03,bent hand rail at back cabin door,2400
+11/08/2001,1234.02.04,blow hose,2500
+13/08/2001,1234.02.05,book out filters,2600
+,1234.02.06,both rear jacks leaking oil,2700
+3/03/2006,1234.02.07,break out u/s,2800
+,1234.02.08,breakout fork cylinder - rework,2900
+17/08/2001,1234.02.09,broken control connection,3000
+16/02/2006,1234.02.10,broken go switch r/h mast lock   .the in,3100
+,1234.02.11,broken handraill/h/s crows nest,3200
+,1234.02.12,broken hose on cylinder,3300
+,1234.02.13,broken l/h pulldown chain,3400
+,1234.02.14,broken locking pin,3500
+17/08/2001,1234.02.15,broken tool wrench holding cylinder,3600
+,1234.02.16,build up rod support beak,3700
+,1234.02.17,bull hose air leak,3800
+25/02/2006,1234.02.18,bull hose split,3900
+,1234.02.19,busted hydraulic hose,4000
+,1234.02.20,c spanner for minning,4100
+7/08/2001,1234.02.21,c/b6 tripping e/l,4200
+,1234.02.22,cab interior light not working,4300
+,1234.02.23,capital     test cab,4400
+,1234.02.24,capital    fit hyd. drive to a/c compres,4500
+,1234.02.25,capital    move cab door as per drawings,4600
+,1234.02.26,capital   engine protection hood,4700
+,1234.02.27,capital   fit larger sumpmachine shut do,4800
+,1234.02.28,capital   fit walk way to rhs of mast,4900
+,1234.02.29,capital   install mesh in mast,5000
+,1234.02.30,capital   turbo & ex manifold guards,5100
+,1234.02.31,capital  install access sys,5200
+,1234.02.32,capital  modify  w/ways around eng,5300
+,1234.02.33,capital- chubb o/haul fire sys,5400
+,1234.02.34,carousel not actioning to postion steels,5500
+,1234.02.35,case-drain leaking,5600
+,1234.02.36,cci,5700
+,1234.02.37,chaine oiler no working,5800
+,1234.02.38,change cyclinder,5900
+,1234.02.39,change out cyl,6000
+,1234.02.40,change out deck seal,6100
+20/08/2001,1234.01.01,change out lube pump,6200
+,1234.01.02,changeout compressor drive shaft,6300
+,1234.01.03,check and repair exhaust leaks,6400
+3/05/2006,1234.01.04,check drill water level sensor,6500
+25/02/2006,1234.01.05,check feed system control,6600
+14/02/2006,1234.01.06,check fire alarm,6700
+,1234.01.07,check hyd. return filters for debris,6800
+,1234.01.08,check oil leak at rotary head,6900
+25/03/2006,1234.01.09,clean out chain lube canister,7000
+12/08/2001,1234.01.10,comp high air tenp,7100
+,1234.01.11,comp. air tune at end of s/down,7200
+,1234.01.12,complete 1000 hr mechenical inspect,7300
+18/03/2006,1234.01.13,complete parts listing for shutdown,7400
+,1234.01.14,compresor over temp fault,7500
+,1234.01.15,compressor control repairs,7600
+,1234.01.16,compressor no air,7700
+,1234.01.17,compressor oil low lube alarm,7800
+4/03/2006,1234.01.18,compressor oil low pressure fault,7900
+6/03/2006,1234.01.19,compressor over temp,8000
+18/02/2006,1234.01.20,control panel alarms not working,8100
+,1234.02.01,coolant leak around coolant sensor,8200
+,1234.02.02,counter looses track of depth,8300
+,1234.02.03,crack in chassis,8400
+,1234.02.04,crack in l/h top side handrail,8500
+26/02/2006,1234.02.05,crack in pipe near holding valve,8600
+,1234.02.06,crack test & repair fuel tanks,8700
+,1234.02.07,cracked mast-lh outer,8800
+,1234.02.08,cracks in radiator chassis mounting,8900
+18/02/2006,1234.02.09,crane & truck drill steel to ITEM_ID,9000
+,1234.02.10,cwpope to test seperator housing,9100
+,1234.02.11,damaged electrical cable on ITEM_ID,9200
+19/02/2006,1234.02.12,dead man switch not working,9300
+,1234.02.13,deck bush needs replacing ITEM_ID,9400
+19/02/2006,1234.02.14,deck bush woren,9500
+,1234.02.15,deck cylinders creeping  valve u/s,9600
+,1234.02.16,deck falling down,9700
+,1234.02.17,deck seal,9800
+28/02/2006,1234.02.18,def. check cab dust entry,9900
+,1234.02.19,def. check coolant flow switch,10000
+,1234.02.20,def. replace deck seal,10100
+8/03/2006,1234.02.21,def. replace deck shute rubbers,10200
+6/04/2006,1234.02.22,def.carosuel lower roller u/s,10300
+25/02/2006,1234.02.23,def.check and repair pipe support limits,10400
+,1234.02.24,def.check engine oil leak,10500
+17/03/2006,1234.02.25,def.check feed and rotation pressure,10600
+,1234.02.26,def.check head creep,10700
+,1234.02.27,def.check mast pins for play,10800
+28/02/2006,1234.02.28,def.check water injection hose onto head,10900
+,1234.02.29,def.compressor receiver tap leaking,11000
+,1234.02.30,def.fluro light in cab not working,11100
+,1234.02.31,def.light shinning up to head out,11200
+22/03/2006,1234.02.32,def.off side camera not working,11300
+,1234.02.33,def.one driveshaft nipple wont tak greas,11400
+,1234.02.34,def.pipe support arm worn through,11500
+,1234.02.35,def.tap on potable water inlet leaking,11600
+24/02/2006,1234.02.36,discon gene from shutdown pad,11700
+,1234.02.37,door latch repair,11800
+,1234.02.38,doors seals not sealing at top of doors,11900
+16/08/2001,1234.02.39,drill bit repairs,12000
+,1234.02.40,drill tracking to the left,12100
+28/02/2006,1234.01.01,drill will not tram,12200
+,1234.01.02,drillpro. o/haul 8 mast index cylinders,12300
+,1234.01.03,drillpro. o/haul air on/off cylinder,12400
+,1234.01.04,drillpro. o/haul lh mast lift cylinder,12500
+,1234.01.05,drillpro. o/haul lhs feed cylinder,12600
+,1234.01.06,drillpro. o/haul lock cylinder,12700
+,1234.01.07,drillpro. o/haul rhs feed cylinder,12800
+16/03/2006,1234.01.08,drive train vibration & noise  found alt,12900
+10/08/2001,1234.01.09,dust leaking into cab,13000
+6/03/2006,1234.01.10,eng shuts down no reason found,13100
+5/03/2006,1234.01.11,eng will not shut down,13200
+21/03/2006,1234.01.12,engine hour meter not working,13300
+28/02/2006,1234.01.13,engine oil pressure gauge not working,13400
+12/02/2006,1234.01.14,engine shutdown cylinder head failure,13500
+27/02/2006,1234.01.15,engine shutting down with air demand,13600
+26/02/2006,1234.01.16,erratic control of jacks & hoist,13700
+,1234.01.17,fab & fit access to cab top & mast,13800
+,1234.01.18,fab & fit new elect box in cab,13900
+,1234.01.19,fab & relocate battery box,14000
+16/08/2001,1234.01.20,fab. & fit emergency exit steps,14100
+28/02/2006,1234.02.01,fan motor noisy,14200
+23/02/2006,1234.02.02,faulty circuit breaker on generator,14300
+,1234.02.03,faulty proximity switch & circuit breaka,14400
+27/02/2006,1234.02.04,feed and jacks slow,14500
+9/08/2001,1234.02.05,feed controler not holding head,14600
+,1234.02.06,feed lever very tight,14700
+21/08/2001,1234.02.07,feed override switch not working,14800
+26/02/2006,1234.02.08,feed potentiometer playing up,14900
+,1234.02.09,feed pressure guage sticking,15000
+,1234.02.10,feed pressure problem,15100
+,1234.02.11,feed wont operate,15200
+,1234.02.12,fidecks require new skirts,15300
+15/03/2006,1234.02.13,final shutdown scope,15400
+,1234.02.14,fit 60 litre comp. oil reserve tank,15500
+,1234.02.15,fit dicky seat,15600
+28/03/2006,1234.02.16,fit diesel wiggins to l/h side point,15700
+,1234.02.17,fit hyd. drive to alternator,15800
+15/12/2006,1234.02.18,fit new deck,15900
+,1234.02.19,fit new deck bush,16000
+,1234.02.20,fit new deck bush to ITEM_ID,16100
+,1234.02.21,fit new rod holder arm,16200
+24/03/2006,1234.02.22,"fit new stems sub & deck bush",16300
+,1234.02.23,fit pex turbo,16400
+,1234.02.24,fitting loose on siwvel,16500
+,1234.02.25,fix door seal,16600
+,1234.02.26,flat battery jump start,16700
+,1234.02.27,front jack light not going out,16800
+21/03/2006,1234.02.28,front jack limits not working,16900
+20/03/2006,1234.02.29,front jacks will not work,17000
+20/03/2006,1234.02.30,front jacks wont raise,17100
+,1234.02.31,grease leak at frame lube pump fittings,17200
+20/02/2006,1234.02.32,grease lube alarm,17300
+,1234.02.33,grease pump needs overhauling,17400
+,1234.02.34,grease pump r/s,17500
+,1234.02.35,grease tank leaking at pump base,17600
+,1234.02.36,grs 15/2/06,17700
+,1234.02.37,grs 8/2/06,17800
+,1234.02.38,grs 15/2/06,17900
+26/02/2006,1234.02.39,hand rail repairs,18000
+7/03/2006,1234.02.40,hasting doing a service,18100
+,1234.01.01,hastings inspection,18200
+,1234.01.02,head & deck creeping down,18300
+,1234.01.03,head control valve not working,18400
+,1234.01.04,head guides worn,18500
+28/09/2001,1234.01.05,head keeps creeping down,18600
+7/03/2006,1234.01.06,head playing up,18700
+24/08/2001,1234.01.07,head sensor for traming at top of mast,18800
+24/02/2006,1234.01.08,head up guides and cups need replacing,18900
+,1234.01.09,hid lights not working,19000
+,1234.01.10,hoist feed to farst,19100
+,1234.01.11,hose between compressor oil tank & seper,19200
+11/08/2001,1234.01.12,hose off the air tank bent,19300
+14/02/2006,1234.01.13,hose tangled in rotary head,19400
+,1234.01.14,hyd cab door to be bolted shut,19500
+,1234.01.15,hyd gauges not working,19600
+,1234.01.16,hyd tune at end of shut down,19700
+,1234.01.17,hydraulic control button won't switch of,19800
+,1234.01.18,hydraulic pressure guage sticking,19900
+,1234.01.19,hydraulic warning alarm,20000
+16/08/2001,1234.01.20,input seal leaking on front drive box,20100
+25/04/2006,1234.02.01,inspect crack in hydraulic tank ITEM_ID,20200
+,1234.02.02,inspect hydraulic oil leak on jack leg,20300
+,1234.02.03,inspect idlers & report condition,20400
+,1234.02.04,inspect l/h propel pump operation,20500
+27/03/2006,1234.02.05,inspect possible cable damage,20600
+,1234.02.06,inspection 3/5/01 some hyd hoses behind,20700
+,1234.02.07,install 85/140 dry-break couplings,20800
+,1234.02.08,install 85/140 drybreak couplings,20900
+,1234.02.09,install gate valve in hyd suction line,21000
+,1234.02.10,install new deck seal,21100
+,1234.02.11,installling ballasts,21200
+,1234.02.12,inverter tripping on e/l,21300
+21/03/2006,1234.02.13,isolate 2 burnt cables - see text,21400
+26/02/2006,1234.02.14,jack check seals hard- erratic,21500
+,1234.02.15,jack not retracting,21600
+,1234.02.16,jakstas NA repairs 10/2/06,21700
+,1234.02.17,l/h lower feed sproket out of line,21800
+,1234.02.18,l/h track binding up,21900
+17/02/2006,1234.02.19,l/h track is slow to operate,22000
+,1234.02.20,lanolin for chain lube,22100
+24/02/2006,1234.02.21,leak l/h fan motor hose,22200
+,1234.02.22,leaking cyclinder,22300
+27/02/2006,1234.02.23,levelling jacks slow,22400
+,1234.02.24,lhs mast lift cylinder leaking,22500
+12/08/2001,1234.02.25,lift stem back in,22600
+24/02/2006,1234.02.26,light's not working,22700
+23/02/2006,1234.02.27,lights cutting out,22800
+,1234.02.28,loose growser bolts l/h track,22900
+10/03/2006,1234.02.29,loss of downhole air,23000
+19/02/2006,1234.02.30,lost a cylender pin,23100
+28/02/2006,1234.02.31,lost a rod,23200
+,1234.02.32,lost pin to indexing cylender,23300
+4/03/2006,1234.02.33,low compressor air pressure,23400
+10/08/2001,1234.02.34,low on power & turbo glowing red,23500
+22/03/2006,1234.02.35,low power,23600
+4/03/2006,1234.02.36,lube alarm activated,23700
+,1234.02.37,malfunction in bit lube system,23800
+,1234.02.38,manufacturer24 ITEM_ID  repairs,23900
+,1234.02.39,manufacturer24 ITEM_ID 10/02/2006,24000
+,1234.02.40,manufacturer24 ITEM_ID 15/03/06,24100
+,1234.01.01,manufacturer24 ITEM_ID 15/2/06,24200
+,1234.01.02,manufacturer24 ITEM_ID repairs,24300
+,1234.01.03,manufacturer24 NA 14-03-06,24400
+,1234.01.04,manufacturer24 NA 8/3/06 repairs,24500
+,1234.01.05,manufacturer24 NA repairs,24600
+,1234.01.06,manufacturer30 have lost menu bar,24700
+,1234.01.07,manufacturer5 o/haul mast raise cylinder,24800
+,1234.01.08,mask locking pin light u/s,24900
+5/03/2006,1234.01.09,mast locking pin u/s,25000
+3/03/2006,1234.01.10,mast pin will not retract,25100
+,1234.01.11,mast warning light not working,25200
+,1234.01.12,mindrill refurb drill rods,25300
+28/02/2006,1234.01.13,modify slap wrench hold down lugs,25400
+,1234.01.14,move water tank o/flow to outside,25500
+,1234.01.15,needs a crane first up dropped steel,25600
+8/03/2006,1234.01.16,needs a jump start,25700
+,1234.01.17,no down hole air,25800
+8/03/2006,1234.01.18,no water going to mast,25900
+,1234.01.19,not hoisting up,26000
+,1234.01.20,o/haul air conditioning system,26100
+,1234.02.01,o/haul track frame pivot,26200
+,1234.02.02,o/haul winch,26300
+,1234.02.03,oil leak around pumps,26400
+3/03/2006,1234.02.04,oil leak at bottom of mast,26500
+,1234.02.05,oil leak at deck wrench,26600
+,1234.02.06,oil leak at l/h/f chassis,26700
+,1234.02.07,oil leak at l/h/f jack cylinder,26800
+,1234.02.08,oil leak at turbo,26900
+,1234.02.09,oil leak feed pump,27000
+,1234.02.10,oil leak l/h feed cylinder,27100
+,1234.02.11,oil leak on feed cylinder,27200
+,1234.02.12,oil leak regen valve,27300
+23/02/2006,1234.02.13,oil leak under acc. pumps,27400
+,1234.02.14,oil leak under oil cooler,27500
+12/08/2001,1234.02.15,oil leakon tool wrench,27600
+,1234.02.16,oil leaks in hyd. cabnet,27700
+,1234.02.17,oil leaks on mast,27800
+14/02/2006,1234.02.18,oil lines tangled,27900
+10/08/2001,1234.02.19,one filter still leaking oil,28000
+,1234.02.20,operator change air filter,28100
+7/04/2006,1234.02.21,overhaul water injection pump,28200
+,1234.02.22,p[ipe positioner switch r/s,28300
+16/08/2001,1234.02.23,park brake will not hold,28400
+,1234.02.24,parrot beaks need building up,28500
+10/08/2001,1234.02.25,pipe in hole alarm,28600
+18/03/2006,1234.02.26,pipe support cups,28700
+,1234.02.27,poasitioner arm cups npt holding,28800
+,1234.02.28,positioner arm not working,28900
+,1234.02.29,postioner arm not working,29000
+,1234.02.30,pre-service setup,29100
+,1234.02.31,purchace  85w140 drybreak couplings,29200
+,1234.02.32,purchace 85w140 drybreak couplings,29300
+,1234.02.33,quote to repair main pump,29400
+,1234.02.34,quote to repair propel motor,29500
+18/03/2006,1234.02.35,r/h upper loader cyl leaking,29600
+,1234.02.36,r/h/f engine mount bolts loose,29700
+,1234.02.37,radio falling out of bracket,29800
+,1234.02.38,rail staunchen broken l/h crows nest,29900
+,1234.02.39,reair oil leaks from under cylinder head,30000
+,1234.02.40,reamer needs replacing or removeing,30100
+,1234.01.01,rear cabin door requires new rubber,30200
+,1234.01.02,recharge fire suppression,30300
+,1234.01.03,refit and tighten a/c mounting bolts,30400
+,1234.01.04,refit winch rope,30500
+,1234.01.05,refurbish operators seat,30600
+25/02/2006,1234.01.06,relace manufacturer2 drain hose,30700
+,1234.01.07,relocate hyd filters to front of tank,30800
+22/03/2006,1234.01.08,remove - refit cab,30900
+7/03/2006,1234.01.09,remove link from both feed chain,31000
+,1234.01.10,remove rod so they can change bit,31100
+,1234.01.11,repaint drill,31200
+7/08/2001,1234.01.12,repair and replace comp. discharge hose,31300
+21/02/2006,1234.01.13,repair breakout fork cylinder on r/h,31400
+1/03/2006,1234.01.14,repair broken pull down chains ITEM_ID,31500
+27/02/2006,1234.01.15,repair cab e-stop not working,31600
+,1234.01.16,repair charging,31700
+,1234.01.17,repair crack in deck,31800
+,1234.01.18,repair crack in l/h vertical lock,31900
+,1234.01.19,repair cracking around cooler pack,32000
+,1234.01.20,repair cracking in chassis,32100
+,1234.02.01,repair cracking in track frames,32200
+,1234.02.02,repair cracks as per ndt report,32300
+19/02/2006,1234.02.03,repair deck bush on ITEM_ID,32400
+,1234.02.04,repair dust curtain,32500
+,1234.02.05,repair dust shute rubbers,32600
+13/02/2006,1234.02.06,repair engine fire supression capillary,32700
+8/08/2001,1234.02.07,repair front lights,32800
+10/05/2006,1234.02.08,repair head speed gauge,32900
+,1234.02.09,repair hole in bull hose,33000
+9/08/2001,1234.02.10,repair hydraulic leak up mast,33100
+,1234.02.11,repair leaking a/c motor,33200
+7/08/2001,1234.02.12,repair light bracket,33300
+13/02/2006,1234.02.13,repair lube line on ITEM_ID,33400
+11/08/2001,1234.02.14,repair mast safety rail,33500
+,1234.02.15,repair oil leak on cylinder,33600
+,1234.02.16,repair oil leak on hydraulic return hose,33700
+11/03/2006,1234.02.17,repair pin in pull down chain ITEM_ID,33800
+,1234.02.18,repair to auto fire supression,33900
+9/08/2001,1234.02.19,repair traveling sheeve guide,34000
+14/08/2001,1234.02.20,repair/replace blown hoses,34100
+,1234.02.21,repaired two lights,34200
+,1234.02.22,repairing air blower on window,34300
+17/02/2006,1234.02.23,repairs to brake out wrench,34400
+7/03/2006,1234.02.24,repairs to breakout wrench,34500
+13/08/2001,1234.02.25,repairs to positioner arm,34600
+,1234.02.26,repairs to tool rench,34700
+,1234.02.27,repalce alt. belts,34800
+10/03/2006,1234.02.28,repalce cylinder head,34900
+,1234.02.29,replace & relocate oil lube station,35000
+,1234.02.30,replace 2 x lower bull hoses,35100
+,1234.02.31,replace 3x lights,35200
+,1234.02.32,replace a/c clutch,35300
+,1234.02.33,replace a/c comressor,35400
+22/03/2006,1234.02.34,replace a/c flow divider cartrigde,35500
+,1234.02.35,replace air seperator elements,35600
+20/08/2001,1234.02.36,replace air switch on rotation lever,35700
+3/05/2006,1234.02.37,replace all cab blinds,35800
+9/03/2006,1234.02.38,replace all injectors,35900
+22/02/2006,1234.02.39,replace alternator,36000
+,1234.02.40,replace alternator belts,36100
+22/02/2006,1234.01.01,replace battery's,36200
+,1234.01.02,replace batterys,36300
+15/08/2001,1234.01.03,replace blown hyd hose,36400
+,1234.01.04,replace blown hydraulic hose,36500
+25/02/2006,1234.01.05,replace both lower bull hoses,36600
+10/03/2006,1234.01.06,replace brushes in condensor fan motor,36700
+,1234.01.07,replace bull hose with steel pipe,36800
+,1234.01.08,replace check valve seal kits,36900
+,1234.01.09,replace compressor cooler fan hoses,37000
+6/08/2001,1234.01.10,replace compressor discharge hose,37100
+,1234.01.11,replace compressor oil,37200
+2/03/2006,1234.01.12,replace deck bush retaining plate,37300
+6/03/2006,1234.01.13,replace drill steel in rack,37400
+24/02/2006,1234.01.14,replace engine outer air filters,37500
+23/02/2006,1234.01.15,replace faulty circuit breaker,37600
+,1234.01.16,replace feed and hoist ropes,37700
+,1234.01.17,replace feed pipe,37800
+13/03/2006,1234.01.18,replace feed pressure gauge,37900
+24/03/2006,1234.01.19,replace feed pump inlet seals,38000
+21/02/2006,1234.01.20,replace feed pump shaft seal,38100
+,1234.02.01,replace feed pump stroker plate,38200
+15/03/2006,1234.02.02,replace front driveshaft adaptor lock,38300
+,1234.02.03,replace fuel inj. pump. mid life 1.7.3,38400
+,1234.02.04,replace head packing,38500
+,1234.02.05,replace head sub on ITEM_ID,38600
+,1234.02.06,replace hyd oil cooler,38700
+,1234.02.07,replace hyd. holding valves,38800
+,1234.02.08,replace hyd. return filters,38900
+14/08/2001,1234.02.09,replace ignition switch,39000
+14/08/2001,1234.02.10,replace l/h lower feed sprocket,39100
+,1234.02.11,replace l/h rear jack control,39200
+18/03/2006,1234.02.12,replace l/h/s top carrier sprocket,39300
+28/02/2006,1234.02.13,replace leaking fuel filter,39400
+,1234.02.14,replace lh propel control,39500
+,1234.02.15,replace load rollers,39600
+,1234.02.16,replace lower bull hose safety rope,39700
+,1234.02.17,replace main airline check valve,39800
+,1234.02.18,replace main cab window,39900
+,1234.02.19,replace mast flexible bull hose,40000
+22/03/2006,1234.02.20,replace mast raise controller,40100
+,1234.02.21,replace minimum pressure valve,40200
+17/02/2006,1234.02.22,replace missing grouser plate bolts,40300
+18/02/2006,1234.02.23,replace missing r/h head slide,40400
+,1234.02.24,replace missing rocker switch,40500
+4/03/2006,1234.02.25,replace o-ring in valve,40600
+,1234.02.26,replace oil & air hoses as req,40700
+,1234.02.27,replace pipe positioner cups,40800
+,1234.02.28,replace power step lower solenoid,40900
+,1234.02.29,replace primer pump,41000
+,1234.02.30,replace r/h comp/hyd cooler fan,41100
+17/03/2006,1234.02.31,replace r/h mast lock cylinder,41200
+8/03/2006,1234.02.32,replace r/h mast locking cyl,41300
+,1234.02.33,replace rear acc. pump face oring,41400
+,1234.02.34,replace return filter lid studs,41500
+,1234.02.35,replace rotry head oil,41600
+,1234.02.36,replace rubber intake hoses,41700
+16/02/2006,1234.02.37,replace shaft front uni u/s,41800
+,1234.02.38,replace short bull hose,41900
+,1234.02.39,replace slew brgs on front palfinger,42000
+10/02/2006,1234.02.40,replace staple lock on tool wrench,42100
+,1234.01.01,replace tappet cover gaskets,42200
+,1234.01.02,replace top viewing window,42300
+3/05/2006,1234.01.03,replace track grousers bolts,42400
+16/02/2006,1234.01.04,replace turbo accumulator- engine line,42500
+,1234.01.05,replace turbo oil feed line,42600
+,1234.01.06,replace water tank rear support beam,42700
+,1234.01.07,replace/rotate sub saver,42800
+,1234.01.08,replaced  starter motor,42900
+,1234.01.09,replaced 500w self ballast lamps,43000
+,1234.01.10,replaced a/c filter,43100
+21/03/2006,1234.01.11,replaced dies on breakout wrench,43200
+,1234.01.12,replaced evaporator fan brushes,43300
+,1234.01.13,replaced light out on mast,43400
+,1234.01.14,reposition propell valves,43500
+22/03/2006,1234.01.15,reposition winch control switch,43600
+15/03/2006,1234.01.16,reposition winch switch,43700
+,1234.01.17,requires new deck pin bush,43800
+14/02/2006,1234.01.18,reseal holding valve,43900
+,1234.01.19,reseal r/h propel pump adaptor,44000
+14/02/2006,1234.01.20,reset c/b for inverter,44100
+11/03/2006,1234.02.01,reset hold down valve relief press,44200
+9/08/2001,1234.02.02,reset lights,44300
+13/02/2006,1234.02.03,review pmo2000 sheets for ITEM_ID,44400
+14/08/2001,1234.02.04,reweld slap wrench  stop,44500
+,1234.02.05,rewire access steps,44600
+,1234.02.06,rewire machine,44700
+28/02/2006,1234.02.07,rod soupert cups,44800
+25/02/2006,1234.02.08,rod support arm creeping in,44900
+,1234.02.09,rollers no 3/5 on r/h/s u/s,45000
+8/03/2006,1234.02.10,rollers on the way out,45100
+16/08/2001,1234.02.11,rotary head seal leaking,45200
+,1234.02.12,rotate/replace box sub,45300
+,1234.02.13,rotation controller needs adjusting,45400
+22/02/2006,1234.02.14,rotation hyd pipe cracked on mast,45500
+22/02/2006,1234.02.15,scope to replace mast pedistal,45600
+,1234.02.16,scv ITEM_ID repairs,45700
+,1234.02.17,scv ITEM_ID repairs 10/2/2006,45800
+,1234.02.18,scv ITEM_ID repairs 10/3/06,45900
+,1234.02.19,scv ITEM_ID repairs 11/2/2006,46000
+,1234.02.20,scv ITEM_ID repairs 8/2/2006,46100
+,1234.02.21,scv NA repairs 08/03/06,46200
+,1234.02.22,service machine,46300
+,1234.02.23,shackle missing onsafety chain on bull h,46400
+28/03/2006,1234.02.24,shorten head slide adjustind bolts,46500
+28/02/2006,1234.02.25,shut down measurement of cabin,46600
+,1234.02.26,shut down system not working,46700
+4/03/2006,1234.02.27,shuting down on comp oil temp,46800
+,1234.02.28,sometimes head takes off up at full spee,46900
+,1234.02.29,stem b 177 slightly bent,47000
+,1234.02.30,stem locked up,47100
+,1234.02.31,step indicator not working,47200
+8/03/2006,1234.02.32,straighten sheave carrier rope guides,47300
+,1234.02.33,sub getting close to changing,47400
+,1234.02.34,supply lanotec chain lube,47500
+,1234.02.35,tap leaking on compressor tank,47600
+,1234.02.36,test park brake,47700
+,1234.02.37,thread lube gasket blown,47800
+10/03/2006,1234.02.38,thread/bit lube not working,47900
+17/02/2006,1234.02.39,thred lube pump not working,48000
+,1234.02.40,tighten front engine bolts,48100
+,1234.01.01,tighten loose turbo exhaust clamp,48200
+16/03/2006,1234.01.02,timing bar misaligned,48300
+,1234.01.03,tune engine,48400
+,1234.01.04,upgrade chubb fire suppression system,48500
+,1234.01.05,upgrade chubb fire supprression system,48600
+,1234.01.06,wash & clean inlet filter housing,48700
+,1234.01.07,wash & clean inltake filter housing,48800
+,1234.01.08,water  injection system not working,48900
+,1234.01.09,water injection hose u/s,49000
+,1234.01.10,water injection pump not working,49100
+,1234.01.11,water trap req'd for thread lube pump,49200
+,1234.01.12,weekly inspection NA,49300
+,1234.01.13,weekly inspection to be done 22-08-01,49400
+,1234.01.14,weekly inspection to be done on 20-08-01,49500
+,1234.01.15,weld bracket,49600
+6/08/2001,1234.01.16,weld cracked hyd pipe,49700
+,1234.01.17,window washer/wyper repairs,49800
+12/08/2001,1234.01.18,wont start,49900
+17/02/2006,1234.01.19,working air presure,50000
+,1234.01.20,ITEM_ID signs,50100

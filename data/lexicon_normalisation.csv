@@ -12,3 +12,99 @@ broken,breakdown
 wont start,failure to start
 unserviceable,breakdown
 u/s,breakdown
+#,number
+@,at
+u/s,unserviceable
+changeout,change out
+c/o,change out
+c/out,change out
+co,change out
+rplc,replace
+p/p,pump
+stn,station
+repl,replace
+&,and
+rpl,replace
+mech,mechanical
+conv,conveyor
+insp,inspection
+c/0,change out
+wk,week
+scr,screen
+elec,electrical
+elect,electrical
+conv,conveyor
+mech,mechanical
+scrp,scraper
+gbox,gearbox
+g/box,gearbox
+adj,adjust
+serv,service
+o/land,overland
+filt,filter
+overtemp,over temperature
+hyd,hydraulic
+rcd,residual current device
+hand rail,handrail
+prep,preparation
+pullwire,pull wire
+maint,maintenance
+isol,isolation
+req,required
+gb,gearbox
+slip - ring,slip ring
+ewp,elevated work platform
+cnv,conveyor
+gpo,general power outlet
+prim,primary
+sec,secondary
+thru,through
+spl,splice
+rtrn,return
+idlr,idler
+rtn,return
+c/weight,counterweight
+proxy,proximity
+extinguiser,extinguisher
+ext,extinguisher
+fab,fabricate
+brg,bearing
+equip,equipment
+stat,statutory
+ider,idler
+changeouts,change outs
+gridmesh,grid mesh
+vsd,variable speed drive
+drv,drive
+purma,perma
+o/head,overhead
+boged,bogged
+re-tension,retension
+prm,primary
+temp,temperature
+chnge,change
+o/l,overload
+scaff,scaffold
+hv,high voltage
+chang,change
+hand rails,handrails
+refurb,refurbish
+grid mesh,gridmesh
+preps,preparation
+repr,repair
+back stop,backstop
+cplng,coupling
+fram,frame
+u/speed,underspeed
+c.o,change out
+c/w,counterweight
+c.w.t,counterweight
+c-weight,counterweight
+ch/0,change out
+ch/o,change out
+cal,calibration
+replae,replace
+flter,filter
+replacments,replacements
+gaurd,guard
+gaurds,guards,

@@ -2,3 +2,5 @@ models/re_models/flair/final-model.pt
 models/re_models/flair/best-model.pt
 models/ner_models/flair/final-model.pt
 models/ner_models/flair/best-model.pt
+*/pytorch_model.bin
+*/huggingface/*
