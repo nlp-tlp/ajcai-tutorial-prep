@@ -5,3 +5,4 @@ models/ner_models/flair/best-model.pt
 */pytorch_model.bin
 */huggingface/*
 .ipynb_checkpoints/*
+.vs/*
