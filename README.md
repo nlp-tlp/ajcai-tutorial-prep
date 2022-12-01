@@ -1,6 +1,6 @@
 ## A Practical Guide to Knowledge Graph Construction from Technical Short Text
 
-This is the repository for the practical session of the "A Practical Guide to Knowledge Graph Construction from Technical Short Text" AJCAI 2022 tutorial by Dr Michael Stewart from the University of Western Australia (supported by the Centre for Transforming Maintenance through Data Science (CTMTDS)).
+This is the repository for the practical session of the ["A Practical Guide to Knowledge Graph Construction from Technical Short Text" AJCAI 2022 tutorial](https://nlp-tlp.github.io/ajcai-tutorial/) by Dr Michael Stewart from the University of Western Australia (supported by the Centre for Transforming Maintenance through Data Science (CTMTDS)).
 
 We will be walking through a Jupyter notebook containing code for creating a knowledge graph from a set of sample work orders.
 
