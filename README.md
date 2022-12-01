@@ -1,9 +1,9 @@
-## Knowledge Graphs Demystified Part 2: Practical Session
+## A Practical Guide to Knowledge Graph Construction from Technical Short Text
 
-This is the repository for the practical session of the "Knowledge Graphs Demystified" master class by Dr Michael Stewart from the Centre for Transforming Maintenance through Data Science (CTMTDS).
+This is the repository for the practical session of the "A Practical Guide to Knowledge Graph Construction from Technical Short Text" AJCAI 2022 tutorial by Dr Michael Stewart from the University of Western Australia (supported by the Centre for Transforming Maintenance through Data Science (CTMTDS)).
 
-In this session I will be demonstrating a jupyter notebook containing code for creating a knowledge graph from a set of sample work orders.
+We will be walking through a Jupyter notebook containing code for creating a knowledge graph from a set of sample work orders.
 
-To run this code you will need Python 3 and Jupyter notebook installed, as well as the `py2neo` python package. To run the code, open "Knowledge Graphs Demystified.ipynb" in Jupyter. To run part 3 onwards you will need to install Neo4j, as discussed the notebook.
+To run this code you will need Python 3 and Jupyter notebook installed. To run the code, open `Part 2 - KGC from Technical Text.ipynb` in Jupyter.
 
-The notebook is located here: [Knowledge Graphs Demystified.ipynb](<https://github.com/Michael-Stewart-Webdev/knowledge-graphs-demystified/blob/main/Knowledge Graphs Demystified.ipynb>).
+Note that you will need Neo4j Desktop installed for Sections 8 and 9 of the notebook. You can download it [here](https://neo4j.com/download/). Once you have downloaded it, you will need to run Neo4j and create a new graph database, and run that database. Further instructions are provided in the notebook.
