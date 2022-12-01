@@ -1,8 +1,0 @@
-
-pip install RISE
-
-
-pip install jupyter_contrib_nbextensions
-jupyter contrib nbextension install
-
-Go to NBExtensions tab in Jupyter Notebook, set 'scroll' to True (check the box) under Rise.
